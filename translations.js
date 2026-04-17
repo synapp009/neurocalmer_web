@@ -28,7 +28,16 @@ export const translations = {
     showcase_desc: "Activate your parasympathetic nervous system the easy way. The app features a beautiful dark theme with easy-to-use sliders and one-tap mode switching. Designed to be unobtrusive and highly effective.",
     disclaimer_title: "⚠️ Disclaimer",
     disclaimer_desc: "This app is not a medical device. Use at your own risk. Possible side effects may include tingling, dizziness, or skin irritation. Continuous use may warm the device.",
-    footer_text: "© 2026 NeuroCalmer App. All rights reserved."
+    footer_text: "© 2026 NeuroCalmer App. All rights reserved.",
+    cookie_title: "Cookies & Privacy",
+    cookie_text: "We use only essential local storage to save your language and session preferences. No tracking cookies are used.",
+    cookie_accept: "Got it",
+    footer_impressum: "Impressum",
+    footer_privacy: "Privacy Policy",
+    impressum_title: "Impressum (Legal Notice)",
+    impressum_content: `<strong>Provider according to § 5 TMG:</strong><br> Michael Berger<br> Maierwaldstr. 8<br> 70499 Stuttgart<br> Germany<br><br> <strong>Contact:</strong><br> Email: michael.berger0711@gmail.com<br><br> <strong>Responsible for content according to § 18 MStV:</strong><br> Michael Berger<br> Maierwaldstr. 8<br> 70499 Stuttgart`,
+    privacy_title: "Privacy Policy",
+    privacy_content: `<strong>1. General Information</strong><br> The protection of your personal data is important to us. This privacy policy informs you about how we handle personal data on this website.<br><br> <strong>2. Data Collection</strong><br> This landing page does not collect any personal data. We do not use tracking tools or cookies for marketing purposes. We only use local storage to save your language preference.<br><br> <strong>3. Hosting</strong><br> Our website is hosted on a secure server. Access logs may be created by the provider for security reasons, containing your IP address, date, and time of access.`
   },
   de: {
     nav_get_app: "App Holen",
@@ -59,7 +68,31 @@ export const translations = {
     showcase_desc: "Aktiviere dein parasympathisches Nervensystem auf einfache Weise. Die App bietet ein schickes dunkles Design mit einfachen Schiebereglern und Modus-Wechsel mit nur einem Tippen. Entwickelt, um unaufdringlich und hochwirksam zu sein.",
     disclaimer_title: "⚠️ Haftungsausschluss",
     disclaimer_desc: "Diese App ist kein medizinisches Gerät. Nutzung auf eigene Gefahr. Mögliche Nebenwirkungen können Kribbeln, Schwindel oder Hautreizungen sein. Dauerhafte Nutzung kann das Gerät erwärmen.",
-    footer_text: "© 2026 NeuroCalmer App. Alle Rechte vorbehalten."
+    footer_text: "© 2026 NeuroCalmer App. Alle Rechte vorbehalten.",
+    cookie_title: "Cookies & Datenschutz",
+    cookie_text: "Wir verwenden nur technisch notwendige lokale Speicherung, um Ihre Sprach- und Sitzungseinstellungen zu speichern. Es werden keine Tracking-Cookies verwendet.",
+    cookie_accept: "Verstanden",
+    footer_impressum: "Impressum",
+    footer_privacy: "Datenschutzerklärung",
+    impressum_title: "Impressum",
+    impressum_content: `<strong>Anbieter gemäß § 5 TMG:</strong><br>
+      Michael Berger<br>
+      Maierwaldstr. 8<br>
+      70499 Stuttgart<br>
+      Deutschland<br><br>
+      <strong>Kontakt:</strong><br>
+      E-Mail: michael.berger0711@gmail.com<br><br>
+      <strong>Verantwortlich für den Inhalt nach § 18 MStV:</strong><br>
+      Michael Berger<br>
+      Maierwaldstr. 8<br>
+      70499 Stuttgart`,
+    privacy_title: "Datenschutzerklärung",
+    privacy_content: `<strong>1. Allgemeine Hinweise</strong><br>
+      Der Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Diese Datenschutzerklärung informiert Sie darüber, wie wir mit personenbezogenen Daten auf dieser Webseite umgehen.<br><br>
+      <strong>2. Datenerhebung</strong><br>
+      Diese Landingpage erhebt keine personenbezogenen Daten. Wir nutzen keine Tracking-Tools oder Cookies zu Marketingzwecken. Wir nutzen lediglich den lokalen Speicher Ihres Browsers, um Ihre Sprachwahl zu speichern.<br><br>
+      <strong>3. Hosting</strong><br>
+      Unsere Webseite wird bei einem sicheren Provider gehostet. Dabei können Zugriffsprotokolle (Server-Logs) erstellt werden, die Ihre IP-Adresse sowie Datum und Uhrzeit des Zugriffs enthalten.`
   },
   es: {
     nav_get_app: "Obtener App",
@@ -90,7 +123,16 @@ export const translations = {
     showcase_desc: "Activa tu sistema nervioso parasimpático de forma sencilla. Interfaz oscura y elegante con controles intuitivos que no restan atención a tu bienestar.",
     disclaimer_title: "⚠️ Aviso Legal",
     disclaimer_desc: "Esta app no es un dispositivo médico. Úsela bajo su propio riesgo. Posibles efectos secundarios incluyen hormigueo, mareos o irritación de la piel.",
-    footer_text: "© 2026 NeuroCalmer App. Todos los derechos reservados."
+    footer_text: "© 2026 NeuroCalmer App. Todos los derechos reservados.",
+    cookie_title: "Cookies y Privacidad",
+    cookie_text: "Usamos solo el almacenamiento local esencial para guardar sus preferencias. No se usan cookies de seguimiento.",
+    cookie_accept: "Aceptar",
+    footer_impressum: "Aviso Legal",
+    footer_privacy: "Privacidad",
+    impressum_title: "Aviso Legal (Impressum)",
+    impressum_content: "Michael Berger, Maierwaldstr. 8, 70499 Stuttgart, Alemania. Correo: michael.berger0711@gmail.com",
+    privacy_title: "Política de Privacidad",
+    privacy_content: "Este sitio no recopila datos personales. Usamos almacenamiento local solo para el idioma."
   },
   fr: {
     nav_get_app: "Obtenir l'App Store",
@@ -121,7 +163,16 @@ export const translations = {
     showcase_desc: "Activez votre système parasympathique facilement. Un magnifique thème sombre pour une efficacité maximale sans fioritures.",
     disclaimer_title: "⚠️ Avertissement",
     disclaimer_desc: "Cette application n'est pas un dispositif médical. Utilisation à vos risques et périls. Le fonctionnement continu peut réchauffer l'appareil.",
-    footer_text: "© 2026 NeuroCalmer App. Tous droits réservés."
+    footer_text: "© 2026 NeuroCalmer App. Tous droits réservés.",
+    cookie_title: "Cookies et Confidentialité",
+    cookie_text: "Nous utilisons uniquement le stockage local essentiel pour vos préférences. Aucun cookie de suivi n'est utilisé.",
+    cookie_accept: "OK",
+    footer_impressum: "Mentions Légales",
+    footer_privacy: "Confidentialité",
+    impressum_title: "Mentions Légales (Impressum)",
+    impressum_content: "Michael Berger, Maierwaldstr. 8, 70499 Stuttgart, Allemagne. Email: michael.berger0711@gmail.com",
+    privacy_title: "Politique de Confidentialité",
+    privacy_content: "Ce site ne collecte pas de données personnelles. Seul le stockage local pour la langue est utilisé."
   },
   pt: {
     nav_get_app: "Baixar App",
@@ -152,7 +203,16 @@ export const translations = {
     showcase_desc: "Ative seu sistema nervoso parassimpático da maneira mais fácil. Tema escuro lindo com foco exclusivo no seu bem-estar.",
     disclaimer_title: "⚠️ Aviso",
     disclaimer_desc: "Este app não é um dispositivo médico. Use por sua conta e risco.",
-    footer_text: "© 2026 NeuroCalmer App. Todos os direitos reservados."
+    footer_text: "© 2026 NeuroCalmer App. Todos los direitos reservados.",
+    cookie_title: "Cookies e Privacidade",
+    cookie_text: "Usamos apenas o armazenamento local essencial para suas preferências. Nenhum cookie de rastreamento é usado.",
+    cookie_accept: "Aceitar",
+    footer_impressum: "Aviso Legal",
+    footer_privacy: "Privacidade",
+    impressum_title: "Aviso Legal (Impressum)",
+    impressum_content: "Michael Berger, Maierwaldstr. 8, 70499 Stuttgart, Alemanha. Email: michael.berger0711@gmail.com",
+    privacy_title: "Política de Privacidade",
+    privacy_content: "Este site não coleta dados pessoais. Usamos apenas o armazenamento local para o idioma."
   },
   id: {
     nav_get_app: "Dapatkan App",
@@ -183,7 +243,16 @@ export const translations = {
     showcase_desc: "Aktifkan sistem parasimpatik Anda dengan mudah dan tenang.",
     disclaimer_title: "⚠️ Peringatan",
     disclaimer_desc: "Aplikasi ini bukan alat medis. Penggunaan menjadi tanggung jawab Anda sendiri.",
-    footer_text: "© 2026 NeuroCalmer App. Hak cipta dilindungi."
+    footer_text: "© 2026 NeuroCalmer App. Hak cipta dilindungi.",
+    cookie_title: "Cookie & Privasi",
+    cookie_text: "Kami hanya menggunakan penyimpanan lokal penting untuk preferensi Anda. Tidak ada cookie pelacakan.",
+    cookie_accept: "Mengerti",
+    footer_impressum: "Impressum",
+    footer_privacy: "Privasi",
+    impressum_title: "Impressum (Kontak Hukum)",
+    impressum_content: "Michael Berger, Maierwaldstr. 8, 70499 Stuttgart, Jerman. Email: michael.berger0711@gmail.com",
+    privacy_title: "Kebijakan Privasi",
+    privacy_content: "Situs ini tidak mengumpulkan data pribadi. Hanya penyimpanan lokal untuk bahasa."
   },
   hi: {
     nav_get_app: "ऐप प्राप्त करें",
@@ -214,7 +283,16 @@ export const translations = {
     showcase_desc: "आसान स्लाइडर्स और एक-टैप मोड के साथ अपने पैरासिम्पेथेटिक तंत्रिका तंत्र को सक्रिय करें।",
     disclaimer_title: "⚠️ अस्वीकरण",
     disclaimer_desc: "यह चिकित्सा उपकरण नहीं है। स्वयं के जोखिम पर उपयोग करें।",
-    footer_text: "© 2026 NeuroCalmer App. सर्वाधिकार सुरक्षित."
+    footer_text: "© 2026 NeuroCalmer App. सर्वाधिकार सुरक्षित.",
+    cookie_title: "कुकी और गोपनीयता",
+    cookie_text: "हम केवल आपकी पसंद को सहेजने के लिए स्थानीय भंडारण का उपयोग करते हैं। कोई ट्रैकिंग कुकी नहीं।",
+    cookie_accept: "ठीक है",
+    footer_impressum: "कानूनी नोटिस",
+    footer_privacy: "गोपनीयता",
+    impressum_title: "इम्प्रेसम (Impressum)",
+    impressum_content: "माइकल बर्गर, मेयरवाल्डस्ट्र. 8, 70499 स्टटगार्ट, जर्मनी। ईमेल: michael.berger0711@gmail.com",
+    privacy_title: "गोपनीयता नीति",
+    privacy_content: "यह साइट कोई व्यक्तिगत डेटा एकत्र नहीं करती है।"
   },
   ja: {
     nav_get_app: "アプリを入手",
@@ -245,7 +323,16 @@ export const translations = {
     showcase_desc: "ダークモードの美しいUIで、直感的にリラックスのスイッチをオンに。",
     disclaimer_title: "⚠️ 免責事項",
     disclaimer_desc: "本アプリは医療機器ではありません。個人の責任においてご使用ください。",
-    footer_text: "© 2026 NeuroCalmer App. All rights reserved."
+    footer_text: "© 2026 NeuroCalmer App. All rights reserved.",
+    cookie_title: "クッキーとプライバシー",
+    cookie_text: "設定を保存するために必要なローカルストレージのみを使用します。トラッキングクッキーは使用しません。",
+    cookie_accept: "了解",
+    footer_impressum: "法的通知",
+    footer_privacy: "プライバシー",
+    impressum_title: "法的通知 (Impressum)",
+    impressum_content: "Michael Berger, Maierwaldstr. 8, 70499 Stuttgart, Germany. Email: michael.berger0711@gmail.com",
+    privacy_title: "プライバシーポリシー",
+    privacy_content: "このサイトは個人データを収集しません。"
   },
   ko: {
     nav_get_app: "앱 다운로드",
@@ -276,7 +363,16 @@ export const translations = {
     showcase_desc: "아름다운 다크 테마와 간편한 컨트롤로 부교감신경계를 쉽게 활성화하세요.",
     disclaimer_title: "⚠️ 면책 조항",
     disclaimer_desc: "이 앱은 의료 기기가 아닙니다. 사용자 책임 하에 사용하십시오.",
-    footer_text: "© 2026 NeuroCalmer App. 모든 권리 보유."
+    footer_text: "© 2026 NeuroCalmer App. 모든 권리 보유.",
+    cookie_title: "쿠키 및 개인정보",
+    cookie_text: "환경 설정을 저장하기 위해 필수적인 로컬 스토리지 데이터만 사용합니다. 추적 쿠키는 사용되지 않습니다.",
+    cookie_accept: "확인",
+    footer_impressum: "법적 고지",
+    footer_privacy: "개인정보",
+    impressum_title: "법적 고지 (Impressum)",
+    impressum_content: "Michael Berger, Maierwaldstr. 8, 70499 Stuttgart, Germany. Email: michael.berger0711@gmail.com",
+    privacy_title: "개인정보 처리방침",
+    privacy_content: "이 사이트는 개인 정보를 수집하지 않습니다."
   },
   ar: {
     nav_get_app: "احصل على التطبيق",
@@ -307,7 +403,16 @@ export const translations = {
     showcase_desc: "قم بتنشيط جهازك العصبي اللاودي بكل سهولة من خلال واجهة المستخدم الداكنة.",
     disclaimer_title: "⚠️ إخلاء المسؤولية",
     disclaimer_desc: "هذا التطبيق ليس جهازًا طبيًا. استخدمه على مسؤوليتك للراحة فقط.",
-    footer_text: "© 2026 تطبيق NeuroCalmer. جميع الحقوق محفوظة."
+    footer_text: "© 2026 تطبيق NeuroCalmer. جميع الحقوق محفوظة.",
+    cookie_title: "الكوكيز والخصوصية",
+    cookie_text: "نحن نستخدم التخزين المحلي الضروري فقط لحفظ تفضيلاتك. لا نستخدم كوكيز للتتبع.",
+    cookie_accept: "حسناً",
+    footer_impressum: "إشعار قانوني",
+    footer_privacy: "الخصوصية",
+    impressum_title: "إشعار قانوني (Impressum)",
+    impressum_content: "Michael Berger, Maierwaldstr. 8, 70499 Stuttgart, Germany. Email: michael.berger0711@gmail.com",
+    privacy_title: "سياسة الخصوصية",
+    privacy_content: "هذا الموقع لا يجمع أي بيانات شخصية."
   },
   ru: {
     nav_get_app: "Получить приложение",
@@ -338,6 +443,15 @@ export const translations = {
     showcase_desc: "Активируйте парасимпатическую нервную систему с легкостью благодаря темной теме.",
     disclaimer_title: "⚠️ Отказ от ответственности",
     disclaimer_desc: "Это не медицинское устройство. Используйте на свой страх и риск.",
-    footer_text: "© 2026 NeuroCalmer App. Все права защищены."
+    footer_text: "© 2026 NeuroCalmer App. Все права защищены.",
+    cookie_title: "Куки и Конфиденциальность",
+    cookie_text: "Мы используем только необходимые данные в локальном хранилище для сохранения ваших настроек. Трассировочные куки не используются.",
+    cookie_accept: "Понятно",
+    footer_impressum: "Правовая информация",
+    footer_privacy: "Конфиденциальность",
+    impressum_title: "Правовая информация (Impressum)",
+    impressum_content: "Michael Berger, Maierwaldstr. 8, 70499 Stuttgart, Germany. Email: michael.berger0711@gmail.com",
+    privacy_title: "Политика конфиденциальности",
+    privacy_content: "Этот сайт не собирает личные данные."
   }
 };

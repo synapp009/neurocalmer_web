@@ -182,8 +182,36 @@
         </div>
         <div class="footer-bottom">
           <p data-i18n="footer_text">&copy; 2026 NeuroCalmer App. All rights reserved.</p>
+          <div class="footer-links">
+            <a class="footer-link" id="link-impressum" data-i18n="footer_impressum">Impressum</a>
+            <a class="footer-link" id="link-privacy" data-i18n="footer_privacy">Privacy Policy</a>
+          </div>
         </div>
       </footer>
+    </div>
+
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner glass">
+      <div class="cookie-content">
+        <h4 data-i18n="cookie_title">Cookies & Privacy</h4>
+        <p data-i18n="cookie_text">We use only essential local storage to save your language and session preferences. No tracking cookies are used.</p>
+      </div>
+      <div class="cookie-actions">
+        <button id="cookie-accept" class="btn btn-sm btn-primary" data-i18n="cookie_accept">Got it</button>
+      </div>
+    </div>
+
+    <!-- Legal Modal -->
+    <div id="legal-modal-overlay" class="modal-overlay">
+      <div class="modal-container glass">
+        <div class="modal-header">
+          <h2 id="modal-title"></h2>
+          <button id="modal-close" class="modal-close">&times;</button>
+        </div>
+        <div id="modal-body" class="modal-body">
+          <!-- Content injected via JS -->
+        </div>
+      </div>
     </div>
     <script type="module" src="/main.js"></script>
   </body>
