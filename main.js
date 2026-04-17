@@ -105,10 +105,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 1000);
   }
 
-  cookieAccept.addEventListener('click', () => {
-    localStorage.setItem('cookie-consent', 'true');
-    cookieBanner.classList.remove('show');
-  });
+  if (cookieAccept && cookieBanner) {
+    cookieAccept.addEventListener('click', () => {
+      try {
+        localStorage.setItem('cookie-consent', 'true');
+      } catch (e) {
+        console.warn('LocalStorage blocked, banner will reappear on reload.');
+      }
+      cookieBanner.classList.remove('show');
+    });
+  }
 
   // Modal Functionality
   function openLegalModal(type) {
