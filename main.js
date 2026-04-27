@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const key = el.getAttribute('data-i18n');
       if (dict[key]) {
         // Special handle for HTML injection in specific fields (like showcase_title_1)
-        if (key === 'showcase_title_1') {
+        if (key === 'showcase_title_1' || key.startsWith('seo_')) {
           el.innerHTML = dict[key];
         } else {
           // If it's the child span inside showcase_title_1, we skip modifying it via textContent 
