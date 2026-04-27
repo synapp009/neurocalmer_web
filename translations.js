@@ -37,7 +37,19 @@ export const translations = {
     impressum_title: "Impressum (Legal Notice)",
     impressum_content: `<strong>Provider according to § 5 TMG:</strong><br> Michael Berger<br> Maierwaldstr. 8<br> 70499 Stuttgart<br> Germany<br><br> <strong>Contact:</strong><br> Email: michael.berger0711@gmail.com<br><br> <strong>Responsible for content according to § 18 MStV:</strong><br> Michael Berger<br> Maierwaldstr. 8<br> 70499 Stuttgart`,
     privacy_title: "Privacy Policy",
-    privacy_content: `<strong>1. General Information</strong><br> The protection of your personal data is important to us. This privacy policy informs you about how we handle personal data on this website.<br><br> <strong>2. Data Collection</strong><br> This landing page does not collect any personal data. We do not use tracking tools or cookies for marketing purposes. We only use local storage to save your language preference.<br><br> <strong>3. Hosting</strong><br> Our website is hosted on a secure server. Access logs may be created by the provider for security reasons, containing your IP address, date, and time of access.`
+    privacy_content: `<strong>1. General Information</strong><br> The protection of your personal data is important to us. This privacy policy informs you about how we handle personal data on this website.<br><br> <strong>2. Data Collection</strong><br> This landing page does not collect any personal data. We do not use tracking tools or cookies for marketing purposes. We only use local storage to save your language preference.<br><br> <strong>3. Hosting</strong><br> Our website is hosted on a secure server. Access logs may be created by the provider for security reasons, containing your IP address, date, and time of access.`,
+    seo_page_title: "Vagus Nerve Stimulation App (taVNS) – Reduce Stress Naturally | NeuroCalmer",
+    seo_what_is_vns_title: "What is Vagus Nerve Stimulation?",
+    seo_what_is_vns_text: "Vagus nerve stimulation (VNS) is a technique used to activate the parasympathetic nervous system, which is responsible for relaxation and recovery. Transcutaneous auricular vagus nerve stimulation (taVNS) is a non-invasive method that targets the ear, specifically the cymba conchae, where the vagus nerve is accessible.",
+    seo_how_it_works_title: "How does NeuroCalmer work?",
+    seo_how_it_works_text: "NeuroCalmer uses controlled vibration patterns delivered through your smartphone to stimulate the auricular branch of the vagus nerve. By placing the phone gently against the left ear, users may activate calming physiological responses associated with parasympathetic activity.",
+    seo_benefits_title: "Benefits of Vagus Nerve Stimulation",
+    seo_benefit_1: "Reduced stress and anxiety",
+    seo_benefit_2: "Improved heart rate variability (HRV)",
+    seo_benefit_3: "Enhanced relaxation response",
+    seo_benefit_4: "Support for nervous system regulation",
+    seo_safe_title: "Is NeuroCalmer safe?",
+    seo_safe_text: "NeuroCalmer is designed as a non-invasive relaxation tool. However, it is not a medical device and should be used responsibly. Users should discontinue use if discomfort occurs."
   },
   de: {
     nav_get_app: "App Holen",
@@ -92,7 +104,19 @@ export const translations = {
       <strong>2. Datenerhebung</strong><br>
       Diese Landingpage erhebt keine personenbezogenen Daten. Wir nutzen keine Tracking-Tools oder Cookies zu Marketingzwecken. Wir nutzen lediglich den lokalen Speicher Ihres Browsers, um Ihre Sprachwahl zu speichern.<br><br>
       <strong>3. Hosting</strong><br>
-      Unsere Webseite wird bei einem sicheren Provider gehostet. Dabei können Zugriffsprotokolle (Server-Logs) erstellt werden, die Ihre IP-Adresse sowie Datum und Uhrzeit des Zugriffs enthalten.`
+      Unsere Webseite wird bei einem sicheren Provider gehostet. Dabei können Zugriffsprotokolle (Server-Logs) erstellt werden, die Ihre IP-Adresse sowie Datum und Uhrzeit des Zugriffs enthalten.`,
+    seo_page_title: "Vagusnerv-Stimulations-App (taVNS) – Stress natürlich abbauen | NeuroCalmer",
+    seo_what_is_vns_title: "Was ist Vagusnerv-Stimulation?",
+    seo_what_is_vns_text: "Vagusnerv-Stimulation (VNS) ist eine Technik zur Aktivierung des parasympathischen Nervensystems, das für Entspannung und Erholung zuständig ist. Die transkutane aurikuläre Vagusnerv-Stimulation (taVNS) ist eine nicht-invasive Methode, die am Ohr ansetzt, speziell an der Cymba Conchae, wo der Vagusnerv leicht zugänglich ist.",
+    seo_how_it_works_title: "Wie funktioniert NeuroCalmer?",
+    seo_how_it_works_text: "NeuroCalmer nutzt kontrollierte Vibrationsmuster Ihres Smartphones, um den aurikulären Ast des Vagusnervs zu stimulieren. Durch das sanfte Halten des Telefons an das linke Ohr können Benutzer beruhigende physiologische Reaktionen aktivieren.",
+    seo_benefits_title: "Vorteile der Vagusnerv-Stimulation",
+    seo_benefit_1: "Reduzierung von Stress und Angst",
+    seo_benefit_2: "Verbesserte Herzratenvariabilität (HRV)",
+    seo_benefit_3: "Gesteigerte Entspannungsreaktion",
+    seo_benefit_4: "Unterstützung der Nervensystem-Regulation",
+    seo_safe_title: "Ist NeuroCalmer sicher?",
+    seo_safe_text: "NeuroCalmer ist als nicht-invasives Entspannungstool konzipiert. Es ist jedoch kein medizinisches Gerät und sollte verantwortungsbewusst verwendet werden. Bei Unbehagen sollte die Anwendung abgebrochen werden."
   },
   es: {
     nav_get_app: "Obtener App",
@@ -132,7 +156,19 @@ export const translations = {
     impressum_title: "Aviso Legal (Impressum)",
     impressum_content: "Michael Berger, Maierwaldstr. 8, 70499 Stuttgart, Alemania. Correo: michael.berger0711@gmail.com",
     privacy_title: "Política de Privacidad",
-    privacy_content: "Este sitio no recopila datos personales. Usamos almacenamiento local solo para el idioma."
+    privacy_content: "Este sitio no recopila datos personales. Usamos almacenamiento local solo para el idioma.",
+    seo_page_title: "App de Estimulación del Nervio Vago (taVNS) – Reduce el Estrés Naturalmente | NeuroCalmer",
+    seo_what_is_vns_title: "¿Qué es la estimulación del nervio vago?",
+    seo_what_is_vns_text: "La estimulación del nervio vago (VNS) es una técnica utilizada para activar el sistema nervioso parasimpático, responsable de la relajación y la recuperación. La estimulación auricular transcutánea del nervio vago (taVNS) es un método no invasivo que se dirige a la oreja, específicamente a la cymba conchae.",
+    seo_how_it_works_title: "¿Cómo funciona NeuroCalmer?",
+    seo_how_it_works_text: "NeuroCalmer utiliza patrones de vibración controlados a través de su smartphone para estimular la rama auricular del nervio vago. Al colocar el teléfono suavemente contra la oreja izquierda, los usuarios pueden activar respuestas fisiológicas calmantes.",
+    seo_benefits_title: "Beneficios de la estimulación del nervio vago",
+    seo_benefit_1: "Reducción del estrés y la ansiedad",
+    seo_benefit_2: "Mejora de la variabilidad de la frecuencia cardíaca (VFC)",
+    seo_benefit_3: "Mejora de la respuesta de relajación",
+    seo_benefit_4: "Soporte para la regulación del sistema nervioso",
+    seo_safe_title: "¿Es seguro NeuroCalmer?",
+    seo_safe_text: "NeuroCalmer está diseñado como una herramienta de relajación no invasiva. Sin embargo, no es un dispositivo médico y debe usarse de manera responsable."
   },
   fr: {
     nav_get_app: "Obtenir l'App Store",
@@ -172,7 +208,19 @@ export const translations = {
     impressum_title: "Mentions Légales (Impressum)",
     impressum_content: "Michael Berger, Maierwaldstr. 8, 70499 Stuttgart, Allemagne. Email: michael.berger0711@gmail.com",
     privacy_title: "Politique de Confidentialité",
-    privacy_content: "Ce site ne collecte pas de données personnelles. Seul le stockage local pour la langue est utilisé."
+    privacy_content: "Ce site ne collecte pas de données personnelles. Seul le stockage local pour la langue est utilisé.",
+    seo_page_title: "App de Stimulation du Nerf Vague (taVNS) – Réduire le Stress Naturellement | NeuroCalmer",
+    seo_what_is_vns_title: "Qu'est-ce que la stimulation du nerf vague ?",
+    seo_what_is_vns_text: "La stimulation du nerf vague (VNS) est une technique utilisée pour activer le système nerveux parasympathique, responsable de la relaxation et de la récupération. La stimulation transcutanée du nerf vague auriculaire (taVNS) est une méthode non invasive qui cible l'oreille.",
+    seo_how_it_works_title: "Comment fonctionne NeuroCalmer ?",
+    seo_how_it_works_text: "NeuroCalmer utilise des modèles de vibration contrôlés via votre smartphone pour stimuler la branche auriculaire du nerf vague. En plaçant doucement le téléphone contre l'oreille gauche, les utilisateurs peuvent activer des réponses physiologiques apaisantes.",
+    seo_benefits_title: "Bienfaits de la stimulation du nerf vague",
+    seo_benefit_1: "Réduction du stress et de l'anxiété",
+    seo_benefit_2: "Amélioration de la variabilité de la fréquence cardiaque (VFC)",
+    seo_benefit_3: "Amélioration de la réponse de relaxation",
+    seo_benefit_4: "Soutien à la régulation du système nerveux",
+    seo_safe_title: "NeuroCalmer est-il sûr ?",
+    seo_safe_text: "NeuroCalmer est conçu comme un outil de relaxation non invasif. Cependant, ce n'est pas un dispositif médical et il doit être utilisé de manière responsable."
   },
   pt: {
     nav_get_app: "Baixar App",
@@ -212,7 +260,19 @@ export const translations = {
     impressum_title: "Aviso Legal (Impressum)",
     impressum_content: "Michael Berger, Maierwaldstr. 8, 70499 Stuttgart, Alemanha. Email: michael.berger0711@gmail.com",
     privacy_title: "Política de Privacidade",
-    privacy_content: "Este site não coleta dados pessoais. Usamos apenas o armazenamento local para o idioma."
+    privacy_content: "Este sitio não coleta dados pessoais. Usamos apenas o armazenamento local para o idioma.",
+    seo_page_title: "App de Estimulação do Nervo Vago (taVNS) – Reduzir o Estresse Naturalmente | NeuroCalmer",
+    seo_what_is_vns_title: "O que é Estimulação do Nervo Vago?",
+    seo_what_is_vns_text: "A estimulação do nervo vago (VNS) é uma técnica usada para ativar o sistema nervoso parassimpático, responsável pelo relaxamento e recuperação. A estimulação transcutânea do nervo vago auricular (taVNS) é um método não invasivo que atinge a orelha.",
+    seo_how_it_works_title: "Como o NeuroCalmer funciona?",
+    seo_how_it_works_text: "O NeuroCalmer usa padrões de vibração controlados através do seu smartphone para estimular o ramo auricular do nervo vago. Ao colocar o telefone suavemente contra a orelha esquerda, os usuários podem ativar respostas fisiológicas calmantes.",
+    seo_benefits_title: "Benefícios da Estimulação do Nervo Vago",
+    seo_benefit_1: "Redução do estresse e ansiedade",
+    seo_benefit_2: "Melhoria da variabilidade da frequência cardíaca (VFC)",
+    seo_benefit_3: "Melhoria da resposta de relaxamento",
+    seo_benefit_4: "Apoio à regulação do sistema nervoso",
+    seo_safe_title: "O NeuroCalmer é seguro?",
+    seo_safe_text: "O NeuroCalmer foi projetado como uma ferramenta de relaxamento não invasiva. No entanto, não é um dispositivo médico e deve ser usado com responsabilidade."
   },
   id: {
     nav_get_app: "Dapatkan App",
@@ -252,7 +312,19 @@ export const translations = {
     impressum_title: "Impressum (Kontak Hukum)",
     impressum_content: "Michael Berger, Maierwaldstr. 8, 70499 Stuttgart, Jerman. Email: michael.berger0711@gmail.com",
     privacy_title: "Kebijakan Privasi",
-    privacy_content: "Situs ini tidak mengumpulkan data pribadi. Hanya penyimpanan lokal untuk bahasa."
+    privacy_content: "Situs ini tidak mengumpulkan data pribadi. Hanya penyimpanan lokal untuk bahasa.",
+    seo_page_title: "Aplikasi Stimulasi Saraf Vagus (taVNS) – Kurangi Stres Secara Alami | NeuroCalmer",
+    seo_what_is_vns_title: "Apa itu Stimulasi Saraf Vagus?",
+    seo_what_is_vns_text: "Stimulasi saraf vagus (VNS) adalah teknik yang digunakan untuk mengaktifkan sistem saraf parasimpatis, yang bertanggung jawab untuk relaksasi dan pemulihan. Stimulasi saraf vagus aurikular transkutan (taVNS) adalah metode non-invasif yang menargetkan telinga.",
+    seo_how_it_works_title: "Bagaimana cara kerja NeuroCalmer?",
+    seo_how_it_works_text: "NeuroCalmer menggunakan pola getaran terkontrol melalui ponsel cerdas Anda untuk merangsang cabang aurikular saraf vagus. Dengan menempelkan ponsel dengan lembut ke telinga kiri, pengguna dapat mengaktifkan respons fisiologis yang menenangkan.",
+    seo_benefits_title: "Manfaat Stimulasi Saraf Vagus",
+    seo_benefit_1: "Mengurangi stres dan kecemasan",
+    seo_benefit_2: "Meningkatkan variabilitas detak jantung (HRV)",
+    seo_benefit_3: "Meningkatkan respons relaksasi",
+    seo_benefit_4: "Dukungan untuk regulasi sistem saraf",
+    seo_safe_title: "Apakah NeuroCalmer aman?",
+    seo_safe_text: "NeuroCalmer dirancang sebagai alat relaksasi non-invasif. Namun, ini bukan perangkat medis dan harus digunakan secara bertanggung jawab."
   },
   hi: {
     nav_get_app: "ऐप प्राप्त करें",
@@ -292,7 +364,19 @@ export const translations = {
     impressum_title: "इम्प्रेसम (Impressum)",
     impressum_content: "माइकल बर्गर, मेयरवाल्डस्ट्र. 8, 70499 स्टटगार्ट, जर्मनी। ईमेल: michael.berger0711@gmail.com",
     privacy_title: "गोपनीयता नीति",
-    privacy_content: "यह साइट कोई व्यक्तिगत डेटा एकत्र नहीं करती है।"
+    privacy_content: "यह साइट कोई व्यक्तिगत डेटा एकत्र नहीं करती है।",
+    seo_page_title: "वेगस नर्व स्टिमुलेशन ऐप (taVNS) – स्वाभाविक रूप से तनाव कम करें | NeuroCalmer",
+    seo_what_is_vns_title: "वेगस नर्व स्टिमुलेशन क्या है?",
+    seo_what_is_vns_text: "वेगस नर्व स्टिमुलेशन (VNS) एक तकनीक है जिसका उपयोग पैरासिम्पेथेटिक नर्वस सिस्टम को सक्रिय करने के लिए किया जाता है। ट्रांसक्यूटेनियस ऑरिक्युलर वेगस नर्व स्टिमुलेशन (taVNS) एक गैर-आक्रामक विधि है जो कान को लक्षित करती है।",
+    seo_how_it_works_title: "NeuroCalmer कैसे काम करता है?",
+    seo_how_it_works_text: "NeuroCalmer आपके स्मार्टफोन के माध्यम से नियंत्रित कंपन पैटर्न का उपयोग करता है। फोन को धीरे से बाएं कान के खिलाफ रखने से, उपयोगकर्ता शांत शारीरिक प्रतिक्रियाओं को सक्रिय कर सकते हैं।",
+    seo_benefits_title: "वेगस नर्व स्टिमुलेशन के लाभ",
+    seo_benefit_1: "तनाव और चिंता में कमी",
+    seo_benefit_2: "हृदय गति परिवर्तनशीलता (HRV) में सुधार",
+    seo_benefit_3: "बेहतर विश्राम प्रतिक्रिया",
+    seo_benefit_4: "तंत्रिका तंत्र नियमन के लिए सहायता",
+    seo_safe_title: "क्या NeuroCalmer सुरक्षित है?",
+    seo_safe_text: "NeuroCalmer को एक गैर-आक्रामक विश्राम उपकरण के रूप में डिज़ाइन किया गया है। हालांकि, यह एक चिकित्सा उपकरण नहीं है।"
   },
   ja: {
     nav_get_app: "アプリを入手",
@@ -332,7 +416,19 @@ export const translations = {
     impressum_title: "法的通知 (Impressum)",
     impressum_content: "Michael Berger, Maierwaldstr. 8, 70499 Stuttgart, Germany. Email: michael.berger0711@gmail.com",
     privacy_title: "プライバシーポリシー",
-    privacy_content: "このサイトは個人データを収集しません。"
+    privacy_content: "このサイトは個人データを収集しません。",
+    seo_page_title: "迷走神経刺激アプリ (taVNS) – 自然にストレスを軽減 | NeuroCalmer",
+    seo_what_is_vns_title: "迷走神経刺激とは？",
+    seo_what_is_vns_text: "迷走神経刺激（VNS）は、リラックスや回復を司る副交感神経系を活性化するために使用される技術です。経皮的耳介迷走神経刺激（taVNS）は、耳をターゲットとする非侵襲的な方法です。",
+    seo_how_it_works_title: "NeuroCalmerの仕組みは？",
+    seo_how_it_works_text: "NeuroCalmerは、スマートフォンを介した制御された振動パターンを使用して、迷走神経の耳介枝を刺激します。携帯電話を左耳にそっと押し当てることで、ユーザーは心を落ち着かせる生理的反応を活性化できます。",
+    seo_benefits_title: "迷走神経刺激のメリット",
+    seo_benefit_1: "ストレスと不安の軽減",
+    seo_benefit_2: "心拍変動（HRV）の改善",
+    seo_benefit_3: "リラックス反応の強化",
+    seo_benefit_4: "神経系調節のサポート",
+    seo_safe_title: "NeuroCalmerは安全ですか？",
+    seo_safe_text: "NeuroCalmerは非侵襲的なリラクゼーションツールとして設計されています。ただし、医療機器ではありません。"
   },
   ko: {
     nav_get_app: "앱 다운로드",
@@ -372,7 +468,19 @@ export const translations = {
     impressum_title: "법적 고지 (Impressum)",
     impressum_content: "Michael Berger, Maierwaldstr. 8, 70499 Stuttgart, Germany. Email: michael.berger0711@gmail.com",
     privacy_title: "개인정보 처리방침",
-    privacy_content: "이 사이트는 개인 정보를 수집하지 않습니다."
+    privacy_content: "이 사이트는 개인 정보를 수집하지 않습니다.",
+    seo_page_title: "미주신경 자극 앱 (taVNS) – 자연스럽게 스트레스 감소 | NeuroCalmer",
+    seo_what_is_vns_title: "미주신경 자극이란 무엇인가요?",
+    seo_what_is_vns_text: "미주신경 자극(VNS)은 휴식과 회복을 담당하는 부교감 신경계를 활성화하는 데 사용되는 기술입니다. 경피적 귓바퀴 미주신경 자극(taVNS)은 귀를 표적으로 하는 비침습적 방법입니다.",
+    seo_how_it_works_title: "NeuroCalmer는 어떻게 작동하나요?",
+    seo_how_it_works_text: "NeuroCalmer는 스마트폰을 통한 제어된 진동 패턴을 사용하여 미주신경의 귓바퀴 가지를 자극합니다. 휴대폰을 왼쪽 귀에 부드럽게 대면 사용자는 진정 효과가 있는 생리적 반응을 활성화할 수 있습니다.",
+    seo_benefits_title: "미주신경 자극의 이점",
+    seo_benefit_1: "스트레스 및 불안 감소",
+    seo_benefit_2: "심박 변이도(HRV) 개선",
+    seo_benefit_3: "이완 반응 강화",
+    seo_benefit_4: "신경계 조절 지원",
+    seo_safe_title: "NeuroCalmer는 안전한가요?",
+    seo_safe_text: "NeuroCalmer는 비침습적 이완 도구로 설계되었습니다. 그러나 의료 기기는 아닙니다."
   },
   ar: {
     nav_get_app: "احصل على التطبيق",
@@ -412,7 +520,19 @@ export const translations = {
     impressum_title: "إشعار قانوني (Impressum)",
     impressum_content: "Michael Berger, Maierwaldstr. 8, 70499 Stuttgart, Germany. Email: michael.berger0711@gmail.com",
     privacy_title: "سياسة الخصوصية",
-    privacy_content: "هذا الموقع لا يجمع أي بيانات شخصية."
+    privacy_content: "هذا الموقع لا يجمع أي بيانات شخصية.",
+    seo_page_title: "تطبيق تحفيز العصب المبهم (taVNS) – تقليل التوتر بشكل طبيعي | NeuroCalmer",
+    seo_what_is_vns_title: "ما هو تحفيز العصب المبهم؟",
+    seo_what_is_vns_text: "تحفيز العصب المبهم (VNS) هو تقنية تستخدم لتنشيط الجهاز العصبي اللاودي المسؤول عن الاسترخاء والتعافي. تحفيز العصب المبهم عبر الأذن (taVNS) هو وسيلة غير جراحية تستهدف الأذن.",
+    seo_how_it_works_title: "كيف يعمل NeuroCalmer؟",
+    seo_how_it_works_text: "يستخدم NeuroCalmer أنماط اهتزاز محكومة عبر هاتفك الذكي لتحفيز الفرع الأذني للعصب المبهم. من خلال وضع الهاتف بلطف على الأذن اليسرى، يمكن للمستخدمين تنشيط استجابات فسيولوجية مهدئة.",
+    seo_benefits_title: "فوائد تحفيز العصب المبهم",
+    seo_benefit_1: "تقليل التوتر والقلق",
+    seo_benefit_2: "تحسين تقلب معدل ضربات القلب (HRV)",
+    seo_benefit_3: "تعزيز استجابة الاسترخاء",
+    seo_benefit_4: "دعم تنظيم الجهاز العصبي",
+    seo_safe_title: "هل NeuroCalmer آمن؟",
+    seo_safe_text: "تم تصميم NeuroCalmer كأداة استرخاء غير جراحية. ومع ذلك، فهو ليس جهازًا طبيًا."
   },
   ru: {
     nav_get_app: "Получить приложение",
@@ -452,6 +572,18 @@ export const translations = {
     impressum_title: "Правовая информация (Impressum)",
     impressum_content: "Michael Berger, Maierwaldstr. 8, 70499 Stuttgart, Germany. Email: michael.berger0711@gmail.com",
     privacy_title: "Политика конфиденциальности",
-    privacy_content: "Этот сайт не собирает личные данные."
+    privacy_content: "Этот сайт не собирает личные данные.",
+    seo_page_title: "Приложение для стимуляции блуждающего нерва (taVNS) – Естественное снижение стресса | NeuroCalmer",
+    seo_what_is_vns_title: "Что такое стимуляция блуждающего нерва?",
+    seo_what_is_vns_text: "Стимуляция блуждающего нерва (VNS) — это метод активации парасимпатической нервной системы, отвечающей за расслабление и восстановление. Чрескожная аурикулярная стимуляция блуждающего нерва (taVNS) — это неинвазивный метод.",
+    seo_how_it_works_title: "Как работает NeuroCalmer?",
+    seo_how_it_works_text: "NeuroCalmer использует контролируемые модели вибрации вашего смартфона для стимуляции ушной ветви блуждающего нерва. Прикладывая телефон к левому уху, пользователи могут активировать успокаивающие физиологические реакции.",
+    seo_benefits_title: "Преимущества стимуляции блуждающего нерва",
+    seo_benefit_1: "Снижение стресса и тревоги",
+    seo_benefit_2: "Улучшение вариабельности сердечного ритма (ВСР)",
+    seo_benefit_3: "Усиление реакции расслабления",
+    seo_benefit_4: "Поддержка регуляции нервной системы",
+    seo_safe_title: "Безопасен ли NeuroCalmer?",
+    seo_safe_text: "NeuroCalmer разработан как неинвазивный инструмент для расслабления. Однако он не является медицинским устройством."
   }
 };

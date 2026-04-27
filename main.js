@@ -86,6 +86,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
     });
+
+    // Sync Page Title
+    if (dict.seo_page_title) {
+      document.title = dict.seo_page_title;
+    }
   }
 
   // --- Cookie Banner & Legal Logic ---

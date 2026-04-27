@@ -410,6 +410,52 @@ html[dir="rtl"] .studies li {
   transform: rotateY(0deg) rotateX(0deg);
 }
 
+/* SEO Content Section */
+.seo-content {
+  padding: 6rem 5%;
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.seo-content h2 {
+  font-size: 2.2rem;
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  border-left: 4px solid var(--primary);
+  padding-left: 1.5rem;
+  background: linear-gradient(90deg, rgba(138, 99, 246, 0.1), transparent);
+}
+
+.seo-content p {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.seo-content ul {
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  list-style: none;
+}
+
+.seo-content li {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  position: relative;
+  padding-left: 2rem;
+}
+
+.seo-content li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: bold;
+}
+
 /* Footer */
 .footer {
   padding: 4rem 5% 2rem;
