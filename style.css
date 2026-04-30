@@ -418,42 +418,108 @@ html[dir="rtl"] .studies li {
   line-height: 1.8;
 }
 
-.seo-content h2 {
-  font-size: 2.2rem;
-  margin-top: 3.5rem;
-  margin-bottom: 1.5rem;
-  color: #fff;
-  border-left: 4px solid var(--primary);
-  padding-left: 1.5rem;
-  background: linear-gradient(90deg, rgba(138, 99, 246, 0.1), transparent);
+/* Approach Section */
+.approach {
+  text-align: center;
+  padding: 6rem 5%;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-.seo-content p {
-  font-size: 1.1rem;
-  color: var(--text-muted);
-  margin-bottom: 1.5rem;
+.approach .section-text {
+  font-size: 1.4rem;
+  color: var(--text-main);
+  line-height: 1.5;
 }
 
-.seo-content ul {
-  margin-bottom: 2rem;
-  padding-left: 1.5rem;
+/* Use Cases */
+.use-cases {
+  padding: 5rem 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.use-case-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.use-case-item {
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.use-case-icon {
+  font-size: 2.5rem;
+}
+
+/* Benefits */
+.benefits {
+  padding: 5rem 5%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.benefit-list {
   list-style: none;
+  padding: 0;
 }
 
-.seo-content li {
-  color: var(--text-muted);
-  font-size: 1.1rem;
-  margin-bottom: 0.8rem;
-  position: relative;
-  padding-left: 2rem;
+.benefit-list li {
+  font-size: 1.25rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-.seo-content li::before {
-  content: "✓";
-  position: absolute;
-  left: 0;
+.benefit-list li::before {
+  content: "✦";
   color: var(--primary);
   font-weight: bold;
+}
+
+/* CTA Section */
+.cta-section {
+  padding: 8rem 5%;
+  background: linear-gradient(180deg, transparent, rgba(138, 99, 246, 0.1));
+  border-top: 1px solid var(--glass-border);
+}
+
+.cta-section .section-title {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-section .section-text {
+  font-size: 1.25rem;
+  color: var(--text-muted);
+  margin-bottom: 3rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.box {
+  margin-bottom: 4rem;
+}
+
+.section-text {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  max-width: 800px;
+  margin: 0 auto 2rem;
 }
 
 /* Footer */
