@@ -60,7 +60,9 @@ export const translations = {
     seo_benefit_3: "Fast and simple physical relief",
     seo_benefit_4: "Ideal when you're too overwhelmed to meditate",
     seo_safe_title: "Is NeuroCalmer safe?",
-    seo_safe_text: "NeuroCalmer is designed as a non-invasive wellness tool. While generally safe, it is not a medical device and should be used responsibly."
+    seo_safe_text: "NeuroCalmer is designed as a non-invasive wellness tool. While generally safe, it is not a medical device and should be used responsibly.",
+    mockup_title: "App Mockup",
+    mockup_description: "Simple app usage for easily performing the calming function."
   },
   de: {
     nav_get_app: "App Holen",
@@ -123,7 +125,9 @@ export const translations = {
     seo_benefit_3: "Schnelle und einfache körperliche Entlastung",
     seo_benefit_4: "Ideal, wenn man zu überwältigt für Meditation ist",
     seo_safe_title: "Ist NeuroCalmer sicher?",
-    seo_safe_text: "NeuroCalmer wurde als sicheres Wellness-Tool konzipiert. Obwohl es allgemein sicher ist, ist es kein medizinisches Gerät und sollte verantwortungsbewusst verwendet werden."
+    seo_safe_text: "NeuroCalmer wurde als sicheres Wellness-Tool konzipiert. Obwohl es allgemein sicher ist, ist es kein medizinisches Gerät und sollte verantwortungsbewusst verwendet werden.",
+    mockup_title: "App Mockup",
+    mockup_description: "Einfache App-Nutzung für die unkomplizierte Durchführung der Calm-Funktion."
   },
   es: {
     nav_get_app: "Obtener App",
@@ -175,7 +179,9 @@ export const translations = {
     seo_benefit_3: "Mayor activación del <strong>nervio vago</strong>",
     seo_benefit_4: "Soporte para la regulación del sistema nervioso",
     seo_safe_title: "¿Es segura la <strong>taVNS</strong> con NeuroCalmer?",
-    seo_safe_text: "NeuroCalmer es una herramienta de <strong>relajación</strong> diseñada para el <strong>alivio del estrés</strong>. Aunque la <strong>taVNS</strong> es segura, esta app no es un dispositivo médico."
+    seo_safe_text: "NeuroCalmer es una herramienta de <strong>relaxamiento</strong> y <strong>alivio del estrés</strong>. Aunque la <strong>taVNS</strong> es segura, este app no es un dispositivo médico.",
+    mockup_title: "Mockup de la App",
+    mockup_description: "Uso sencillo de la aplicación para realizar fácilmente la función de calma."
   },
   fr: {
     nav_get_app: "Obtenir l'App Store",
@@ -227,7 +233,9 @@ export const translations = {
     seo_benefit_3: "Activation renforcée du <strong>nerf vague</strong>",
     seo_benefit_4: "Soutien à la régulation du système nerveux",
     seo_safe_title: "La <strong>taVNS</strong> avec NeuroCalmer est-elle sûre ?",
-    seo_safe_text: "NeuroCalmer est un outil de <strong>relaxation</strong> pour le <strong>soulagement du stress</strong>. Bien que la <strong>taVNS</strong> soit sûre, ceci n'est pas un dispositif médical."
+    seo_safe_text: "NeuroCalmer est un outil de <strong>relaxation</strong> pour le <strong>aliviation du stress</strong>. Bien que la <strong>taVNS</strong> soit sûre, ceci n'est pas un dispositif médical.",
+    mockup_title: "Maquette de l'Application",
+    mockup_description: "Utilisation simple de l'application pour effectuer facilement la fonction de calme."
   },
   pt: {
     nav_get_app: "Baixar App",
@@ -279,7 +287,9 @@ export const translations = {
     seo_benefit_3: "Ativação direta do <strong>nervo vago</strong>",
     seo_benefit_4: "Equilíbrio do sistema nervoso",
     seo_safe_title: "A <strong>taVNS</strong> do NeuroCalmer é segura?",
-    seo_safe_text: "O NeuroCalmer é uma ferramenta de <strong>relaxamento</strong> e <strong>alívio do estresse</strong>. Embora a <strong>taVNS</strong> seja segura, este app não é um dispositivo médico."
+    seo_safe_text: "O NeuroCalmer é uma ferramenta de <strong>relaxamento</strong> e <strong>alívio do estresse</strong>. Embora a <strong>taVNS</strong> seja segura, este app não é um dispositivo médico.",
+    mockup_title: "Mockup do Aplicativo",
+    mockup_description: "Uso do aplicativo simples para realizar facilmente a função de calma."
   },
   id: {
     nav_get_app: "Dapatkan App",
@@ -331,7 +341,9 @@ export const translations = {
     seo_benefit_3: "Aktivasi <strong>saraf vagus</strong> yang optimal",
     seo_benefit_4: "Keseimbangan sistem saraf",
     seo_safe_title: "Apakah <strong>taVNS</strong> NeuroCalmer aman?",
-    seo_safe_text: "NeuroCalmer adalah alat <strong>relaksasi</strong> untuk <strong>pereda stres</strong>. Meskipun <strong>taVNS</strong> aman, aplikasi ini bukan perangkat medis."
+    seo_safe_text: "NeuroCalmer adalah alat <strong>relaksasi</strong> untuk <strong>pereda stres</strong>. Meskipun <strong>taVNS</strong> aman, aplikasi ini bukan perangkat medis.",
+    mockup_title: "Mockup Aplikasi",
+    mockup_description: "Penggunaan aplikasi sederhana untuk melakukan fungsi pemadam kecemasan dengan mudah."
   },
   hi: {
     nav_get_app: "ऐप प्राप्त करें",
@@ -383,7 +395,9 @@ export const translations = {
     seo_benefit_3: "<strong>वेगस नर्व</strong> की बेहतर सक्रियता",
     seo_benefit_4: "तंत्रिका तंत्र नियमन के लिए सहायता",
     seo_safe_title: "क्या NeuroCalmer के साथ <strong>taVNS</strong> सुरक्षित है?",
-    seo_safe_text: "NeuroCalmer तनाव से राहत (<strong>stress relief</strong>) और <strong>शांति</strong> के लिए डिज़ाइन किया गया है। हालांकि <strong>taVNS</strong> सुरक्षित है, यह ऐप चिकित्सा उपकरण नहीं है।"
+    seo_safe_text: "NeuroCalmer तनाव से राहत (<strong>stress relief</strong>) और <strong>शांति</strong> के लिए डिज़ाइन किया गया है। हालांकि <strong>taVNS</strong> सुरक्षित है, यह ऐप चिकित्सा उपकरण नहीं है।",
+    mockup_title: "एप्लिकेशन मॉकअप",
+    mockup_description: "आसानी से शांति कार्य करने के लिए सरल ऐप उपयोग।"
   },
   ja: {
     nav_get_app: "アプリを入手",
@@ -435,7 +449,9 @@ export const translations = {
     seo_benefit_3: "<strong>迷走神経</strong>トーンの向上",
     seo_benefit_4: "自律神経系の調整をサポート",
     seo_safe_title: "NeuroCalmerによる<strong>taVNS</strong>は安全ですか？",
-    seo_safe_text: "NeuroCalmerは<strong>リラクゼーション</strong>と<strong>ストレス解消</strong>のためのツールです。<strong>taVNS</strong>は一般的に安全ですが、本アプリは医療機器ではありません。"
+    seo_safe_text: "NeuroCalmerは<strong>リラクゼーション</strong>と<strong>ストレス解消</strong>のためのツールです。<strong>taVNS</strong>は一般的に安全ですが、本アプリは医療機器ではありません。",
+    mockup_title: "アプリのモックアップ",
+    mockup_description: "簡単に安心機能を実行するためのシンプルなアプリ使用方法。"
   },
   ko: {
     nav_get_app: "앱 다운로드",
@@ -487,7 +503,9 @@ export const translations = {
     seo_benefit_3: "<strong>미주신경</strong> 활성화 및 부교감 신경 강화",
     seo_benefit_4: "신경계 조절 지원",
     seo_safe_title: "NeuroCalmer의 <strong>taVNS</strong>는 안전한가요?",
-    seo_safe_text: "NeuroCalmer는 <strong>휴식</strong>과 <strong>스트레스 해소</strong>를 위한 도구입니다. <strong>taVNS</strong>는 일반적으로 안전하지만, 이 앱은 의료 기기가 아닙니다."
+    seo_safe_text: "NeuroCalmer는 <strong>릴랙스</strong>와 <strong>스트레스 해소</strong>를 위한 도구입니다. <strong>taVNS</strong>는 일반적으로 안전하지만, 이 앱은 의료 기기가 아닙니다.",
+    mockup_title: "앱 모ック업",
+    mockup_description: "편리하게 안정 기능을 수행하기 위한 간단한 앱 사용법."
   },
   ar: {
     nav_get_app: "احصل على التطبيق",
@@ -539,7 +557,9 @@ export const translations = {
     seo_benefit_3: "تعزيز نشاط <strong>العصب المبهم</strong>",
     seo_benefit_4: "دعم تنظيم الجهاز العصبي",
     seo_safe_title: "هل <strong>taVNS</strong> مع NeuroCalmer آمن؟",
-    seo_safe_text: "NeuroCalmer هو أداة لـ <strong>الاسترخاء</strong> و<strong>تخفيف التوتر</strong>. ورغم أن <strong>taVNS</strong> آمن بشكل عام، إلا أن هذا التطبيق ليس جهازًا طبيًا."
+    seo_safe_text: "NeuroCalmer هو أداة لـ <strong>الاسترخاء</strong> و<strong>تخفيف التوتر</strong>. ورغم أن <strong>taVNS</strong> آمن بشكل عام، إلا أن هذا التطبيق ليس جهازًا طبيًا.",
+    mockup_title: "نموذج التطبيق",
+    mockup_description: "упростить использование приложения для легкого выполнения функции спокойствия."
   },
   ru: {
     nav_get_app: "Получить приложение",
@@ -591,6 +611,8 @@ export const translations = {
     seo_benefit_3: "Активация <strong>блуждающего нерва</strong>",
     seo_benefit_4: "Поддержка нервной системы",
     seo_safe_title: "Безопасна ли <strong>taVNS</strong> с NeuroCalmer?",
-    seo_safe_text: "NeuroCalmer — это инструмент для <strong>расслабления</strong> и <strong>снятия стресса</strong>. Хотя <strong>taVNS</strong> безопасна, приложение не является медицинским устройством."
+    seo_safe_text: "NeuroCalmer — это инструмент для <strong>расслабления</strong> и <strong>снятия стресса</strong>. Хотя <strong>taVNS</strong> безопасна, приложение не является медицинским устройством.",
+    mockup_title: "Макет приложения",
+    mockup_description: "Простое использование приложения для легкого выполнения функции спокойствия."
   }
 };
