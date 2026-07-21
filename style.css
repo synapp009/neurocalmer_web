@@ -228,6 +228,209 @@ html[dir="rtl"] .studies li {
   border: 1px solid var(--glass-border);
 }
 
+/* ═══════════════════════════════════════════════════ */
+/* STATS BAR – Social Proof                           */
+/* ═══════════════════════════════════════════════════ */
+.stats-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 5%;
+  max-width: 1000px;
+  margin: -3rem auto 3rem;
+  background: rgba(138, 99, 246, 0.08);
+  border: 1px solid rgba(138, 99, 246, 0.2);
+  border-radius: 24px;
+  backdrop-filter: blur(12px);
+  position: relative;
+  z-index: 10;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.stat-number {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #d3bfff, #8a63f6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.stat-divider {
+  width: 1px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* ═══════════════════════════════════════════════════ */
+/* COMPARISON TABLE – Vagus Nerve Apps Compared       */
+/* ═══════════════════════════════════════════════════ */
+.comparison-section {
+  padding: 5rem 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.comparison-subtitle {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.comparison-table-wrapper {
+  overflow-x: auto;
+  border-radius: 20px;
+  border: 1px solid var(--glass-border);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 1rem 1.25rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.comparison-table thead th {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  background: rgba(138, 99, 246, 0.1);
+  color: var(--text-main);
+  white-space: nowrap;
+}
+
+.comparison-table thead th:first-child {
+  border-radius: 20px 0 0 0;
+}
+
+.comparison-table thead th:last-child {
+  border-radius: 0 20px 0 0;
+}
+
+.comparison-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.comparison-table tbody tr:hover {
+  background: rgba(138, 99, 246, 0.05);
+}
+
+.comparison-table td:first-child {
+  font-weight: 600;
+  color: var(--text-main);
+  white-space: nowrap;
+}
+
+.highlight-col {
+  background: rgba(138, 99, 246, 0.08);
+  font-weight: 600;
+}
+
+.comparison-table .highlight-col:first-child {
+  border-left: 3px solid var(--primary);
+}
+
+.comp-highlight {
+  display: inline-block;
+  padding: 0.15rem 0.75rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(138, 99, 246, 0.3), rgba(138, 99, 246, 0.1));
+  color: #d3bfff;
+  font-weight: 700;
+}
+
+.check-yes {
+  color: #4ade80;
+}
+
+.check-no {
+  color: #f87171;
+}
+
+/* ═══════════════════════════════════════════════════ */
+/* TESTIMONIALS – User Reviews                        */
+/* ═══════════════════════════════════════════════════ */
+.testimonials-section {
+  padding: 5rem 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.testimonial-card {
+  padding: 2rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(138, 99, 246, 0.15);
+}
+
+.testimonial-stars {
+  color: #fbbf24;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.testimonial-text {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: auto;
+}
+
+.testimonial-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text-main);
+}
+
+.testimonial-verified {
+  font-size: 0.75rem;
+  color: #4ade80;
+  font-weight: 500;
+}
+
 /* Features */
 .features {
   padding: 5rem 5%;
@@ -861,6 +1064,26 @@ html[dir="rtl"] .studies li {
     margin-bottom: 1.5rem;
   }
   
+  .stats-bar {
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1.5rem;
+    margin: -2rem auto 2rem;
+  }
+  
+  .stat-number {
+    font-size: 1.4rem;
+  }
+  
+  .comparison-table {
+    font-size: 0.85rem;
+  }
+  
+  .comparison-table th,
+  .comparison-table td {
+    padding: 0.75rem 0.85rem;
+  }
+  
   .showcase {
     flex-direction: column-reverse;
   }
@@ -904,6 +1127,35 @@ html[dir="rtl"] .studies li {
   .feature-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+  
+  .stats-bar {
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 1.5rem 1rem;
+    margin: -1.5rem 1rem 2rem;
+  }
+  
+  .stat-divider {
+    width: 80%;
+    height: 1px;
+  }
+  
+  .stat-number {
+    font-size: 1.3rem;
+  }
+  
+  .comparison-table {
+    font-size: 0.78rem;
+  }
+  
+  .comparison-table th,
+  .comparison-table td {
+    padding: 0.6rem 0.6rem;
+  }
+  
+  .testimonials-grid {
+    grid-template-columns: 1fr;
   }
   
   .science, .showcase {
