@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const observerOptions = {
     root: null,
     rootMargin: '0px',
-    threshold: 0.15
+    threshold: 0.1
   };
 
   const observer = new IntersectionObserver((entries, observer) => {
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }, observerOptions);
 
-  const animatedElements = document.querySelectorAll('.card, .showcase-content, .showcase-img-wrapper, .science-content, .science-img-wrapper');
+  const animatedElements = document.querySelectorAll('.card, .showcase-content, .showcase-img-wrapper, .science-content, .science-img-wrapper, .testimonial-card, .stat-item, .use-case-item, .benefit-list li, .authority-card');
   
   animatedElements.forEach(el => {
     el.style.opacity = '0';
@@ -28,6 +28,20 @@ document.addEventListener('DOMContentLoaded', () => {
     observer.observe(el);
   });
   
+  // Navbar scroll effect
+  const navbar = document.querySelector('.navbar');
+  let lastScroll = 0;
+  
+  window.addEventListener('scroll', () => {
+    const currentScroll = window.pageYOffset;
+    if (currentScroll > 50) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+    lastScroll = currentScroll;
+  });
+
   // Blob mouse movement
   const blob = document.querySelector('.blob');
   if (blob) {
@@ -74,12 +88,10 @@ document.addEventListener('DOMContentLoaded', () => {
     elements.forEach(el => {
       const key = el.getAttribute('data-i18n');
       if (dict[key]) {
-        // Special handle for HTML injection in specific fields (like showcase_title_1)
+        // Special handle for HTML injection in specific fields
         if (key === 'showcase_title_1' || key.startsWith('seo_')) {
           el.innerHTML = dict[key];
         } else {
-          // If it's the child span inside showcase_title_1, we skip modifying it via textContent 
-          // to avoid destroying the parent's innerHTML which already holds the correct structure.
           if (!el.classList.contains('data-i18n-child')) {
             el.textContent = dict[key];
           }
@@ -132,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
       modalBody.innerHTML = dict.privacy_content;
     }
     modalOverlay.classList.add('show');
-    document.body.style.overflow = 'hidden'; // Prevent scroll
+    document.body.style.overflow = 'hidden';
   }
 
   function closeLegalModal() {
@@ -144,7 +156,6 @@ document.addEventListener('DOMContentLoaded', () => {
   linkPrivacy.addEventListener('click', () => openLegalModal('privacy'));
   modalClose.addEventListener('click', closeLegalModal);
 
-  // Close modal on overlay click
   modalOverlay.addEventListener('click', (e) => {
     if (e.target === modalOverlay) closeLegalModal();
   });
