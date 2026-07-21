@@ -64,7 +64,48 @@ export const translations = {
     seo_safe_title: "Is NeuroCalmer safe?",
     seo_safe_text: "NeuroCalmer is designed as a non-invasive wellness tool. While generally safe, it is not a medical device and should be used responsibly.",
     mockup_title: "App Mockup",
-    mockup_description: "Simple app usage for easily performing the calming function."
+    mockup_description: "Simple app usage for easily performing the calming function.",
+
+    // SEO Breadcrumb & Topic Cluster
+    topics_title: "Explore Related Wellness Topics",
+    topic_vagus: "Vagus Nerve Stimulation",
+    topic_taVNS: "taVNS Therapy",
+    topic_relaxation: "Natural Relaxation",
+    topic_stress: "Stress Relief",
+    topic_anxiety: "Anxiety Support",
+    topic_sleep: "Sleep & Recovery",
+    topic_wellness: "Wellness Technology",
+    topic_research: "Clinical Research",
+
+    // SEO FAQ
+    faq_title: "Frequently Asked Questions",
+    faq_q1: "What is NeuroCalmer and how does it work?",
+    faq_a1: "NeuroCalmer is a wellness app that uses gentle, research-inspired vibration patterns at the ear to help your body find calm. Instead of requiring mental effort like meditation, it sends a physical signal to your nervous system via the auricular branch of the vagus nerve, promoting a sense of grounding and relaxation.",
+    faq_q2: "Do I need to meditate or focus to use NeuroCalmer?",
+    faq_a2: "No — that's the key difference. NeuroCalmer works through the body, not the mind. You don't need to focus, breathe in a special way, or clear your thoughts. Just place the phone at your ear and let the gentle vibrations do the work. It is designed specifically for people who find meditation difficult or unappealing.",
+    faq_q3: "Is NeuroCalmer a medical device?",
+    faq_a3: "No. NeuroCalmer is a wellness application and is not a medical device. It is not designed to diagnose, treat, cure, or prevent any medical condition. If you have a medical condition, please consult your healthcare provider before use.",
+    faq_q4: "What is taVNS (transcutaneous auricular Vagus Nerve Stimulation)?",
+    faq_a4: "taVNS stands for transcutaneous auricular Vagus Nerve Stimulation. It is a non-invasive technique that stimulates the auricular branch of the vagus nerve through the skin of the outer ear. Research suggests taVNS may help activate the parasympathetic nervous system, which supports relaxation and stress reduction. NeuroCalmer's vibration patterns are inspired by this research.",
+    faq_q5: "Is NeuroCalmer safe to use daily?",
+    faq_a5: "NeuroCalmer is designed for regular wellness use and is generally safe for daily use. It operates fully offline on your device with no data collection. However, individual experiences may vary. If you experience discomfort, dizziness, or skin irritation, discontinue use and consult a healthcare professional.",
+    faq_q6: "How is NeuroCalmer different from other relaxation apps?",
+    faq_a6: "Most relaxation apps rely on guided meditations, breathing exercises, or audio tracks — all of which require mental engagement. NeuroCalmer is fundamentally different: it uses a physical vibration signal at the ear, inspired by research on auricular vagus nerve stimulation. It requires zero mental effort, making it ideal for moments when you are too overwhelmed to meditate or focus.",
+
+    // SEO Authority Links
+    authority_title: "Learn More from Trusted Sources",
+    auth_1_title: "Vibrotactile aVNS Study",
+    auth_1_desc: "NIH/PMC research on vibrotactile auricular vagus nerve stimulation and limbic system connectivity.",
+    auth_2_title: "taVNS & Cardiac Vagal Activity",
+    auth_2_desc: "Clinical study examining transcutaneous VNS effects on heart rate variability and relaxation.",
+    auth_3_title: "Ongoing Clinical Trials",
+    auth_3_desc: "Active clinical trials on ClinicalTrials.gov exploring auricular vagus nerve stimulation.",
+    auth_4_title: "PubMed Research Database",
+    auth_4_desc: "Browse peer-reviewed studies on auricular vagus nerve stimulation on PubMed/MEDLINE.",
+    auth_5_title: "Vagus Nerve – Wikipedia",
+    auth_5_desc: "General overview of vagus nerve anatomy, function, and stimulation techniques.",
+    auth_6_title: "NeuroCalmer on Google Play",
+    auth_6_desc: "Download NeuroCalmer directly from the official Google Play Store listing."
   },
   de: {
     nav_get_app: "App Holen",
@@ -131,7 +172,48 @@ export const translations = {
     seo_safe_title: "Ist NeuroCalmer sicher?",
     seo_safe_text: "NeuroCalmer wurde als sicheres Wellness-Tool konzipiert. Obwohl es allgemein sicher ist, ist es kein medizinisches Gerät und sollte verantwortungsbewusst verwendet werden.",
     mockup_title: "App Mockup",
-    mockup_description: "Einfache App-Nutzung für die unkomplizierte Durchführung der Calm-Funktion."
+    mockup_description: "Einfache App-Nutzung für die unkomplizierte Durchführung der Calm-Funktion.",
+
+    // SEO Breadcrumb & Topic Cluster
+    topics_title: "Verwandte Wellness-Themen entdecken",
+    topic_vagus: "Vagusnerv-Stimulation",
+    topic_taVNS: "taVNS Therapie",
+    topic_relaxation: "Natürliche Entspannung",
+    topic_stress: "Stressabbau",
+    topic_anxiety: "Angstunterstützung",
+    topic_sleep: "Schlaf & Erholung",
+    topic_wellness: "Wellness-Technologie",
+    topic_research: "Klinische Forschung",
+
+    // SEO FAQ
+    faq_title: "Häufig gestellte Fragen",
+    faq_q1: "Was ist NeuroCalmer und wie funktioniert es?",
+    faq_a1: "NeuroCalmer ist eine Wellness-App, die sanfte, forschungsinspirierte Vibrationsmuster am Ohr nutzt, um Ihrem Körper zu helfen, zur Ruhe zu kommen. Anstatt mentale Anstrengung wie bei der Meditation zu erfordern, sendet es ein physisches Signal an Ihr Nervensystem über den aurikulären Ast des Vagusnervs und fördert so ein Gefühl der Erdung und Entspannung.",
+    faq_q2: "Muss ich meditieren oder mich konzentrieren, um NeuroCalmer zu nutzen?",
+    faq_a2: "Nein — das ist der entscheidende Unterschied. NeuroCalmer wirkt über den Körper, nicht über den Geist. Sie müssen sich nicht konzentrieren, nicht besonders atmen oder Ihre Gedanken leeren. Legen Sie einfach das Telefon an Ihr Ohr und lassen Sie die sanften Vibrationen die Arbeit machen. Entwickelt speziell für Menschen, die Meditation schwierig oder uninteressant finden.",
+    faq_q3: "Ist NeuroCalmer ein medizinisches Gerät?",
+    faq_a3: "Nein. NeuroCalmer ist eine Wellness-Anwendung und kein medizinisches Gerät. Es ist nicht dazu bestimmt, medizinische Zustände zu diagnostizieren, zu behandeln, zu heilen oder zu verhindern. Bei gesundheitlichen Problemen konsultieren Sie bitte vor der Nutzung Ihren Arzt.",
+    faq_q4: "Was ist taVNS (transkutane aurikuläre Vagusnerv-Stimulation)?",
+    faq_a4: "taVNS steht für transkutane aurikuläre Vagusnerv-Stimulation. Es ist eine nicht-invasive Technik, die den aurikulären Ast des Vagusnervs durch die Haut des Außenohrs stimuliert. Die Forschung deutet darauf hin, dass taVNS das parasympathische Nervensystem aktivieren kann, was Entspannung und Stressreduktion unterstützt. Die Vibrationsmuster von NeuroCalmer sind von dieser Forschung inspiriert.",
+    faq_q5: "Ist NeuroCalmer für die tägliche Anwendung sicher?",
+    faq_a5: "NeuroCalmer ist für den regelmäßigen Wellness-Gebrauch konzipiert und allgemein sicher für die tägliche Anwendung. Es funktioniert vollständig offline auf Ihrem Gerät ohne Datenerfassung. Die individuellen Erfahrungen können jedoch variieren. Bei Beschwerden, Schwindel oder Hautreizungen beenden Sie die Anwendung und konsultieren Sie einen Arzt.",
+    faq_q6: "Wie unterscheidet sich NeuroCalmer von anderen Entspannungs-Apps?",
+    faq_a6: "Die meisten Entspannungs-Apps setzen auf geführte Meditationen, Atemübungen oder Audiospuren — alle erfordern mentale Beteiligung. NeuroCalmer ist grundlegend anders: Es verwendet ein physisches Vibrationssignal am Ohr, inspiriert von der Forschung zur aurikulären Vagusnerv-Stimulation. Es erfordert keinerlei mentale Anstrengung und ist ideal für Momente, in denen Sie zu überwältigt sind, um zu meditieren oder sich zu konzentrieren.",
+
+    // SEO Authority Links
+    authority_title: "Mehr von vertrauenswürdigen Quellen erfahren",
+    auth_1_title: "Vibrotaktile aVNS-Studie",
+    auth_1_desc: "NIH/PMC-Forschung zur vibrotaktilen aurikulären Vagusnerv-Stimulation und limbischer Konnektivität.",
+    auth_2_title: "taVNS & kardiale vagale Aktivität",
+    auth_2_desc: "Klinische Studie zu den Auswirkungen transkutaner VNS auf Herzratenvariabilität und Entspannung.",
+    auth_3_title: "Laufende klinische Studien",
+    auth_3_desc: "Aktive klinische Studien auf ClinicalTrials.gov zur aurikulären Vagusnerv-Stimulation.",
+    auth_4_title: "PubMed Forschungsdatenbank",
+    auth_4_desc: "Durchsuchen Sie begutachtete Studien zur aurikulären Vagusnerv-Stimulation auf PubMed/MEDLINE.",
+    auth_5_title: "Vagusnerv – Wikipedia",
+    auth_5_desc: "Allgemeiner Überblick über Anatomie, Funktion und Stimulationstechniken des Vagusnervs.",
+    auth_6_title: "NeuroCalmer bei Google Play",
+    auth_6_desc: "Laden Sie NeuroCalmer direkt im offiziellen Google Play Store herunter."
   },
   es: {
     nav_get_app: "Obtener App",
@@ -189,7 +271,48 @@ export const translations = {
     seo_safe_title: "¿Es segura la <strong>taVNS</strong> con NeuroCalmer?",
     seo_safe_text: "NeuroCalmer es una herramienta de <strong>relaxamiento</strong> y <strong>alivio del estrés</strong>. Aunque la <strong>taVNS</strong> es segura, este app no es un dispositivo médico.",
     mockup_title: "Mockup de la App",
-    mockup_description: "Uso sencillo de la aplicación para realizar fácilmente la función de calma."
+    mockup_description: "Uso sencillo de la aplicación para realizar fácilmente la función de calma.",
+
+    // SEO Breadcrumb & Topic Cluster
+    topics_title: "Explora Temas de Bienestar Relacionados",
+    topic_vagus: "Estimulación del Nervio Vago",
+    topic_taVNS: "Terapia taVNS",
+    topic_relaxation: "Relajación Natural",
+    topic_stress: "Alivio del Estrés",
+    topic_anxiety: "Apoyo para la Ansiedad",
+    topic_sleep: "Sueño y Recuperación",
+    topic_wellness: "Tecnología de Bienestar",
+    topic_research: "Investigación Clínica",
+
+    // SEO FAQ
+    faq_title: "Preguntas Frecuentes",
+    faq_q1: "¿Qué es NeuroCalmer y cómo funciona?",
+    faq_a1: "NeuroCalmer es una aplicación de bienestar que utiliza patrones de vibración suaves inspirados en la investigación para ayudar a tu cuerpo a encontrar la calma. En lugar de requerir esfuerzo mental como la meditación, envía una señal física a tu sistema nervioso a través de la rama auricular del nervio vago.",
+    faq_q2: "¿Necesito meditar o concentrarme para usar NeuroCalmer?",
+    faq_a2: "No — esa es la diferencia clave. NeuroCalmer funciona a través del cuerpo, no de la mente. No necesitas concentrarte, respirar de una manera especial o vaciar tu mente. Solo coloca el teléfono en tu oído y deja que las suaves vibraciones hagan el trabajo.",
+    faq_q3: "¿Es NeuroCalmer un dispositivo médico?",
+    faq_a3: "No. NeuroCalmer es una aplicación de bienestar y no es un dispositivo médico. No está diseñado para diagnosticar, tratar, curar o prevenir ninguna condición médica.",
+    faq_q4: "¿Qué es taVNS (estimulación auricular transcutánea del nervio vago)?",
+    faq_a4: "taVNS significa estimulación auricular transcutánea del nervio vago. Es una técnica no invasiva que estimula la rama auricular del nervio vago a través de la piel del oído externo. La investigación sugiere que taVNS activa el sistema nervioso parasimpático para apoyar la relajación.",
+    faq_q5: "¿Es seguro usar NeuroCalmer a diario?",
+    faq_a5: "NeuroCalmer está diseñado para uso regular de bienestar y es generalmente seguro para uso diario. Opera completamente sin conexión sin recopilación de datos. Si experimenta molestias, suspenda su uso y consulte a un profesional de la salud.",
+    faq_q6: "¿En qué se diferencia NeuroCalmer de otras aplicaciones de relajación?",
+    faq_a6: "La mayoría de las apps de relajación usan meditaciones guiadas o ejercicios de respiración que requieren participación mental. NeuroCalmer es fundamentalmente diferente: usa una señal física de vibración en el oído, inspirada en la investigación sobre la estimulación del nervio vago auricular. Requiere cero esfuerzo mental.",
+
+    // SEO Authority Links
+    authority_title: "Aprende más de fuentes confiables",
+    auth_1_title: "Estudio aVNS Vibrotáctil",
+    auth_1_desc: "Investigación NIH/PMC sobre estimulación vibrotáctil del nervio vago auricular y conectividad del sistema límbico.",
+    auth_2_title: "taVNS y Actividad Vagal Cardíaca",
+    auth_2_desc: "Estudio clínico sobre efectos de VNS transcutánea en la variabilidad del ritmo cardíaco y la relajación.",
+    auth_3_title: "Ensayos Clínicos en Curso",
+    auth_3_desc: "Ensayos clínicos activos en ClinicalTrials.gov sobre estimulación del nervio vago auricular.",
+    auth_4_title: "PubMed – Base de Datos",
+    auth_4_desc: "Explore estudios revisados por pares sobre estimulación del nervio vago auricular en PubMed/MEDLINE.",
+    auth_5_title: "Nervio Vago – Wikipedia",
+    auth_5_desc: "Descripción general de la anatomía, función y técnicas de estimulación del nervio vago.",
+    auth_6_title: "NeuroCalmer en Google Play",
+    auth_6_desc: "Descargue NeuroCalmer directamente desde Google Play Store."
   },
   fr: {
     nav_get_app: "Obtenir l'App Store",
@@ -247,7 +370,48 @@ export const translations = {
     seo_safe_title: "La <strong>taVNS</strong> avec NeuroCalmer est-elle sûre ?",
     seo_safe_text: "NeuroCalmer est un outil de <strong>relaxation</strong> pour le <strong>aliviation du stress</strong>. Bien que la <strong>taVNS</strong> soit sûre, ceci n'est pas un dispositif médical.",
     mockup_title: "Maquette de l'Application",
-    mockup_description: "Utilisation simple de l'application pour effectuer facilement la fonction de calme."
+    mockup_description: "Utilisation simple de l'application pour effectuer facilement la fonction de calme.",
+
+    // SEO Breadcrumb & Topic Cluster
+    topics_title: "Explorez des sujets de bien-être connexes",
+    topic_vagus: "Stimulation du Nerf Vague",
+    topic_taVNS: "Thérapie taVNS",
+    topic_relaxation: "Relaxation Naturelle",
+    topic_stress: "Soulagement du Stress",
+    topic_anxiety: "Soutien à l'Anxiété",
+    topic_sleep: "Sommeil et Récupération",
+    topic_wellness: "Technologie de Bien-être",
+    topic_research: "Recherche Clinique",
+
+    // SEO FAQ
+    faq_title: "Questions Fréquentes",
+    faq_q1: "Qu'est-ce que NeuroCalmer et comment ça marche ?",
+    faq_a1: "NeuroCalmer est une application de bien-être qui utilise des vibrations douces inspirées de la recherche pour aider votre corps à trouver le calme. Contrairement à la méditation, elle envoie un signal physique à votre système nerveux via la branche auriculaire du nerf vague.",
+    faq_q2: "Dois-je méditer pour utiliser NeuroCalmer ?",
+    faq_a2: "Non — c'est la différence clé. NeuroCalmer agit par le corps, pas par l'esprit. Placez simplement le téléphone contre votre oreille et laissez les vibrations agir.",
+    faq_q3: "NeuroCalmer est-il un dispositif médical ?",
+    faq_a3: "Non. NeuroCalmer est une application de bien-être et non un dispositif médical. Il n'est pas conçu pour diagnostiquer, traiter ou prévenir une condition médicale.",
+    faq_q4: "Qu'est-ce que la taVNS (stimulation transcutanée du nerf vague auriculaire) ?",
+    faq_a4: "La taVNS est une technique non invasive qui stimule la branche auriculaire du nerf vague à travers la peau de l'oreille externe. Des recherches suggèrent qu'elle active le système nerveux parasympathique favorisant la relaxation.",
+    faq_q5: "NeuroCalmer est-il sûr à utiliser quotidiennement ?",
+    faq_a5: "NeuroCalmer est conçu pour un usage quotidien de bien-être. Il fonctionne hors ligne sans collecte de données. En cas d'inconfort, cessez l'utilisation.",
+    faq_q6: "En quoi NeuroCalmer diffère-t-il des autres apps de relaxation ?",
+    faq_a6: "La plupart des apps de relaxation nécessitent un engagement mental (méditation, respiration). NeuroCalmer utilise un signal physique de vibration à l'oreille, ne nécessitant aucun effort mental.",
+
+    // SEO Authority Links
+    authority_title: "En savoir plus auprès de sources fiables",
+    auth_1_title: "Étude aVNS Vibrotactile",
+    auth_1_desc: "Recherche NIH/PMC sur la stimulation vibrotactile du nerf vague auriculaire.",
+    auth_2_title: "taVNS et Activité Vagale Cardiaque",
+    auth_2_desc: "Étude clinique sur les effets de la VNS transcutanée sur la variabilité cardiaque.",
+    auth_3_title: "Essais Cliniques en Cours",
+    auth_3_desc: "Essais cliniques actifs sur ClinicalTrials.gov.",
+    auth_4_title: "PubMed – Base de Données",
+    auth_4_desc: "Études sur la stimulation du nerf vague dans PubMed/MEDLINE.",
+    auth_5_title: "Nerf Vague – Wikipédia",
+    auth_5_desc: "Aperçu de l'anatomie du nerf vague et des techniques de stimulation.",
+    auth_6_title: "NeuroCalmer sur Google Play",
+    auth_6_desc: "Téléchargez NeuroCalmer sur Google Play Store."
   },
   pt: {
     nav_get_app: "Baixar App",
@@ -305,7 +469,48 @@ export const translations = {
     seo_safe_title: "A <strong>taVNS</strong> do NeuroCalmer é segura?",
     seo_safe_text: "O NeuroCalmer é uma ferramenta de <strong>relaxamento</strong> e <strong>alívio do estresse</strong>. Embora a <strong>taVNS</strong> seja segura, este app não é um dispositivo médico.",
     mockup_title: "Mockup do Aplicativo",
-    mockup_description: "Uso do aplicativo simples para realizar facilmente a função de calma."
+    mockup_description: "Uso do aplicativo simples para realizar facilmente a função de calma.",
+
+    // SEO Breadcrumb & Topic Cluster
+    topics_title: "Explore Tópicos de Bem-Estar Relacionados",
+    topic_vagus: "Estimulação do Nervo Vago",
+    topic_taVNS: "Terapia taVNS",
+    topic_relaxation: "Relaxamento Natural",
+    topic_stress: "Alívio do Estresse",
+    topic_anxiety: "Apoio à Ansiedade",
+    topic_sleep: "Sono e Recuperação",
+    topic_wellness: "Tecnologia de Bem-Estar",
+    topic_research: "Pesquisa Clínica",
+
+    // SEO FAQ
+    faq_title: "Perguntas Frequentes",
+    faq_q1: "O que é NeuroCalmer e como funciona?",
+    faq_a1: "NeuroCalmer é um app de bem-estar que usa vibrações suaves inspiradas em pesquisas para ajudar seu corpo a encontrar calma. Em vez de esforço mental, envia um sinal físico ao sistema nervoso via o nervo vago.",
+    faq_q2: "Preciso meditar ou me concentrar para usar?",
+    faq_a2: "Não — essa é a diferença. NeuroCalmer funciona pelo corpo, não pela mente. Basta colocar o telefone na orelha e deixar as vibrações fazerem o trabalho.",
+    faq_q3: "NeuroCalmer é um dispositivo médico?",
+    faq_a3: "Não. NeuroCalmer é um aplicativo de bem-estar e não é um dispositivo médico. Não foi projetado para diagnosticar ou tratar condições médicas.",
+    faq_q4: "O que é taVNS (Estimulação Auricular Transcutânea do Nervo Vago)?",
+    faq_a4: "taVNS é uma técnica não invasiva que estimula o nervo vago através da pele da orelha externa. Pesquisas sugerem que ativa o sistema parassimpático para apoiar o relaxamento.",
+    faq_q5: "É seguro usar NeuroCalmer diariamente?",
+    faq_a5: "Sim, é projetado para uso regular de bem-estar. Funciona offline sem coleta de dados. Em caso de desconforto, interrompa o uso.",
+    faq_q6: "Como NeuroCalmer difere de outros apps de relaxamento?",
+    faq_a6: "A maioria exige envolvimento mental. NeuroCalmer usa um sinal físico de vibração na orelha, exigindo zero esforço mental.",
+
+    // SEO Authority Links
+    authority_title: "Saiba mais de fontes confiáveis",
+    auth_1_title: "Estudo aVNS Vibrotátil",
+    auth_1_desc: "Pesquisa NIH/PMC sobre estimulação vibrotátil do nervo vago auricular.",
+    auth_2_title: "taVNS e Atividade Vagal Cardíaca",
+    auth_2_desc: "Estudo clínico sobre efeitos da VNS na variabilidade cardíaca.",
+    auth_3_title: "Ensaios Clínicos em Andamento",
+    auth_3_desc: "Ensaios ativos no ClinicalTrials.gov.",
+    auth_4_title: "PubMed – Base de Dados",
+    auth_4_desc: "Estudos revisados no PubMed/MEDLINE.",
+    auth_5_title: "Nervo Vago – Wikipedia",
+    auth_5_desc: "Visão geral da anatomia e estimulação do nervo vago.",
+    auth_6_title: "NeuroCalmer no Google Play",
+    auth_6_desc: "Baixe NeuroCalmer na Google Play Store."
   },
   id: {
     nav_get_app: "Dapatkan App",
@@ -363,7 +568,48 @@ export const translations = {
     seo_safe_title: "Apakah <strong>taVNS</strong> NeuroCalmer aman?",
     seo_safe_text: "NeuroCalmer adalah alat <strong>relaksasi</strong> untuk <strong>pereda stres</strong>. Meskipun <strong>taVNS</strong> aman, aplikasi ini bukan perangkat medis.",
     mockup_title: "Mockup Aplikasi",
-    mockup_description: "Penggunaan aplikasi sederhana untuk melakukan fungsi pemadam kecemasan dengan mudah."
+    mockup_description: "Penggunaan aplikasi sederhana untuk melakukan fungsi pemadam kecemasan dengan mudah.",
+
+    // SEO Breadcrumb & Topic Cluster
+    topics_title: "Jelajahi Topik Kesehatan Terkait",
+    topic_vagus: "Stimulasi Saraf Vagus",
+    topic_taVNS: "Terapi taVNS",
+    topic_relaxation: "Relaksasi Alami",
+    topic_stress: "Pereda Stres",
+    topic_anxiety: "Dukungan Kecemasan",
+    topic_sleep: "Tidur & Pemulihan",
+    topic_wellness: "Teknologi Kesehatan",
+    topic_research: "Penelitian Klinis",
+
+    // SEO FAQ
+    faq_title: "Pertanyaan Umum",
+    faq_q1: "Apa itu NeuroCalmer dan bagaimana cara kerjanya?",
+    faq_a1: "NeuroCalmer adalah aplikasi kesehatan yang menggunakan getaran lembut di telinga untuk membantu tubuh menemukan ketenangan. Ini mengirim sinyal fisik ke sistem saraf Anda melalui saraf vagus tanpa memerlukan meditasi.",
+    faq_q2: "Apakah saya perlu bermeditasi untuk menggunakan NeuroCalmer?",
+    faq_a2: "Tidak — itulah perbedaan utamanya. Cukup letakkan ponsel di telinga Anda dan biarkan getaran bekerja tanpa perlu konsentrasi mental.",
+    faq_q3: "Apakah NeuroCalmer alat medis?",
+    faq_a3: "Tidak. NeuroCalmer adalah aplikasi kesehatan dan bukan perangkat medis. Tidak dirancang untuk mendiagnosis atau mengobati kondisi medis.",
+    faq_q4: "Apa itu taVNS?",
+    faq_a4: "taVNS adalah stimulasi saraf vagus aurikular transkutan — teknik non-invasif yang merangsang saraf vagus melalui kulit telinga untuk mendukung relaksasi.",
+    faq_q5: "Apakah NeuroCalmer aman digunakan setiap hari?",
+    faq_a5: "Ya, dirancang untuk penggunaan kesehatan rutin. Berfungsi offline tanpa pengumpulan data. Hentikan jika ada ketidaknyamanan.",
+    faq_q6: "Apa bedanya NeuroCalmer dengan aplikasi relaksasi lain?",
+    faq_a6: "Aplikasi lain memerlukan meditasi atau latihan pernapasan. NeuroCalmer menggunakan sinyal fisik getaran — tanpa usaha mental sama sekali.",
+
+    // SEO Authority Links
+    authority_title: "Pelajari lebih lanjut dari sumber terpercaya",
+    auth_1_title: "Studi aVNS Vibrotaktil",
+    auth_1_desc: "Penelitian NIH/PMC tentang stimulasi vibrotaktil saraf vagus aurikular.",
+    auth_2_title: "taVNS & Aktivitas Vagal Jantung",
+    auth_2_desc: "Studi klinis tentang efek VNS pada variabilitas detak jantung.",
+    auth_3_title: "Uji Klinis Berjalan",
+    auth_3_desc: "Uji klinis aktif di ClinicalTrials.gov.",
+    auth_4_title: "PubMed – Basis Data",
+    auth_4_desc: "Studi peer-review tentang stimulasi saraf vagus di PubMed.",
+    auth_5_title: "Saraf Vagus – Wikipedia",
+    auth_5_desc: "Ikhtisar anatomi dan teknik stimulasi saraf vagus.",
+    auth_6_title: "NeuroCalmer di Google Play",
+    auth_6_desc: "Unduh NeuroCalmer langsung dari Google Play Store."
   },
   hi: {
     nav_get_app: "ऐप प्राप्त करें",
@@ -421,7 +667,48 @@ export const translations = {
     seo_safe_title: "क्या NeuroCalmer के साथ <strong>taVNS</strong> सुरक्षित है?",
     seo_safe_text: "NeuroCalmer तनाव से राहत (<strong>stress relief</strong>) और <strong>शांति</strong> के लिए डिज़ाइन किया गया है। हालांकि <strong>taVNS</strong> सुरक्षित है, यह ऐप चिकित्सा उपकरण नहीं है।",
     mockup_title: "एप्लिकेशन मॉकअप",
-    mockup_description: "आसानी से शांति कार्य करने के लिए सरल ऐप उपयोग।"
+    mockup_description: "आसानी से शांति कार्य करने के लिए सरल ऐप उपयोग।",
+
+    // SEO Breadcrumb & Topic Cluster
+    topics_title: "संबंधित स्वास्थ्य विषयों का अन्वेषण करें",
+    topic_vagus: "वेगस नर्व उत्तेजना",
+    topic_taVNS: "taVNS थेरेपी",
+    topic_relaxation: "प्राकृतिक विश्राम",
+    topic_stress: "तनाव से राहत",
+    topic_anxiety: "चिंता सहायता",
+    topic_sleep: "नींद और पुनर्प्राप्ति",
+    topic_wellness: "वेलनेस तकनीक",
+    topic_research: "क्लिनिकल अनुसंधान",
+
+    // SEO FAQ
+    faq_title: "अक्सर पूछे जाने वाले प्रश्न",
+    faq_q1: "NeuroCalmer क्या है और यह कैसे काम करता है?",
+    faq_a1: "NeuroCalmer एक स्वास्थ्य ऐप है जो कान पर कोमल कंपन पैटर्न का उपयोग करके शरीर को शांति खोजने में मदद करता है, बिना ध्यान की आवश्यकता के।",
+    faq_q2: "क्या मुझे NeuroCalmer का उपयोग करने के लिए ध्यान करने की आवश्यकता है?",
+    faq_a2: "नहीं — यह मुख्य अंतर है। फोन को कान पर रखें और कंपन को काम करने दें।",
+    faq_q3: "क्या NeuroCalmer एक चिकित्सा उपकरण है?",
+    faq_a3: "नहीं। यह एक स्वास्थ्य ऐप है, चिकित्सा उपकरण नहीं।",
+    faq_q4: "taVNS क्या है?",
+    faq_a4: "taVNS एक गैर-आक्रामक तकनीक है जो बाहरी कान के माध्यम से वेगस तंत्रिका को उत्तेजित करती है।",
+    faq_q5: "क्या NeuroCalmer दैनिक उपयोग के लिए सुरक्षित है?",
+    faq_a5: "हाँ, यह नियमित उपयोग के लिए डिज़ाइन किया गया है। यह बिना डेटा संग्रह के ऑफ़लाइन काम करता है।",
+    faq_q6: "NeuroCalmer अन्य विश्राम ऐप्स से कैसे अलग है?",
+    faq_a6: "अन्य ऐप्स को ध्यान या एकाग्रता की आवश्यकता होती है। NeuroCalmer शारीरिक कंपन का उपयोग करता है — बिना किसी मानसिक प्रयास के।",
+
+    // SEO Authority Links
+    authority_title: "विश्वसनीय स्रोतों से और जानें",
+    auth_1_title: "वाइब्रोटैक्टाइल aVNS अध्ययन",
+    auth_1_desc: "वेगस तंत्रिका उत्तेजना पर NIH/PMC अनुसंधान।",
+    auth_2_title: "taVNS और हृदय संबंधी गतिविधि",
+    auth_2_desc: "हृदय गति पर VNS के प्रभावों का नैदानिक अध्ययन।",
+    auth_3_title: "चल रहे नैदानिक परीक्षण",
+    auth_3_desc: "ClinicalTrials.gov पर सक्रिय नैदानिक परीक्षण।",
+    auth_4_title: "PubMed डेटाबेस",
+    auth_4_desc: "PubMed/MEDLINE पर सहकर्मी-समीक्षित अध्ययन।",
+    auth_5_title: "वेगस तंत्रिका – विकिपीडिया",
+    auth_5_desc: "वेगस तंत्रिका शरीर रचना और उत्तेजना तकनीकों का अवलोकन।",
+    auth_6_title: "Google Play पर NeuroCalmer",
+    auth_6_desc: "Google Play Store से NeuroCalmer डाउनलोड करें।"
   },
   ja: {
     nav_get_app: "アプリを入手",
@@ -479,7 +766,48 @@ export const translations = {
     seo_safe_title: "NeuroCalmerによる<strong>taVNS</strong>は安全ですか？",
     seo_safe_text: "NeuroCalmerは<strong>リラクゼーション</strong>と<strong>ストレス解消</strong>のためのツールです。<strong>taVNS</strong>は一般的に安全ですが、本アプリは医療機器ではありません。",
     mockup_title: "アプリのモックアップ",
-    mockup_description: "簡単に安心機能を実行するためのシンプルなアプリ使用方法。"
+    mockup_description: "簡単に安心機能を実行するためのシンプルなアプリ使用方法。",
+
+    // SEO Breadcrumb & Topic Cluster
+    topics_title: "関連ウェルネストピックを探す",
+    topic_vagus: "迷走神経刺激",
+    topic_taVNS: "taVNS療法",
+    topic_relaxation: "自然なリラクゼーション",
+    topic_stress: "ストレス解消",
+    topic_anxiety: "不安サポート",
+    topic_sleep: "睡眠と回復",
+    topic_wellness: "ウェルネステクノロジー",
+    topic_research: "臨床研究",
+
+    // SEO FAQ
+    faq_title: "よくある質問",
+    faq_q1: "NeuroCalmerとは何ですか？どのように機能しますか？",
+    faq_a1: "NeuroCalmerは、耳への優しい振動パターンを使用して身体の落ち着きをサポートするウェルネスアプリです。瞑想のような精神的な努力は必要ありません。",
+    faq_q2: "使用するために瞑想する必要がありますか？",
+    faq_a2: "いいえ — それが最大の違いです。電話を耳に当てて、振動に任せるだけです。",
+    faq_q3: "NeuroCalmerは医療機器ですか？",
+    faq_a3: "いいえ。ウェルネスアプリであり、医療機器ではありません。",
+    faq_q4: "taVNSとは何ですか？",
+    faq_a4: "経皮的耳介迷走神経刺激（taVNS）は、外耳から迷走神経を刺激する非侵襲的技術です。",
+    faq_q5: "毎日使用しても安全ですか？",
+    faq_a5: "はい。データ収集なしでオフライン動作します。不快感がある場合は使用を中止してください。",
+    faq_q6: "他のリラクゼーションアプリとの違いは？",
+    faq_a6: "他のアプリは精神的な集中が必要ですが、NeuroCalmerは物理的な振動信号を使用します — 精神的努力はゼロです。",
+
+    // SEO Authority Links
+    authority_title: "信頼できる情報源から学ぶ",
+    auth_1_title: "振動触覚aVNS研究",
+    auth_1_desc: "NIH/PMCによる振動触覚迷走神経刺激の研究。",
+    auth_2_title: "taVNSと心臓迷走活動",
+    auth_2_desc: "心拍変動に対するVNS効果の臨床研究。",
+    auth_3_title: "進行中の臨床試験",
+    auth_3_desc: "ClinicalTrials.govでのアクティブな臨床試験。",
+    auth_4_title: "PubMedデータベース",
+    auth_4_desc: "PubMed/MEDLINEで査読済み研究を検索。",
+    auth_5_title: "迷走神経 – Wikipedia",
+    auth_5_desc: "迷走神経の解剖学と刺激技術の概要。",
+    auth_6_title: "Google PlayのNeuroCalmer",
+    auth_6_desc: "Google Play StoreからNeuroCalmerをダウンロード。"
   },
   ko: {
     nav_get_app: "앱 다운로드",
@@ -537,7 +865,48 @@ export const translations = {
     seo_safe_title: "NeuroCalmer의 <strong>taVNS</strong>는 안전한가요?",
     seo_safe_text: "NeuroCalmer는 <strong>릴랙스</strong>와 <strong>스트레스 해소</strong>를 위한 도구입니다. <strong>taVNS</strong>는 일반적으로 안전하지만, 이 앱은 의료 기기가 아닙니다.",
     mockup_title: "앱 모ック업",
-    mockup_description: "편리하게 안정 기능을 수행하기 위한 간단한 앱 사용법."
+    mockup_description: "편리하게 안정 기능을 수행하기 위한 간단한 앱 사용법.",
+
+    // SEO Breadcrumb & Topic Cluster
+    topics_title: "관련 웰니스 주제 탐색",
+    topic_vagus: "미주 신경 자극",
+    topic_taVNS: "taVNS 치료",
+    topic_relaxation: "자연적인 이완",
+    topic_stress: "스트레스 해소",
+    topic_anxiety: "불안 지원",
+    topic_sleep: "수면 및 회복",
+    topic_wellness: "웰니스 기술",
+    topic_research: "임상 연구",
+
+    // SEO FAQ
+    faq_title: "자주 묻는 질문",
+    faq_q1: "NeuroCalmer란 무엇이며 어떻게 작동하나요?",
+    faq_a1: "NeuroCalmer는 귀에 부드러운 진동을 사용하여 몸이 평온을 찾도록 도와주는 웰니스 앱입니다. 명상과 같은 정신적 노력이 필요하지 않습니다.",
+    faq_q2: "사용하기 위해 명상이 필요한가요?",
+    faq_a2: "아니요. 휴대폰을 귀에 대고 진동이 작동하도록 두세요.",
+    faq_q3: "NeuroCalmer는 의료 기기인가요?",
+    faq_a3: "아니요. 웰니스 앱이며 의료 기기가 아닙니다.",
+    faq_q4: "taVNS란 무엇인가요?",
+    faq_a4: "경피적 귓바퀴 미주 신경 자극(taVNS)은 외이를 통해 미주 신경을 자극하는 비침습적 기술입니다.",
+    faq_q5: "매일 사용해도 안전한가요?",
+    faq_a5: "네. 데이터 수집 없이 오프라인으로 작동합니다. 불편함이 있으면 사용을 중단하세요.",
+    faq_q6: "다른 이완 앱과의 차이점은?",
+    faq_a6: "다른 앱은 정신적 노력이 필요하지만, NeuroCalmer는 물리적 진동 신호를 사용합니다.",
+
+    // SEO Authority Links
+    authority_title: "신뢰할 수 있는 출처에서 알아보기",
+    auth_1_title: "진동촉각 aVNS 연구",
+    auth_1_desc: "NIH/PMC의 미주 신경 진동 자극 연구.",
+    auth_2_title: "taVNS 및 심장 미주 활동",
+    auth_2_desc: "심박 변동성에 대한 VNS 효과 임상 연구.",
+    auth_3_title: "진행 중인 임상 시험",
+    auth_3_desc: "ClinicalTrials.gov의 활성 임상 시험.",
+    auth_4_title: "PubMed 데이터베이스",
+    auth_4_desc: "PubMed/MEDLINE에서 동료 검토 연구 검색.",
+    auth_5_title: "미주 신경 – Wikipedia",
+    auth_5_desc: "미주 신경 해부학 및 자극 기술 개요.",
+    auth_6_title: "Google Play의 NeuroCalmer",
+    auth_6_desc: "Google Play Store에서 NeuroCalmer 다운로드."
   },
   ar: {
     nav_get_app: "احصل على التطبيق",
@@ -595,7 +964,48 @@ export const translations = {
     seo_safe_title: "هل <strong>taVNS</strong> مع NeuroCalmer آمن؟",
     seo_safe_text: "NeuroCalmer هو أداة لـ <strong>الاسترخاء</strong> و<strong>تخفيف التوتر</strong>. ورغم أن <strong>taVNS</strong> آمن بشكل عام، إلا أن هذا التطبيق ليس جهازًا طبيًا.",
     mockup_title: "نموذج التطبيق",
-    mockup_description: "упростить использование приложения для легкого выполнения функции спокойствия."
+    mockup_description: "استخدام بسيط للتطبيق لأداء وظيفة الهدوء بسهولة.",
+
+    // SEO Breadcrumb & Topic Cluster
+    topics_title: "استكشف موضوعات الصحة ذات الصلة",
+    topic_vagus: "تحفيز العصب المبهم",
+    topic_taVNS: "علاج taVNS",
+    topic_relaxation: "الاسترخاء الطبيعي",
+    topic_stress: "تخفيف التوتر",
+    topic_anxiety: "دعم القلق",
+    topic_sleep: "النوم والتعافي",
+    topic_wellness: "تكنولوجيا الصحة",
+    topic_research: "البحث السريري",
+
+    // SEO FAQ
+    faq_title: "الأسئلة الشائعة",
+    faq_q1: "ما هو NeuroCalmer وكيف يعمل؟",
+    faq_a1: "NeuroCalmer هو تطبيق صحي يستخدم اهتزازات لطيفة عند الأذن لمساعدة جسمك على إيجاد الهدوء دون الحاجة إلى التأمل.",
+    faq_q2: "هل أحتاج إلى التأمل لاستخدام NeuroCalmer؟",
+    faq_a2: "لا — هذا هو الفرق الرئيسي. ضع الهاتف على أذنك ودع الاهتزازات تعمل.",
+    faq_q3: "هل NeuroCalmer جهاز طبي؟",
+    faq_a3: "لا. إنه تطبيق صحي وليس جهازًا طبيًا.",
+    faq_q4: "ما هو taVNS؟",
+    faq_a4: "تحفيز العصب المبهم عبر الجلد (taVNS) هو تقنية غير جراحية تحفز العصب المبهم من خلال جلد الأذن الخارجية.",
+    faq_q5: "هل NeuroCalmer آمن للاستخدام اليومي؟",
+    faq_a5: "نعم. يعمل دون اتصال بالإنترنت بدون جمع بيانات. توقف عن الاستخدام إذا شعرت بعدم الراحة.",
+    faq_q6: "كيف يختلف NeuroCalmer عن تطبيقات الاسترخاء الأخرى؟",
+    faq_a6: "التطبيقات الأخرى تتطلب تركيزًا ذهنيًا. NeuroCalmer يستخدم إشارة اهتزاز فيزيائية — بدون أي جهد ذهني.",
+
+    // SEO Authority Links
+    authority_title: "تعلم المزيد من مصادر موثوقة",
+    auth_1_title: "دراسة aVNS الاهتزازية",
+    auth_1_desc: "بحث NIH/PMC حول تحفيز العصب المبهم الاهتزازي.",
+    auth_2_title: "taVNS والنشاط المبهم القلبي",
+    auth_2_desc: "دراسة سريرية حول تأثيرات VNS على تقلب معدل ضربات القلب.",
+    auth_3_title: "تجارب سريرية جارية",
+    auth_3_desc: "تجارب سريرية نشطة على ClinicalTrials.gov.",
+    auth_4_title: "قاعدة بيانات PubMed",
+    auth_4_desc: "أبحاث حول تحفيز العصب المبهم في PubMed/MEDLINE.",
+    auth_5_title: "العصب المبهم – ويكيبيديا",
+    auth_5_desc: "نظرة عامة على تشريح وتقنيات تحفيز العصب المبهم.",
+    auth_6_title: "NeuroCalmer على Google Play",
+    auth_6_desc: "قم بتنزيل NeuroCalmer من Google Play Store."
   },
   ru: {
     nav_get_app: "Получить приложение",
@@ -653,6 +1063,47 @@ export const translations = {
     seo_safe_title: "Безопасна ли <strong>taVNS</strong> с NeuroCalmer?",
     seo_safe_text: "NeuroCalmer — это инструмент для <strong>расслабления</strong> и <strong>снятия стресса</strong>. Хотя <strong>taVNS</strong> безопасна, приложение не является медицинским устройством.",
     mockup_title: "Макет приложения",
-    mockup_description: "Простое использование приложения для легкого выполнения функции спокойствия."
+    mockup_description: "Простое использование приложения для легкого выполнения функции спокойствия.",
+
+    // SEO Breadcrumb & Topic Cluster
+    topics_title: "Изучите смежные темы здоровья",
+    topic_vagus: "Стимуляция блуждающего нерва",
+    topic_taVNS: "Терапия taVNS",
+    topic_relaxation: "Естественное расслабление",
+    topic_stress: "Снятие стресса",
+    topic_anxiety: "Поддержка при тревоге",
+    topic_sleep: "Сон и восстановление",
+    topic_wellness: "Технологии здоровья",
+    topic_research: "Клинические исследования",
+
+    // SEO FAQ
+    faq_title: "Часто задаваемые вопросы",
+    faq_q1: "Что такое NeuroCalmer и как он работает?",
+    faq_a1: "NeuroCalmer — это оздоровительное приложение, использующее мягкие вибрации у уха, чтобы помочь телу успокоиться без необходимости в медитации.",
+    faq_q2: "Нужно ли медитировать для использования NeuroCalmer?",
+    faq_a2: "Нет — в этом ключевое отличие. Просто приложите телефон к уху и позвольте вибрациям сделать свою работу.",
+    faq_q3: "Является ли NeuroCalmer медицинским устройством?",
+    faq_a3: "Нет. Это оздоровительное приложение, а не медицинское устройство.",
+    faq_q4: "Что такое taVNS?",
+    faq_a4: "Чрескожная стимуляция ушной ветви блуждающего нерва (taVNS) — неинвазивная техника стимуляции через кожу наружного уха.",
+    faq_q5: "Безопасно ли использовать NeuroCalmer ежедневно?",
+    faq_a5: "Да. Работает офлайн без сбора данных. При дискомфорте прекратите использование.",
+    faq_q6: "Чем NeuroCalmer отличается от других приложений для релаксации?",
+    faq_a6: "Другие приложения требуют умственного усилия. NeuroCalmer использует физический вибрационный сигнал — без каких-либо умственных усилий.",
+
+    // SEO Authority Links
+    authority_title: "Узнайте больше из надежных источников",
+    auth_1_title: "Исследование вибротактильной aVNS",
+    auth_1_desc: "Исследование NIH/PMC вибротактильной стимуляции блуждающего нерва.",
+    auth_2_title: "taVNS и сердечная вагусная активность",
+    auth_2_desc: "Клиническое исследование влияния VNS на вариабельность сердечного ритма.",
+    auth_3_title: "Текущие клинические испытания",
+    auth_3_desc: "Активные клинические испытания на ClinicalTrials.gov.",
+    auth_4_title: "PubMed — база данных",
+    auth_4_desc: "Рецензируемые исследования в PubMed/MEDLINE.",
+    auth_5_title: "Блуждающий нерв — Википедия",
+    auth_5_desc: "Обзор анатомии и методов стимуляции блуждающего нерва.",
+    auth_6_title: "NeuroCalmer в Google Play",
+    auth_6_desc: "Скачайте NeuroCalmer в Google Play Store."
   }
 };
