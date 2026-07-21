@@ -129,6 +129,25 @@ html[dir="rtl"] .studies li {
   cursor: pointer;
 }
 
+/* Google Play Badge */
+.google-play-badge {
+  display: inline-block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.google-play-badge:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 32px rgba(138, 99, 246, 0.3);
+}
+
+.play-badge-img {
+  height: 64px;
+  width: auto;
+  display: block;
+}
+
 .btn-sm {
   padding: 0.5rem 1.25rem;
   font-size: 0.875rem;
@@ -229,56 +248,6 @@ html[dir="rtl"] .studies li {
 }
 
 /* ═══════════════════════════════════════════════════ */
-/* STATS BAR – Social Proof                           */
-/* ═══════════════════════════════════════════════════ */
-.stats-bar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  padding: 2rem 5%;
-  max-width: 1000px;
-  margin: -3rem auto 3rem;
-  background: rgba(138, 99, 246, 0.08);
-  border: 1px solid rgba(138, 99, 246, 0.2);
-  border-radius: 24px;
-  backdrop-filter: blur(12px);
-  position: relative;
-  z-index: 10;
-}
-
-.stat-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.25rem;
-}
-
-.stat-number {
-  font-family: 'Outfit', sans-serif;
-  font-size: 1.8rem;
-  font-weight: 800;
-  background: linear-gradient(90deg, #d3bfff, #8a63f6);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.stat-label {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 500;
-}
-
-.stat-divider {
-  width: 1px;
-  height: 50px;
-  background: rgba(255, 255, 255, 0.1);
-}
-
-/* ═══════════════════════════════════════════════════ */
 /* COMPARISON TABLE – Vagus Nerve Apps Compared       */
 /* ═══════════════════════════════════════════════════ */
 .comparison-section {
@@ -367,68 +336,6 @@ html[dir="rtl"] .studies li {
 
 .check-no {
   color: #f87171;
-}
-
-/* ═══════════════════════════════════════════════════ */
-/* TESTIMONIALS – User Reviews                        */
-/* ═══════════════════════════════════════════════════ */
-.testimonials-section {
-  padding: 5rem 5%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.testimonials-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin-top: 3rem;
-}
-
-.testimonial-card {
-  padding: 2rem;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.testimonial-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 40px rgba(138, 99, 246, 0.15);
-}
-
-.testimonial-stars {
-  color: #fbbf24;
-  font-size: 1.2rem;
-  letter-spacing: 2px;
-}
-
-.testimonial-text {
-  font-size: 0.95rem;
-  color: var(--text-muted);
-  line-height: 1.7;
-  font-style: italic;
-}
-
-.testimonial-author {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  margin-top: auto;
-}
-
-.testimonial-name {
-  font-weight: 600;
-  font-size: 0.9rem;
-  color: var(--text-main);
-}
-
-.testimonial-verified {
-  font-size: 0.75rem;
-  color: #4ade80;
-  font-weight: 500;
 }
 
 /* Features */
@@ -1064,26 +971,6 @@ html[dir="rtl"] .studies li {
     margin-bottom: 1.5rem;
   }
   
-  .stats-bar {
-    flex-wrap: wrap;
-    gap: 1rem;
-    padding: 1.5rem;
-    margin: -2rem auto 2rem;
-  }
-  
-  .stat-number {
-    font-size: 1.4rem;
-  }
-  
-  .comparison-table {
-    font-size: 0.85rem;
-  }
-  
-  .comparison-table th,
-  .comparison-table td {
-    padding: 0.75rem 0.85rem;
-  }
-  
   .showcase {
     flex-direction: column-reverse;
   }
@@ -1129,22 +1016,6 @@ html[dir="rtl"] .studies li {
     gap: 1.5rem;
   }
   
-  .stats-bar {
-    flex-direction: column;
-    gap: 0.8rem;
-    padding: 1.5rem 1rem;
-    margin: -1.5rem 1rem 2rem;
-  }
-  
-  .stat-divider {
-    width: 80%;
-    height: 1px;
-  }
-  
-  .stat-number {
-    font-size: 1.3rem;
-  }
-  
   .comparison-table {
     font-size: 0.78rem;
   }
@@ -1152,10 +1023,6 @@ html[dir="rtl"] .studies li {
   .comparison-table th,
   .comparison-table td {
     padding: 0.6rem 0.6rem;
-  }
-  
-  .testimonials-grid {
-    grid-template-columns: 1fr;
   }
   
   .science, .showcase {
@@ -1166,6 +1033,10 @@ html[dir="rtl"] .studies li {
   .btn-primary {
     width: 100%;
     justify-content: center;
+  }
+  
+  .play-badge-img {
+    height: 50px;
   }
 }
 
@@ -1193,6 +1064,10 @@ html[dir="rtl"] .studies li {
   
   .mockup-img {
     max-width: 200px;
+  }
+  
+  .play-badge-img {
+    height: 44px;
   }
   
   .blob, .blob-small {
