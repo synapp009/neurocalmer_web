@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }, observerOptions);
 
-  const animatedElements = document.querySelectorAll('.card, .showcase-content, .showcase-img-wrapper, .science-content, .science-img-wrapper, .testimonial-card, .stat-item, .use-case-item, .benefit-list li, .authority-card');
+  const animatedElements = document.querySelectorAll('.card, .showcase-content, .showcase-img-wrapper, .science-content, .science-img-wrapper, .testimonial-card, .stat-item, .use-case-item, .benefit-list li, .authority-card, .approach-content, .step-card, .vns-alt-content, .vns-alt-img-wrapper, .faq-item');
   
   animatedElements.forEach(el => {
     el.style.opacity = '0';

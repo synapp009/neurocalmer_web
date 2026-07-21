@@ -679,6 +679,159 @@ html[dir="rtl"] .studies li {
   line-height: 1.5;
 }
 
+/* Section subtitle */
+.section-subtitle {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+/* Approach Section */
+.approach {
+  padding: var(--section-padding);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* VNS Alternative Section */
+.vns-alt {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: var(--section-padding);
+  max-width: var(--max-width-wide);
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.02);
+  border-top: 1px solid var(--glass-border);
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.vns-alt-content {
+  flex: 1;
+}
+
+.vns-alt-content .section-title {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.vns-alt-content p {
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+.vns-alt-img-wrapper {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vns-alt-img {
+  max-width: 100%;
+  max-height: 400px;
+  border-radius: 24px;
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  position: relative;
+  z-index: 2;
+}
+
+/* FAQ Section */
+.faq-section {
+  padding: var(--section-padding);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.faq-section .section-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.faq-list {
+  max-width: 800px;
+  margin: 2.5rem auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.faq-item {
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.faq-item summary {
+  padding: 1.25rem 1.5rem;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--text-main);
+  transition: color 0.3s ease;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::before {
+  content: "+";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(138, 99, 246, 0.15);
+  color: var(--primary);
+  font-size: 1rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.faq-item[open] summary::before {
+  content: "−";
+  background: var(--primary);
+  color: #fff;
+  transform: rotate(180deg);
+}
+
+.faq-item summary:hover {
+  color: var(--primary-light);
+}
+
+.faq-item[open] {
+  border-color: rgba(138, 99, 246, 0.3);
+}
+
+.faq-item[open] summary {
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.faq-item div {
+  padding: 1.25rem 1.5rem 1.5rem;
+}
+
+.faq-item p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
 /* Use Cases */
 .use-cases {
   padding: var(--section-padding);
@@ -906,7 +1059,7 @@ html[dir="rtl"] .studies li {
 
 /* Responsive adjustments for Tablets and intermediate screens */
 @media (max-width: 992px) {
-  .hero, .science {
+  .hero, .science, .vns-alt {
     flex-direction: column;
     text-align: center;
     padding-top: 8rem;
@@ -917,8 +1070,12 @@ html[dir="rtl"] .studies li {
     animation: slideUp 0.8s ease-out forwards;
   }
   
-  .hero-graphic, .science-img-wrapper {
+  .hero-graphic, .science-img-wrapper, .vns-alt-img-wrapper {
     margin-top: 2rem;
+  }
+  
+  .vns-alt-content .section-title {
+    text-align: center;
   }
   
   .hero-title, .section-title {
@@ -974,7 +1131,31 @@ html[dir="rtl"] .studies li {
     padding: 3rem 5%;
     gap: 2rem;
   }
-  
+
+  .vns-alt {
+    padding: 3rem 5%;
+    gap: 2rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .vns-alt-content .section-title {
+    text-align: center;
+  }
+
+  .faq-section {
+    padding: 3rem 5%;
+  }
+
+  .faq-item summary {
+    font-size: 0.95rem;
+    padding: 1rem 1.25rem;
+  }
+
+  .faq-item div {
+    padding: 1rem 1.25rem 1.25rem;
+  }
+
   .btn-primary {
     width: 100%;
     justify-content: center;
