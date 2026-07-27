@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }, observerOptions);
 
-  const animatedElements = document.querySelectorAll('.card, .showcase-content, .showcase-img-wrapper, .science-content, .science-img-wrapper, .testimonial-card, .stat-item, .use-case-item, .benefit-list li, .authority-card, .approach-content, .step-card, .vns-alt-content, .vns-alt-img-wrapper, .faq-item');
+  const animatedElements = document.querySelectorAll('.card, .showcase-content, .showcase-img-wrapper, .science-content, .science-img-wrapper, .testimonial-card, .stat-item, .use-case-item, .benefit-list li, .authority-card, .approach-content, .step-card, .vns-alt-content, .vns-alt-img-wrapper, .faq-item, .sources-container, .vagus-nlp-container, .vagus-compare-container');
   
   animatedElements.forEach(el => {
     el.style.opacity = '0';
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const key = el.getAttribute('data-i18n');
       if (dict[key]) {
         // Special handle for HTML injection in specific fields
-        if (key === 'showcase_title_1' || key.startsWith('seo_')) {
+        if (key === 'showcase_title_1' || key.startsWith('seo_') || key === 'vagus_text' || key === 'vagus_comparison_text' || key === 'footer_about_content') {
           el.innerHTML = dict[key];
         } else {
           if (!el.classList.contains('data-i18n-child')) {
@@ -114,6 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const modalBody = document.getElementById('modal-body');
   const linkImpressum = document.getElementById('link-impressum');
   const linkPrivacy = document.getElementById('link-privacy');
+  const linkAbout = document.getElementById('link-about');
 
   // Check for existing consent
   if (!localStorage.getItem('cookie-consent')) {
@@ -154,6 +155,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   linkImpressum.addEventListener('click', () => openLegalModal('impressum'));
   linkPrivacy.addEventListener('click', () => openLegalModal('privacy'));
+  if (linkAbout) {
+    linkAbout.addEventListener('click', () => {
+      const dict = translations[currentLang];
+      modalTitle.textContent = dict.footer_about_title;
+      modalBody.innerHTML = dict.footer_about_content;
+      modalOverlay.classList.add('show');
+      document.body.style.overflow = 'hidden';
+    });
+  }
   modalClose.addEventListener('click', closeLegalModal);
 
   modalOverlay.addEventListener('click', (e) => {

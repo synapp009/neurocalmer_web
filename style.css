@@ -611,6 +611,14 @@ html[dir="rtl"] .studies li {
   z-index: 2;
 }
 
+.science-img.ear-anatomy {
+  max-height: 280px;
+  width: auto;
+  border-radius: 12px;
+  border: none;
+  box-shadow: none;
+}
+
 .blob-small {
   position: absolute;
   width: 300px;
@@ -998,34 +1006,259 @@ html[dir="rtl"] .studies li {
   line-height: 1.7;
 }
 
+/* ═══════════════════════════════════════════════════ */
+/* SOURCES & METHODOLOGY – Transparency Notice        */
+/* ═══════════════════════════════════════════════════ */
+.sources-section {
+  padding: 4rem 5%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sources-section .section-title {
+  margin-bottom: 1.25rem;
+}
+
+.sources-container {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+}
+
+.sources-badge {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  opacity: 0.7;
+}
+
+.sources-notice {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  max-width: 650px;
+  margin: 0 auto 2rem;
+  padding: 1rem 1.25rem;
+  background: rgba(138, 99, 246, 0.06);
+  border-left: 3px solid var(--primary);
+  border-radius: 8px;
+  text-align: left;
+}
+
+.sources-links {
+  text-align: left;
+}
+
+.sources-links h3 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.sources-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.sources-list li {
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+.sources-list li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.sources-list a {
+  color: var(--primary-light);
+  text-decoration: none;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  transition: color 0.3s ease;
+  word-break: break-word;
+}
+
+.sources-list a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+/* ═══════════════════════════════════════════════════ */
+/* VAGUS NERVE LOCALIZED CONTENT SECTIONS            */
+/* ═══════════════════════════════════════════════════ */
+.vagus-nlp-section,
+.vagus-compare-section {
+  padding: 4rem 5%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.vagus-nlp-section .section-title,
+.vagus-compare-section .section-title {
+  margin-bottom: 1.5rem;
+}
+
+.vagus-nlp-container,
+.vagus-compare-container {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+}
+
+.vagus-nlp-body {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+  text-align: left;
+}
+
+.vagus-nlp-body a {
+  color: var(--primary-light);
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.vagus-nlp-body a:hover {
+  color: var(--primary);
+}
+
+/* Divider between the two vagus sections */
+.vagus-compare-section {
+  padding-top: 0;
+}
+
+.vagus-compare-section .vagus-compare-container {
+  border-color: rgba(138, 99, 246, 0.12);
+}
+
 /* Footer */
 .footer {
-  padding: 3rem 5% 2rem;
+  padding: 3rem 5% 2.5rem;
   background: rgba(0,0,0,0.3);
   text-align: center;
   border-top: 1px solid var(--glass-border);
 }
 
-.disclaimer {
-  max-width: 700px;
-  margin: 0 auto 2.5rem;
-  padding: 1.5rem;
-  background: rgba(255, 60, 60, 0.05);
-  border: 1px solid rgba(255, 60, 60, 0.15);
-  border-radius: 16px;
+.footer-inner {
+  max-width: 800px;
+  margin: 0 auto;
   text-align: left;
 }
 
-.disclaimer h4 {
-  color: #ff6b6b;
-  margin-bottom: 0.5rem;
-  font-size: 1rem;
+.footer-section {
+  padding: 1.5rem 0;
 }
 
-.disclaimer p {
+.footer-section + .footer-section {
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.footer-section h4 {
   font-size: 0.85rem;
-  color: rgba(255,255,255,0.55);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.35);
+  margin-bottom: 0.6rem;
+}
+
+.footer-section p,
+.footer-section .contact-row {
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-section .contact-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+
+.footer-section .contact-row a {
+  color: var(--primary-light);
+  text-decoration: none;
+}
+
+.footer-section .contact-row a:hover {
+  text-decoration: underline;
+}
+
+.footer-disclaimer-note {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.3);
   line-height: 1.5;
+  margin-top: 0.4rem;
+}
+
+.footer-bottom {
+  margin-top: 0;
+  padding-top: 1.5rem;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.35);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+.medical-disclaimer-global h4 {
+  color: #ff6b6b;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  font-family: 'Outfit', sans-serif;
+}
+.medical-disclaimer-global p {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.5);
+  line-height: 1.6;
+}
+
+/* About & Contact Section in Footer */
+.footer-about {
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+  padding: 1.5rem;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  text-align: left;
+}
+.footer-about h4 {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  color: var(--text-main);
+}
+.footer-about p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+.footer-about .contact-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--primary-light);
+}
+.footer-about .contact-row a {
+  color: var(--primary-light);
+  text-decoration: none;
+}
+.footer-about .contact-row a:hover {
+  text-decoration: underline;
 }
 
 .footer-bottom {
