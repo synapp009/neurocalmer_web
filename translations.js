@@ -20,10 +20,6 @@ export const translations = {
     use_case_3: "Before high-pressure moments",
     use_case_4: "When your brain is too loud for meditation",
 
-    benefits_title: "Settle your system",
-    benefit_1: "Feel a sense of grounding and calm.",
-    benefit_2: "Reduce the \"mental noise\" of a busy day.",
-    benefit_3: "Help your body shift from tension to ease.",
     science_title: "Grounded in Research",
     science_text: "Auricular stimulation has been a subject of scientific study for decades. While individual experiences vary, research suggests that stimulating specific areas of the ear may help support the body's natural relaxation processes.",
     studies_title: "Clinical Research References:",
@@ -31,15 +27,8 @@ export const translations = {
     study_2: "Influence of Transcutaneous Vagus Nerve Stimulation on Cardiac Vagal Activity: Not Different From Sham Stimulation and No Effect of Stimulation Intensity",
     study_3: "Ongoing Clinical Trials on Auricular Vagus Nerve Stimulation",
 
-    sources_title: "Sources & Methodology",
-    sources_text: "This content is based on publicly available peer-reviewed research (see sources below), compiled by the NeuroCalmer team. It has not been reviewed by a licensed medical professional. If you have a health condition, consult your doctor.",
-    sources_primary_title: "Primary Sources",
-    sources_primary_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans – PubMed (PMC12121794)",
-    sources_primary_2: "Influence of taVNS on Cardiac Vagal Activity – PubMed (PMC6788680)",
-    sources_primary_3: "Ongoing Clinical Trials on Auricular VNS – ClinicalTrials.gov",
-
     vagus_title: "What is the Vagus Nerve and How Does It Relate to Relaxation?",
-    vagus_text: "The vagus nerve is the longest cranial nerve in the human body, running from the brainstem through the neck and chest to the abdomen. It is a central component of the parasympathetic nervous system — often called the \"rest and digest\" system. When the vagus nerve is active, it can slow heart rate, reduce inflammation, and promote a state of physical calm.<br><br>Research on non-invasive vagus nerve stimulation — particularly at the auricular (ear) branch — has grown significantly in recent years. Studies suggest that gentle stimulation of this nerve pathway may help support the body's natural relaxation response. NeuroCalmer uses vibration patterns at the ear, inspired by this body of research. For detailed sources, see the <a href='#science'>Grounded in Research</a> and <a href='#sources'>Sources & Methodology</a> sections on this page.",
+    vagus_text: "The vagus nerve is the longest cranial nerve in the human body, running from the brainstem through the neck and chest to the abdomen. It is a central component of the parasympathetic nervous system — often called the \"rest and digest\" system. When the vagus nerve is active, it can slow heart rate, reduce inflammation, and promote a state of physical calm.<br><br>Research on non-invasive vagus nerve stimulation — particularly at the auricular (ear) branch — has grown significantly in recent years. Studies suggest that gentle stimulation of this nerve pathway may help support the body's natural relaxation response. NeuroCalmer uses vibration patterns at the ear, inspired by this body of research. For detailed sources, see the <a href='#science'>Grounded in Research</a> section on this page.",
     vagus_comparison_title: "Vagus Nerve App vs. Other Relaxation Methods",
     vagus_comparison_text: "Several approaches exist to support vagal tone naturally. Cold exposure (cold showers, ice baths) can activate the vagus nerve through the mammalian dive reflex. Breathing techniques — particularly slow, diaphragmatic breathing — have been shown to increase heart rate variability, a marker of vagal activity. Physical exercise and humming or singing also stimulate the vagus nerve through vocal cord vibrations.<br><br>What sets a vagus nerve app like NeuroCalmer apart is convenience and low barrier: no cold water, no special breathing patterns to learn, no gym required. By delivering gentle vibration directly at the ear, NeuroCalmer aims to provide a physical signal whenever you need it — in seconds, with no setup or prior practice. As with all wellness approaches, individual results may vary, and NeuroCalmer is not a substitute for medical treatment.",
 
@@ -109,16 +98,7 @@ export const translations = {
     faq_q5: "Is NeuroCalmer safe to use daily?",
     faq_a5: "NeuroCalmer is designed for regular wellness use and is generally safe for daily use. It operates fully offline on your device with no data collection. However, individual experiences may vary. If you experience discomfort, dizziness, or skin irritation, discontinue use and consult a healthcare professional.",
     faq_q6: "How is NeuroCalmer different from other relaxation apps?",
-    faq_a6: "Most relaxation apps rely on guided meditations, breathing exercises, or audio tracks — all of which require mental engagement. NeuroCalmer is fundamentally different: it uses a physical vibration signal at the ear, inspired by research on auricular vagus nerve stimulation. It requires zero mental effort, making it ideal for moments when you are too overwhelmed to meditate or focus.",
-
-    authority_title: "Learn More from Trusted Sources",
-
-    auth_4_title: "PubMed Research Database",
-    auth_4_desc: "Browse peer-reviewed studies on auricular vagus nerve stimulation on PubMed/MEDLINE.",
-    auth_5_title: "Vagus Nerve – Wikipedia",
-    auth_5_desc: "General overview of vagus nerve anatomy, function, and stimulation techniques.",
-    auth_6_title: "NeuroCalmer on Google Play",
-    auth_6_desc: "Download NeuroCalmer directly from the official Google Play Store listing."
+    faq_a6: "Most relaxation apps rely on guided meditations, breathing exercises, or audio tracks — all of which require mental engagement. NeuroCalmer is fundamentally different: it uses a physical vibration signal at the ear, inspired by research on auricular vagus nerve stimulation. It requires zero mental effort, making it ideal for moments when you are too overwhelmed to meditate or focus."
   },
   de: {
     nav_get_app: "App Holen",
@@ -143,10 +123,6 @@ export const translations = {
     use_case_3: "Vor stressigen Situationen",
     use_case_4: "Wenn dein Gehirn zu laut für Meditation ist",
 
-    benefits_title: "Beruhige dein System",
-    benefit_1: "Spüre ein Gefühl der Erdung und Ruhe.",
-    benefit_2: "Reduziere den „mentalen Lärm“ eines anstrengenden Tages.",
-    benefit_3: "Hilf deinem Körper, von Anspannung zu Leichtigkeit zu wechseln.",
     science_title: "Fundiert durch Forschung",
     science_text: "Die aurikuläre Stimulation ist seit Jahrzehnten Gegenstand wissenschaftlicher Studien. Während individuelle Erfahrungen variieren können, deutet die Forschung darauf hin, dass die Stimulation spezifischer Bereiche des Ohrs die natürlichen Entspannungsprozesse des Körpers unterstützen kann.",
     studies_title: "Klinische Forschungsreferenzen:",
@@ -154,15 +130,8 @@ export const translations = {
     study_2: "Influence of Transcutaneous Vagus Nerve Stimulation on Cardiac Vagal Activity: Not Different From Sham Stimulation and No Effect of Stimulation Intensity",
     study_3: "Laufende klinische Studien zur aurikulären Vagusnervstimulation",
 
-    sources_title: "Quellen & Methodik",
-    sources_text: "Diese Inhalte basieren auf öffentlich zugänglicher, peer-reviewter Forschung (siehe Quellen unten), zusammengestellt vom NeuroCalmer-Team. Sie wurden nicht von einem medizinischen Fachpersonal geprüft. Bei gesundheitlichen Problemen konsultieren Sie bitte Ihren Arzt.",
-    sources_primary_title: "Primärquellen",
-    sources_primary_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans – PubMed (PMC12121794)",
-    sources_primary_2: "Influence of taVNS on Cardiac Vagal Activity – PubMed (PMC6788680)",
-    sources_primary_3: "Laufende klinische Studien zur aurikulären VNS – ClinicalTrials.gov",
-
     vagus_title: "Was ist der Nervus Vagus und wie hängt er mit Entspannung zusammen?",
-    vagus_text: "Der Nervus Vagus ist der längste Hirnnerv des menschlichen Körpers. Er verläuft vom Hirnstamm durch Hals und Brustkorb bis in den Bauchraum und ist eine zentrale Komponente des parasympathischen Nervensystems – oft auch als ‚Ruhe- und Verdauungssystem‘ bezeichnet. Ist der Vagusnerv aktiv, kann er die Herzfrequenz senken, Entzündungsreaktionen reduzieren und einen Zustand körperlicher Ruhe fördern.<br><br>Die Forschung zur nicht-invasiven Vagusnerv-Stimulation – insbesondere am aurikulären (Ohr-)Ast – hat in den letzten Jahren deutlich zugenommen. Studien deuten darauf hin, dass eine sanfte Stimulation dieser Nervenbahn die natürlichen Entspannungsprozesse des Körpers unterstützen kann. NeuroCalmer nutzt Vibrationsmuster am Ohr, die von dieser Forschung inspiriert sind. Detaillierte Quellen finden Sie in den Abschnitten <a href='#science'>Fundiert durch Forschung</a> und <a href='#sources'>Quellen & Methodik</a> auf dieser Seite.",
+    vagus_text: "Der Nervus Vagus ist der längste Hirnnerv des menschlichen Körpers. Er verläuft vom Hirnstamm durch Hals und Brustkorb bis in den Bauchraum und ist eine zentrale Komponente des parasympathischen Nervensystems – oft auch als ‚Ruhe- und Verdauungssystem‘ bezeichnet. Ist der Vagusnerv aktiv, kann er die Herzfrequenz senken, Entzündungsreaktionen reduzieren und einen Zustand körperlicher Ruhe fördern.<br><br>Die Forschung zur nicht-invasiven Vagusnerv-Stimulation – insbesondere am aurikulären (Ohr-)Ast – hat in den letzten Jahren deutlich zugenommen. Studien deuten darauf hin, dass eine sanfte Stimulation dieser Nervenbahn die natürlichen Entspannungsprozesse des Körpers unterstützen kann. NeuroCalmer nutzt Vibrationsmuster am Ohr, die von dieser Forschung inspiriert sind. Detaillierte Quellen finden Sie im Abschnitt <a href='#science'>Fundiert durch Forschung</a> auf dieser Seite.",
     vagus_comparison_title: "Nervus Vagus App vs. andere Entspannungsmethoden",
     vagus_comparison_text: "Es gibt verschiedene Ansätze, um den Vagotonus auf natürliche Weise zu unterstützen. Kälteanwendungen (kalte Duschen, Eisbäder) können den Vagusnerv über den Säugetier-Tauchreflex aktivieren. Atemtechniken – insbesondere langsame, tiefe Zwerchfellatmung – können die Herzratenvariabilität erhöhen, einen Marker für Vagusaktivität. Auch körperliche Bewegung und Summen oder Singen stimulieren den Vagusnerv durch Vibrationen der Stimmbänder.<br><br>Was eine Nervus Vagus App wie NeuroCalmer auszeichnet, ist ihre niedrige Einstiegshürde: kein kaltes Wasser, keine speziellen Atemtechniken, kein Fitnessstudio nötig. Durch sanfte Vibration direkt am Ohr möchte NeuroCalmer ein körperliches Signal bieten, wann immer Sie es brauchen – in Sekunden, ohne Vorbereitung oder Übung. Wie bei allen Wellness-Ansätzen können die individuellen Ergebnisse variieren, und NeuroCalmer ist kein Ersatz für eine medizinische Behandlung.",
 
@@ -232,16 +201,7 @@ export const translations = {
     faq_q5: "Ist NeuroCalmer für die tägliche Anwendung sicher?",
     faq_a5: "NeuroCalmer ist für den regelmäßigen Wellness-Gebrauch konzipiert und allgemein sicher für die tägliche Anwendung. Es funktioniert vollständig offline auf Ihrem Gerät ohne Datenerfassung. Die individuellen Erfahrungen können jedoch variieren. Bei Beschwerden, Schwindel oder Hautreizungen beenden Sie die Anwendung und konsultieren Sie einen Arzt.",
     faq_q6: "Wie unterscheidet sich NeuroCalmer von anderen Entspannungs-Apps?",
-    faq_a6: "Die meisten Entspannungs-Apps setzen auf geführte Meditationen, Atemübungen oder Audiospuren — alle erfordern mentale Beteiligung. NeuroCalmer ist grundlegend anders: Es verwendet ein physisches Vibrationssignal am Ohr, inspiriert von der Forschung zur aurikulären Vagusnerv-Stimulation. Es erfordert keinerlei mentale Anstrengung und ist ideal für Momente, in denen Sie zu überwältigt sind, um zu meditieren oder sich zu konzentrieren.",
-
-    authority_title: "Mehr von vertrauenswürdigen Quellen erfahren",
-
-    auth_4_title: "PubMed Forschungsdatenbank",
-    auth_4_desc: "Durchsuchen Sie begutachtete Studien zur aurikulären Vagusnerv-Stimulation auf PubMed/MEDLINE.",
-    auth_5_title: "Vagusnerv – Wikipedia",
-    auth_5_desc: "Allgemeiner Überblick über Anatomie, Funktion und Stimulationstechniken des Vagusnervs.",
-    auth_6_title: "NeuroCalmer bei Google Play",
-    auth_6_desc: "Laden Sie NeuroCalmer direkt im offiziellen Google Play Store herunter."
+    faq_a6: "Die meisten Entspannungs-Apps setzen auf geführte Meditationen, Atemübungen oder Audiospuren — alle erfordern mentale Beteiligung. NeuroCalmer ist grundlegend anders: Es verwendet ein physisches Vibrationssignal am Ohr, inspiriert von der Forschung zur aurikulären Vagusnerv-Stimulation. Es erfordert keinerlei mentale Anstrengung und ist ideal für Momente, in denen Sie zu überwältigt sind, um zu meditieren oder sich zu konzentrieren."
   },
   es: {
     nav_get_app: "Obtener App",
@@ -263,10 +223,6 @@ export const translations = {
     use_case_2: "Olas repentinas de tensión",
     use_case_3: "Antes de momentos de alta presión",
     use_case_4: "Cuando tu cerebro está demasiado ruidoso para meditar",
-    benefits_title: "Calma tu sistema",
-    benefit_1: "Siente una sensación de conexión a tierra y calma.",
-    benefit_2: "Reduce el \"ruido mental\" de un día ajetreado.",
-    benefit_3: "Ayuda a tu cuerpo a pasar de la tensión a la tranquilidad.",
     science_text: "La estimulación auricular ha sido objeto de estudio científico durante décadas. La investigación sugiere que estimular áreas específicas del oído puede apoyar los procesos naturales de relajación del cuerpo.",
 
     science_title: "La Ciencia Detrás",
@@ -275,14 +231,8 @@ export const translations = {
     study_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans: A pilot study",
     study_2: "Influence of Transcutaneous Vagus Nerve Stimulation on Cardiac Vagal Activity: Not Different From Sham Stimulation and No Effect of Stimulation Intensity",
     study_3: "Ensayos Clínicos Actuales sobre Estimulación Auricular del Nervio Vago",
-    sources_title: "Fuentes y Metodología",
-    sources_text: "Este contenido se basa en investigaciones revisadas por pares y disponibles públicamente (ver fuentes abajo), compiladas por el equipo de NeuroCalmer. No ha sido revisado por un profesional médico. Si tiene una condición de salud, consulte a su médico.",
-    sources_primary_title: "Fuentes Primarias",
-    sources_primary_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans – PubMed (PMC12121794)",
-    sources_primary_2: "Influence of taVNS on Cardiac Vagal Activity – PubMed (PMC6788680)",
-    sources_primary_3: "Ensayos Clínicos Actuales sobre aVNS – ClinicalTrials.gov",
     vagus_title: "¿Qué es el nervio vago y cómo se relaciona con la relajación?",
-    vagus_text: "El nervio vago es el nervio craneal más largo del cuerpo humano. Se extiende desde el tronco encefálico a través del cuello, el pecho y el abdomen, y es un componente central del sistema nervioso parasimpático — también conocido como el sistema de 'reposo y digestión'. Cuando el nervio vago está activo, puede reducir la frecuencia cardíaca, disminuir la inflamación y promover un estado de calma física.<br><br>La investigación sobre la estimulación no invasiva del nervio vago —particularmente en la rama auricular (oído)— ha crecido significativamente en los últimos años. Los estudios sugieren que la estimulación suave de esta vía nerviosa puede apoyar la respuesta natural de relajación del cuerpo. NeuroCalmer utiliza patrones de vibración en el oído inspirados en esta investigación. Para fuentes detalladas, consulte las secciones <a href='#science'>La Ciencia Detrás</a> y <a href='#sources'>Fuentes y Metodología</a>.",
+    vagus_text: "El nervio vago es el nervio craneal más largo del cuerpo humano. Se extiende desde el tronco encefálico a través del cuello, el pecho y el abdomen, y es un componente central del sistema nervioso parasimpático — también conocido como el sistema de 'reposo y digestión'. Cuando el nervio vago está activo, puede reducir la frecuencia cardíaca, disminuir la inflamación y promover un estado de calma física.<br><br>La investigación sobre la estimulación no invasiva del nervio vago —particularmente en la rama auricular (oído)— ha crecido significativamente en los últimos años. Los estudios sugieren que la estimulación suave de esta vía nerviosa puede apoyar la respuesta natural de relajación del cuerpo. NeuroCalmer utiliza patrones de vibración en el oído inspirados en esta investigación. Para fuentes detalladas, consulte la sección <a href='#science'>La Ciencia Detrás</a>.",
     vagus_comparison_title: "App del Nervio Vago vs. Otros Métodos de Relajación",
     vagus_comparison_text: "Existen varios enfoques para apoyar el tono vagal de forma natural. La exposición al frío (duchas frías, baños de hielo) puede activar el nervio vago a través del reflejo de buceo de los mamíferos. Las técnicas de respiración —especialmente la respiración diafragmática lenta— pueden aumentar la variabilidad de la frecuencia cardíaca, un marcador de la actividad vagal. El ejercicio físico y el canto o tarareo también estimulan el nervio vago a través de las vibraciones de las cuerdas vocales.<br><br>Lo que diferencia a una app del nervio vago como NeuroCalmer es su comodidad y baja barrera de entrada: sin agua fría, sin patrones de respiración que aprender, sin gimnasio. Al proporcionar una vibración suave directamente en el oído, NeuroCalmer ofrece una señal física cuando la necesites —en segundos, sin preparación. Como con todos los enfoques de bienestar, los resultados individuales pueden variar y NeuroCalmer no sustituye el tratamiento médico.",
     cta_title: "Pruébalo esta noche cuando tu mente no se detenga.",
@@ -352,16 +302,7 @@ export const translations = {
     faq_q5: "¿Es seguro usar NeuroCalmer a diario?",
     faq_a5: "NeuroCalmer está diseñado para uso regular de bienestar y es generalmente seguro para uso diario. Opera completamente sin conexión sin recopilación de datos. Si experimenta molestias, suspenda su uso y consulte a un profesional de la salud.",
     faq_q6: "¿En qué se diferencia NeuroCalmer de otras aplicaciones de relajación?",
-    faq_a6: "La mayoría de las apps de relajación usan meditaciones guiadas o ejercicios de respiración que requieren participación mental. NeuroCalmer es fundamentalmente diferente: usa una señal física de vibración en el oído, inspirada en la investigación sobre la estimulación del nervio vago auricular. Requiere cero esfuerzo mental.",
-
-    authority_title: "Aprende más de fuentes confiables",
-
-    auth_4_title: "PubMed – Base de Datos",
-    auth_4_desc: "Explore estudios revisados por pares sobre estimulación del nervio vago auricular en PubMed/MEDLINE.",
-    auth_5_title: "Nervio Vago – Wikipedia",
-    auth_5_desc: "Descripción general de la anatomía, función y técnicas de estimulación del nervio vago.",
-    auth_6_title: "NeuroCalmer en Google Play",
-    auth_6_desc: "Descargue NeuroCalmer directamente desde Google Play Store."
+    faq_a6: "La mayoría de las apps de relajación usan meditaciones guiadas o ejercicios de respiración que requieren participación mental. NeuroCalmer es fundamentalmente diferente: usa una señal física de vibración en el oído, inspirada en la investigación sobre la estimulación del nervio vago auricular. Requiere cero esfuerzo mental."
   },
   fr: {
     nav_get_app: "Obtenir l'App Store",
@@ -382,11 +323,7 @@ export const translations = {
     use_case_1: "Réflexions tardives",
     use_case_2: "Vagues soudaines de tension",
     use_case_3: "Avant des moments de pression",
-    use_case_4: "Quand votre cerveau est trop bruyant pour méditer",
-    benefits_title: "Calmez votre système",
-    benefit_1: "Ressentez un sentiment d'ancrage et de calme.",
-    benefit_2: "Réduisez le \"bruit mental\" d'une journée chargée.",
-    benefit_3: "Aidez votre corps à passer de la tension à la détente.",
+    use_case_4: "Quand ton cerveau est trop bruyant pour méditer",
     science_text: "La stimulation auriculaire fait l'objet d'études scientifiques depuis des décennies. La recherche suggère que stimuler des zones spécifiques de l'oreille peut soutenir les processus naturels de relaxation du corps.",
 
     science_title: "La Science",
@@ -395,14 +332,8 @@ export const translations = {
     study_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans: A pilot study",
     study_2: "Influence of Transcutaneous Vagus Nerve Stimulation on Cardiac Vagal Activity: Not Different From Sham Stimulation and No Effect of Stimulation Intensity",
     study_3: "Essais cliniques en cours sur la stimulation du nerf vague",
-    sources_title: "Sources et Méthodologie",
-    sources_text: "Ce contenu est basé sur des recherches évaluées par des pairs et accessibles au public (voir sources ci-dessous), compilées par l'équipe NeuroCalmer. Il n'a pas été examiné par un professionnel de santé agréé. Si vous avez un problème de santé, consultez votre médecin.",
-    sources_primary_title: "Sources Primaires",
-    sources_primary_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans – PubMed (PMC12121794)",
-    sources_primary_2: "Influence of taVNS on Cardiac Vagal Activity – PubMed (PMC6788680)",
-    sources_primary_3: "Essais cliniques en cours sur la aVNS – ClinicalTrials.gov",
     vagus_title: "Qu'est-ce que le nerf vague et quel est son lien avec la relaxation ?",
-    vagus_text: "Le nerf vague est le plus long nerf crânien du corps humain. Il part du tronc cérébral, traverse le cou, la poitrine et l'abdomen, et est un composant central du système nerveux parasympathique — souvent appelé le système 'repos et digestion'. Lorsque le nerf vague est actif, il peut ralentir le rythme cardiaque, réduire l'inflammation et favoriser un état de calme physique.<br><br>La recherche sur la stimulation non invasive du nerf vague — en particulier au niveau de la branche auriculaire (oreille) — a considérablement progressé ces dernières années. Des études suggèrent qu'une stimulation douce de cette voie nerveuse peut soutenir la réponse naturelle de relaxation du corps. NeuroCalmer utilise des motifs de vibration à l'oreille inspirés de ces recherches. Pour les sources détaillées, voir les sections <a href='#science'>La Science</a> et <a href='#sources'>Sources et Méthodologie</a>.",
+    vagus_text: "Le nerf vague est le plus long nerf crânien du corps humain. Il part du tronc cérébral, traverse le cou, la poitrine et l'abdomen, et est un composant central du système nerveux parasympathique — souvent appelé le système 'repos et digestion'. Lorsque le nerf vague est actif, il peut ralentir le rythme cardiaque, réduire l'inflammation et favoriser un état de calme physique.<br><br>La recherche sur la stimulation non invasive du nerf vague — en particulier au niveau de la branche auriculaire (oreille) — a considérablement progressé ces dernières années. Des études suggèrent qu'une stimulation douce de cette voie nerveuse peut soutenir la réponse naturelle de relaxation du corps. NeuroCalmer utilise des motifs de vibration à l'oreille inspirés de ces recherches. Pour les sources détaillées, voir la section <a href='#science'>La Science</a>.",
     vagus_comparison_title: "App Nerf Vague vs. Autres Méthodes de Relaxation",
     vagus_comparison_text: "Il existe plusieurs approches pour soutenir le tonus vagal naturellement. L'exposition au froid (douches froides, bains de glace) peut activer le nerf vague via le réflexe de plongée des mammifères. Les techniques de respiration — en particulier la respiration diaphragmatique lente — peuvent augmenter la variabilité de la fréquence cardiaque, un marqueur de l'activité vagale. L'exercice physique et le chant ou le bourdonnement stimulent également le nerf vague par les vibrations des cordes vocales.<br><br>Ce qui distingue une app comme NeuroCalmer, c'est sa commodité : pas d'eau froide, pas de techniques de respiration à apprendre, pas de salle de sport nécessaire. En délivrant une vibration douce directement à l'oreille, NeuroCalmer offre un signal physique quand vous en avez besoin — en quelques secondes, sans préparation. Comme pour toutes les approches de bien-être, les résultats individuels peuvent varier et NeuroCalmer ne remplace pas un traitement médical.",
     cta_title: "Essayez-le ce soir quand votre esprit ne s'arrête pas.",
@@ -472,16 +403,7 @@ export const translations = {
     faq_q5: "NeuroCalmer est-il sûr à utiliser quotidiennement ?",
     faq_a5: "NeuroCalmer est conçu pour un usage quotidien de bien-être. Il fonctionne hors ligne sans collecte de données. En cas d'inconfort, cessez l'utilisation.",
     faq_q6: "En quoi NeuroCalmer diffère-t-il des autres apps de relaxation ?",
-    faq_a6: "La plupart des apps de relaxation nécessitent un engagement mental (méditation, respiration). NeuroCalmer utilise un signal physique de vibration à l'oreille, ne nécessitant aucun effort mental.",
-
-    authority_title: "En savoir plus auprès de sources fiables",
-
-    auth_4_title: "PubMed – Base de Données",
-    auth_4_desc: "Études sur la stimulation du nerf vague dans PubMed/MEDLINE.",
-    auth_5_title: "Nerf Vague – Wikipédia",
-    auth_5_desc: "Aperçu de l'anatomie du nerf vague et des techniques de stimulation.",
-    auth_6_title: "NeuroCalmer sur Google Play",
-    auth_6_desc: "Téléchargez NeuroCalmer sur Google Play Store."
+    faq_a6: "La plupart des apps de relaxation nécessitent un engagement mental (méditation, respiration). NeuroCalmer utilise un signal physique de vibration à l'oreille, ne nécessitant aucun effort mental."
   },
   pt: {
     nav_get_app: "Baixar App",
@@ -503,10 +425,6 @@ export const translations = {
     use_case_2: "Ondas repentinas de tensão",
     use_case_3: "Antes de momentos de alta pressão",
     use_case_4: "Quando seu cérebro está barulhento demais para meditar",
-    benefits_title: "Acalme seu sistema",
-    benefit_1: "Sinta uma sensação de enraizamento e calma.",
-    benefit_2: "Reduza o \"ruído mental\" de um dia agitado.",
-    benefit_3: "Ajude seu corpo a passar da tensão para o relaxamento.",
     science_text: "A estimulação auricular é estudada há décadas. Pesquisas sugerem que estimular áreas específicas da orelha pode apoiar os processos naturais de relaxamento.",
 
     science_title: "A Ciência Por Trás",
@@ -515,14 +433,8 @@ export const translations = {
     study_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans: A pilot study",
     study_2: "Influence of Transcutaneous Vagus Nerve Stimulation on Cardiac Vagal Activity: Not Different From Sham Stimulation and No Effect of Stimulation Intensity",
     study_3: "Ensaios Clínicos Contínuos",
-    sources_title: "Fontes e Metodologia",
-    sources_text: "Este conteúdo é baseado em pesquisas revisadas por pares e publicamente disponíveis (veja as fontes abaixo), compiladas pela equipe NeuroCalmer. Não foi revisado por um profissional médico licenciado. Se você tiver uma condição de saúde, consulte seu médico.",
-    sources_primary_title: "Fontes Primárias",
-    sources_primary_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans – PubMed (PMC12121794)",
-    sources_primary_2: "Influence of taVNS on Cardiac Vagal Activity – PubMed (PMC6788680)",
-    sources_primary_3: "Ensaios Clínicos Contínuos sobre aVNS – ClinicalTrials.gov",
     vagus_title: "O que é o nervo vago e como ele se relaciona com o relaxamento?",
-    vagus_text: "O nervo vago é o nervo craniano mais longo do corpo humano. Ele se estende do tronco cerebral através do pescoço, tórax e abdômen, e é um componente central do sistema nervoso parassimpático — frequentemente chamado de sistema de 'descanso e digestão'. Quando o nervo vago está ativo, pode diminuir a frequência cardíaca, reduzir a inflamação e promover um estado de calma física.<br><br>A pesquisa sobre estimulação não invasiva do nervo vago — particularmente no ramo auricular (orelha) — cresceu significativamente nos últimos anos. Estudos sugerem que a estimulação suave dessa via nervosa pode apoiar a resposta natural de relaxamento do corpo. NeuroCalmer usa padrões de vibração na orelha inspirados por essa pesquisa. Para fontes detalhadas, consulte as seções <a href='#science'>A Ciência Por Trás</a> e <a href='#sources'>Fontes e Metodologia</a>.",
+    vagus_text: "O nervo vago é o nervo craniano mais longo do corpo humano. Ele se estende do tronco cerebral através do pescoço, tórax e abdômen, e é um componente central do sistema nervoso parassimpático — frequentemente chamado de sistema de 'descanso e digestão'. Quando o nervo vago está ativo, pode diminuir a frequência cardíaca, reduzir a inflamação e promover um estado de calma física.<br><br>A pesquisa sobre estimulação não invasiva do nervo vago — particularmente no ramo auricular (orelha) — cresceu significativamente nos últimos anos. Estudos sugerem que a estimulação suave dessa via nervosa pode apoiar a resposta natural de relaxamento do corpo. NeuroCalmer usa padrões de vibração na orelha inspirados por essa pesquisa. Para fontes detalhadas, consulte a seção <a href='#science'>A Ciência Por Trás</a>.",
     vagus_comparison_title: "App do Nervo Vago vs. Outros Métodos de Relaxamento",
     vagus_comparison_text: "Existem várias abordagens para apoiar o tônus vagal naturalmente. A exposição ao frio (chuveiros frios, banhos de gelo) pode ativar o nervo vago através do reflexo de mergulho dos mamíferos. Técnicas de respiração — especialmente a respiração diafragmática lenta — podem aumentar a variabilidade da frequência cardíaca, um marcador da atividade vagal. Exercício físico e cantar ou humming também estimulam o nervo vago através das vibrações das cordas vocais.<br><br>O que diferencia um app do nervo vago como NeuroCalmer é a conveniência: sem água fria, sem padrões respiratórios para aprender, sem academia necessária. Ao fornecer vibração suave diretamente na orelha, NeuroCalmer oferece um sinal físico quando você precisar — em segundos, sem preparação. Como em todas as abordagens de bem-estar, os resultados individuais podem variar e NeuroCalmer não substitui o tratamento médico.",
     cta_title: "Experimente esta noite quando sua mente não parar.",
@@ -592,16 +504,7 @@ export const translations = {
     faq_q5: "É seguro usar NeuroCalmer diariamente?",
     faq_a5: "Sim, é projetado para uso regular de bem-estar. Funciona offline sem coleta de dados. Em caso de desconforto, interrompa o uso.",
     faq_q6: "Como NeuroCalmer difere de outros apps de relaxamento?",
-    faq_a6: "A maioria exige envolvimento mental. NeuroCalmer usa um sinal físico de vibração na orelha, exigindo zero esforço mental.",
-
-    authority_title: "Saiba mais de fontes confiáveis",
-
-    auth_4_title: "PubMed – Base de Dados",
-    auth_4_desc: "Estudos revisados no PubMed/MEDLINE.",
-    auth_5_title: "Nervo Vago – Wikipedia",
-    auth_5_desc: "Visão geral da anatomia e estimulação do nervo vago.",
-    auth_6_title: "NeuroCalmer no Google Play",
-    auth_6_desc: "Baixe NeuroCalmer na Google Play Store."
+    faq_a6: "A maioria exige envolvimento mental. NeuroCalmer usa um sinal físico de vibração na orelha, exigindo zero esforço mental."
   },
   id: {
     nav_get_app: "Dapatkan App",
@@ -623,10 +526,6 @@ export const translations = {
     use_case_2: "Gelombang ketegangan mendadak",
     use_case_3: "Sebelum momen tekanan tinggi",
     use_case_4: "Saat otak terlalu berisik untuk meditasi",
-    benefits_title: "Tenangkan sistem Anda",
-    benefit_1: "Rasakan rasa landasan dan ketenangan.",
-    benefit_2: "Kurangi \"kebisingan mental\" hari yang sibuk.",
-    benefit_3: "Bantu tubuh beralih dari ketegangan ke kenyamanan.",
     science_text: "Stimulasi aurikular telah menjadi subjek studi ilmiah selama puluhan tahun. Riset menunjukkan bahwa merangsang area tertentu di telinga dapat mendukung proses relaksasi alami tubuh.",
 
     science_title: "Sains di Baliknya",
@@ -635,14 +534,8 @@ export const translations = {
     study_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans: A pilot study",
     study_2: "Influence of Transcutaneous Vagus Nerve Stimulation on Cardiac Vagal Activity: Not Different From Sham Stimulation and No Effect of Stimulation Intensity",
     study_3: "Uji Klinis yang Sedang Berjalan tentang aVNS",
-    sources_title: "Sumber & Metodologi",
-    sources_text: "Konten ini didasarkan pada penelitian peer-review yang tersedia untuk umum (lihat sumber di bawah), yang disusun oleh tim NeuroCalmer. Konten ini belum ditinjau oleh profesional medis berlisensi. Jika Anda memiliki kondisi kesehatan, konsultasikan dengan dokter Anda.",
-    sources_primary_title: "Sumber Primer",
-    sources_primary_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans – PubMed (PMC12121794)",
-    sources_primary_2: "Influence of taVNS on Cardiac Vagal Activity – PubMed (PMC6788680)",
-    sources_primary_3: "Uji Klinis tentang aVNS – ClinicalTrials.gov",
     vagus_title: "Apa itu Saraf Vagus dan Bagaimana Hubungannya dengan Relaksasi?",
-    vagus_text: "Saraf vagus adalah saraf kranial terpanjang dalam tubuh manusia. Saraf ini membentang dari batang otak melalui leher, dada, hingga perut, dan merupakan komponen utama sistem saraf parasimpatis — sering disebut sistem 'istirahat dan cerna'. Ketika saraf vagus aktif, ia dapat memperlambat denyut jantung, mengurangi peradangan, dan mendorong keadaan tenang secara fisik.<br><br>Penelitian tentang stimulasi saraf vagus non-invasif — khususnya pada cabang aurikuler (telinga) — telah berkembang pesat dalam beberapa tahun terakhir. Studi menunjukkan bahwa stimulasi lembut jalur saraf ini dapat mendukung respons relaksasi alami tubuh. NeuroCalmer menggunakan pola getaran di telinga yang terinspirasi dari penelitian ini. Untuk sumber detail, lihat bagian <a href='#science'>Sains di Baliknya</a> dan <a href='#sources'>Sumber & Metodologi</a>.",
+    vagus_text: "Saraf vagus adalah saraf kranial terpanjang dalam tubuh manusia. Saraf ini membentang dari batang otak melalui leher, dada, hingga perut, dan merupakan komponen utama sistem saraf parasimpatis — sering disebut sistem 'istirahat dan cerna'. Ketika saraf vagus aktif, ia dapat memperlambat denyut jantung, mengurangi peradangan, dan mendorong keadaan tenang secara fisik.<br><br>Penelitian tentang stimulasi saraf vagus non-invasif — khususnya pada cabang aurikuler (telinga) — telah berkembang pesat dalam beberapa tahun terakhir. Studi menunjukkan bahwa stimulasi lembut jalur saraf ini dapat mendukung respons relaksasi alami tubuh. NeuroCalmer menggunakan pola getaran di telinga yang terinspirasi dari penelitian ini. Untuk sumber detail, lihat bagian <a href='#science'>Sains di Baliknya</a>.",
     vagus_comparison_title: "App Saraf Vagus vs. Metode Relaksasi Lainnya",
     vagus_comparison_text: "Ada beberapa pendekatan untuk mendukung tonus vagal secara alami. Paparan dingin (mandi air dingin, mandi es) dapat mengaktifkan saraf vagus melalui refleks menyelam mamalia. Teknik pernapasan — khususnya pernapasan diafragma lambat — dapat meningkatkan variabilitas denyut jantung, penanda aktivitas vagal. Olahraga fisik dan bersenandung atau bernyanyi juga merangsang saraf vagus melalui getaran pita suara.<br><br>Yang membedakan aplikasi saraf vagus seperti NeuroCalmer adalah kemudahannya: tidak perlu air dingin, tidak perlu pola pernapasan khusus, tidak perlu gym. Dengan memberikan getaran lembut langsung di telinga, NeuroCalmer memberikan sinyal fisik kapan pun Anda membutuhkannya — dalam hitungan detik, tanpa persiapan. Seperti semua pendekatan kesehatan, hasil individu dapat bervariasi dan NeuroCalmer bukan pengganti perawatan medis.",
     cta_title: "Coba malam ini saat pikiranmu tidak berhenti.",
@@ -712,16 +605,7 @@ export const translations = {
     faq_q5: "Apakah NeuroCalmer aman digunakan setiap hari?",
     faq_a5: "Ya, dirancang untuk penggunaan kesehatan rutin. Berfungsi offline tanpa pengumpulan data. Hentikan jika ada ketidaknyamanan.",
     faq_q6: "Apa bedanya NeuroCalmer dengan aplikasi relaksasi lain?",
-    faq_a6: "Aplikasi lain memerlukan meditasi atau latihan pernapasan. NeuroCalmer menggunakan sinyal fisik getaran — tanpa usaha mental sama sekali.",
-
-    authority_title: "Pelajari lebih lanjut dari sumber terpercaya",
-
-    auth_4_title: "PubMed – Basis Data",
-    auth_4_desc: "Studi peer-review tentang stimulasi saraf vagus di PubMed.",
-    auth_5_title: "Saraf Vagus – Wikipedia",
-    auth_5_desc: "Ikhtisar anatomi dan teknik stimulasi saraf vagus.",
-    auth_6_title: "NeuroCalmer di Google Play",
-    auth_6_desc: "Unduh NeuroCalmer langsung dari Google Play Store."
+    faq_a6: "Aplikasi lain memerlukan meditasi atau latihan pernapasan. NeuroCalmer menggunakan sinyal fisik getaran — tanpa usaha mental sama sekali."
   },
   hi: {
     nav_get_app: "ऐप प्राप्त करें",
@@ -743,10 +627,6 @@ export const translations = {
     use_case_2: "अचानक तनाव की लहरें",
     use_case_3: "उच्च दबाव वाले क्षणों से पहले",
     use_case_4: "जब आपका दिमाग ध्यान के लिए बहुत शोरगुल वाला हो",
-    benefits_title: "अपने सिस्टम को शांत करें",
-    benefit_1: "ग्राउंडिंग और शांति की भावना महसूस करें।",
-    benefit_2: "व्यस्त दिन के \"मानसिक शोर\" को कम करें।",
-    benefit_3: "अपने शरीर को तनाव से आराम की ओर जाने में मदद करें।",
     science_text: "कर्ण उत्तेजना दशकों से वैज्ञानिक अध्ययन का विषय रही है। शोध बताता है कि कान के विशिष्ट क्षेत्रों को उत्तेजित करने से शरीर की प्राकृतिक विश्राम प्रक्रियाओं में सहायता मिल सकती है।",
 
     science_title: "इसके पीछे का विज्ञान",
@@ -755,14 +635,8 @@ export const translations = {
     study_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans: A pilot study",
     study_2: "Influence of Transcutaneous Vagus Nerve Stimulation on Cardiac Vagal Activity: Not Different From Sham Stimulation and No Effect of Stimulation Intensity",
     study_3: "वर्तमान नैदानिक परीक्षण",
-    sources_title: "स्रोत और कार्यप्रणाली",
-    sources_text: "यह सामग्री सार्वजनिक रूप से उपलब्ध सहकर्मी-समीक्षित शोध (नीचे स्रोत देखें) पर आधारित है, जिसे NeuroCalmer टीम द्वारा संकलित किया गया है। इसकी समीक्षा किसी लाइसेंस प्राप्त चिकित्सा पेशेवर द्वारा नहीं की गई है। यदि आपको कोई स्वास्थ्य समस्या है, तो अपने डॉक्टर से परामर्श करें।",
-    sources_primary_title: "प्राथमिक स्रोत",
-    sources_primary_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans – PubMed (PMC12121794)",
-    sources_primary_2: "Influence of taVNS on Cardiac Vagal Activity – PubMed (PMC6788680)",
-    sources_primary_3: "aVNS पर चल रहे नैदानिक परीक्षण – ClinicalTrials.gov",
     vagus_title: "वेगस तंत्रिका क्या है और इसका विश्राम से क्या संबंध है?",
-    vagus_text: "वेगस तंत्रिका मानव शरीर की सबसे लंबी कपाल तंत्रिका है। यह मस्तिष्क स्तंभ से गर्दन, छाती और पेट तक फैली हुई है, और पैरासिम्पेथेटिक तंत्रिका तंत्र का एक केंद्रीय घटक है — जिसे अक्सर 'आराम और पाचन' प्रणाली कहा जाता है। जब वेगस तंत्रिका सक्रिय होती है, तो यह हृदय गति को धीमा कर सकती है, सूजन को कम कर सकती है और शारीरिक शांति की स्थिति को बढ़ावा दे सकती है।<br><br>गैर-आक्रामक वेगस तंत्रिका उत्तेजना — विशेष रूप से कर्ण (कान) शाखा पर — पर शोध हाल के वर्षों में काफी बढ़ा है। अध्ययनों से पता चलता है कि इस तंत्रिका मार्ग की कोमल उत्तेजना शरीर की प्राकृतिक विश्राम प्रतिक्रिया का समर्थन कर सकती है। NeuroCalmer कान पर कंपन पैटर्न का उपयोग करता है जो इस शोध से प्रेरित है। विस्तृत स्रोतों के लिए, <a href='#science'>इसके पीछे का विज्ञान</a> और <a href='#sources'>स्रोत और कार्यप्रणाली</a> अनुभाग देखें।",
+    vagus_text: "वेगस तंत्रिका मानव शरीर की सबसे लंबी कपाल तंत्रिका है। यह मस्तिष्क स्तंभ से गर्दन, छाती और पेट तक फैली हुई है, और पैरासिम्पेथेटिक तंत्रिका तंत्र का एक केंद्रीय घटक है — जिसे अक्सर 'आराम और पाचन' प्रणाली कहा जाता है। जब वेगस तंत्रिका सक्रिय होती है, तो यह हृदय गति को धीमा कर सकती है, सूजन को कम कर सकती है और शारीरिक शांति की स्थिति को बढ़ावा दे सकती है।<br><br>गैर-आक्रामक वेगस तंत्रिका उत्तेजना — विशेष रूप से कर्ण (कान) शाखा पर — पर शोध हाल के वर्षों में काफी बढ़ा है। अध्ययनों से पता चलता है कि इस तंत्रिका मार्ग की कोमल उत्तेजना शरीर की प्राकृतिक विश्राम प्रतिक्रिया का समर्थन कर सकती है। NeuroCalmer कान पर कंपन पैटर्न का उपयोग करता है जो इस शोध से प्रेरित है। विस्तृत स्रोतों के लिए, <a href='#science'>इसके पीछे का विज्ञान</a> अनुभाग देखें।",
     vagus_comparison_title: "वेगस तंत्रिका ऐप बनाम अन्य विश्राम विधियाँ",
     vagus_comparison_text: "प्राकृतिक रूप से वेगल टोन का समर्थन करने के लिए कई दृष्टिकोण मौजूद हैं। ठंडे पानी का संपर्क (ठंडा स्नान, बर्फ स्नान) स्तनधारी डाइव रिफ्लेक्स के माध्यम से वेगस तंत्रिका को सक्रिय कर सकता है। श्वास तकनीक — विशेष रूप से धीमी, डायाफ्रामिक श्वास — हृदय गति परिवर्तनशीलता को बढ़ा सकती है, जो वेगल गतिविधि का एक मार्कर है। शारीरिक व्यायाम और गुनगुनाना या गाना भी वोकल कॉर्ड कंपन के माध्यम से वेगस तंत्रिका को उत्तेजित करता है।<br><br>NeuroCalmer जैसे वेगस तंत्रिका ऐप को खास बनाती है इसकी सुविधा: ठंडे पानी की ज़रूरत नहीं, कोई विशेष श्वास पैटर्न सीखने की ज़रूरत नहीं, जिम की ज़रूरत नहीं। सीधे कान पर कोमल कंपन प्रदान करके, NeuroCalmer एक शारीरिक संकेत प्रदान करता है जब भी आपको इसकी आवश्यकता हो — सेकंडों में, बिना तैयारी के। सभी कल्याण दृष्टिकोणों की तरह, व्यक्तिगत परिणाम भिन्न हो सकते हैं और NeuroCalmer चिकित्सा उपचार का विकल्प नहीं है।",
     cta_title: "आज रात इसे आज़माएं जब आपका दिमाग नहीं रुकता।",
@@ -832,16 +706,7 @@ export const translations = {
     faq_q5: "क्या NeuroCalmer दैनिक उपयोग के लिए सुरक्षित है?",
     faq_a5: "हाँ, यह नियमित उपयोग के लिए डिज़ाइन किया गया है। यह बिना डेटा संग्रह के ऑफ़लाइन काम करता है।",
     faq_q6: "NeuroCalmer अन्य विश्राम ऐप्स से कैसे अलग है?",
-    faq_a6: "अन्य ऐप्स को ध्यान या एकाग्रता की आवश्यकता होती है। NeuroCalmer शारीरिक कंपन का उपयोग करता है — बिना किसी मानसिक प्रयास के।",
-
-    authority_title: "विश्वसनीय स्रोतों से और जानें",
-
-    auth_4_title: "PubMed डेटाबेस",
-    auth_4_desc: "PubMed/MEDLINE पर सहकर्मी-समीक्षित अध्ययन।",
-    auth_5_title: "वेगस तंत्रिका – विकिपीडिया",
-    auth_5_desc: "वेगस तंत्रिका शरीर रचना और उत्तेजना तकनीकों का अवलोकन।",
-    auth_6_title: "Google Play पर NeuroCalmer",
-    auth_6_desc: "Google Play Store से NeuroCalmer डाउनलोड करें।"
+    faq_a6: "अन्य ऐप्स को ध्यान या एकाग्रता की आवश्यकता होती है। NeuroCalmer शारीरिक कंपन का उपयोग करता है — बिना किसी मानसिक प्रयास के।"
   },
   ja: {
     nav_get_app: "アプリを入手",
@@ -863,10 +728,6 @@ export const translations = {
     use_case_2: "突然の緊張の波",
     use_case_3: "プレッシャーの高い場面の前",
     use_case_4: "瞑想するには頭が騒がしすぎるとき",
-    benefits_title: "システムを落ち着かせる",
-    benefit_1: "グラウンディングと落ち着きを感じます。",
-    benefit_2: "忙しい一日の「精神的な騒音」を減らします。",
-    benefit_3: "体が緊張から楽になるのを助けます。",
     science_text: "耳介刺激は何十年も科学的研究の対象となっています。研究によると、耳の特定の領域を刺激することで、体の自然なリラックスプロセスをサポートできる可能性があります。",
 
     science_title: "科学的アプローチ",
@@ -875,14 +736,8 @@ export const translations = {
     study_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans: A pilot study",
     study_2: "Influence of Transcutaneous Vagus Nerve Stimulation on Cardiac Vagal Activity: Not Different From Sham Stimulation and No Effect of Stimulation Intensity",
     study_3: "耳介迷走神経刺激に関する進行中の臨床試験",
-    sources_title: "情報源と方法論",
-    sources_text: "このコンテンツは、公開されている査読済み研究（以下の情報源を参照）に基づいて、NeuroCalmerチームが作成したものです。資格を持つ医療専門家によるレビューは受けていません。健康上の問題がある場合は、医師に相談してください。",
-    sources_primary_title: "一次情報源",
-    sources_primary_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans – PubMed (PMC12121794)",
-    sources_primary_2: "Influence of taVNS on Cardiac Vagal Activity – PubMed (PMC6788680)",
-    sources_primary_3: "aVNSに関する進行中の臨床試験 – ClinicalTrials.gov",
     vagus_title: "迷走神経とは何か、リラックスとどのように関係するのか？",
-    vagus_text: "迷走神経は人体で最も長い脳神経です。脳幹から首、胸、腹部を通って伸びており、副交感神経系の中心的な構成要素です — よく「休息と消化」のシステムと呼ばれます。迷走神経が活性化すると、心拍数を下げ、炎症を減らし、身体的な落ち着きの状態を促進します。<br><br>非侵襲的な迷走神経刺激 — 特に耳介枝における — の研究は近年大幅に増加しています。研究によると、この神経経路の穏やかな刺激が身体の自然なリラックス反応をサポートする可能性があります。NeuroCalmerは、この研究に触発された耳への振動パターンを使用しています。詳細な情報源については、<a href='#science'>科学的アプローチ</a>および<a href='#sources'>情報源と方法論</a>のセクションをご覧ください。",
+    vagus_text: "迷走神経は人体で最も長い脳神経です。脳幹から首、胸、腹部を通って伸びており、副交感神経系の中心的な構成要素です — よく「休息と消化」のシステムと呼ばれます。迷走神経が活性化すると、心拍数を下げ、炎症を減らし、身体的な落ち着きの状態を促進します。<br><br>非侵襲的な迷走神経刺激 — 特に耳介枝における — の研究は近年大幅に増加しています。研究によると、この神経経路の穏やかな刺激が身体の自然なリラックス反応をサポートする可能性があります。NeuroCalmerは、この研究に触発された耳への振動パターンを使用しています。詳細な情報源については、<a href='#science'>科学的アプローチ</a>のセクションをご覧ください。",
     vagus_comparison_title: "迷走神経アプリ vs. 他のリラクゼーション方法",
     vagus_comparison_text: "迷走神経緊張を自然にサポートするためのいくつかのアプローチがあります。寒冷暴露（冷水シャワー、アイスバス）は哺乳類の潜水反射を介して迷走神経を活性化できます。呼吸法 — 特にゆっくりとした横隔膜呼吸 — は心拍変動を増加させることが示されており、これは迷走神経活動のマーカーです。身体運動やハミング・歌唱も声帯の振動を通じて迷走神経を刺激します。<br><br>NeuroCalmerのような迷走神経アプリが際立つのは、その利便性です：冷水不要、特別な呼吸パターンを学ぶ必要なし、ジム不要。耳に直接優しい振動を届けることで、NeuroCalmerは必要なときにいつでも物理的な信号を提供します — 数秒で、準備なしで。すべてのウェルネスアプローチと同様に、個人の結果は異なる場合があり、NeuroCalmerは医療治療の代わりにはなりません。",
     cta_title: "今夜、頭が冴えているときに試してみてください。",
@@ -952,16 +807,7 @@ export const translations = {
     faq_q5: "毎日使用しても安全ですか？",
     faq_a5: "はい。データ収集なしでオフライン動作します。不快感がある場合は使用を中止してください。",
     faq_q6: "他のリラクゼーションアプリとの違いは？",
-    faq_a6: "他のアプリは精神的な集中が必要ですが、NeuroCalmerは物理的な振動信号を使用します — 精神的努力はゼロです。",
-
-    authority_title: "信頼できる情報源から学ぶ",
-
-    auth_4_title: "PubMedデータベース",
-    auth_4_desc: "PubMed/MEDLINEで査読済み研究を検索。",
-    auth_5_title: "迷走神経 – Wikipedia",
-    auth_5_desc: "迷走神経の解剖学と刺激技術の概要。",
-    auth_6_title: "Google PlayのNeuroCalmer",
-    auth_6_desc: "Google Play StoreからNeuroCalmerをダウンロード。"
+    faq_a6: "他のアプリは精神的な集中が必要ですが、NeuroCalmerは物理的な振動信号を使用します — 精神的努力はゼロです。"
   },
   ko: {
     nav_get_app: "앱 다운로드",
@@ -983,10 +829,6 @@ export const translations = {
     use_case_2: "갑작스러운 긴장의 물결",
     use_case_3: "고압적인 순간 전",
     use_case_4: "명상하기엔 머리가 너무 시끄러울 때",
-    benefits_title: "당신의 시스템을 진정시키세요",
-    benefit_1: "기반감과 평온함을 느끼세요.",
-    benefit_2: "바쁜 하루의 \"정신적 소음\"을 줄이세요.",
-    benefit_3: "긴장에서 편안함으로 전환을 도우세요.",
     science_text: "귓바퀴 자극은 수십 년간 과학적 연구의 주제였습니다. 연구에 따르면 귀의 특정 부위를 자극하면 신체의 자연적인 이완 과정을 지원할 수 있습니다.",
 
     science_title: "과학적 원리",
@@ -995,14 +837,8 @@ export const translations = {
     study_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans: A pilot study",
     study_2: "Influence of Transcutaneous Vagus Nerve Stimulation on Cardiac Vagal Activity: Not Different From Sham Stimulation and No Effect of Stimulation Intensity",
     study_3: "진행 중인 미주신경 자극 임상 시험",
-    sources_title: "출처 및 방법론",
-    sources_text: "이 콘텐츠는 공개적으로 이용 가능한 동료 검토 연구(아래 출처 참조)를 기반으로 NeuroCalmer 팀이 편집했습니다. 면허가 있는 의료 전문가의 검토를 받지 않았습니다. 건강 상태가 있는 경우 의사와 상담하십시오.",
-    sources_primary_title: "1차 출처",
-    sources_primary_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans – PubMed (PMC12121794)",
-    sources_primary_2: "Influence of taVNS on Cardiac Vagal Activity – PubMed (PMC6788680)",
-    sources_primary_3: "aVNS 진행 중인 임상 시험 – ClinicalTrials.gov",
     vagus_title: "미주신경이란 무엇이며 이완과 어떤 관련이 있나요?",
-    vagus_text: "미주신경은 인체에서 가장 긴 뇌신경입니다. 뇌간에서 목, 가슴, 복부를 통해 뻗어 있으며, 부교감 신경계의 중심 구성 요소입니다 — 흔히 '휴식과 소화' 시스템이라고 불립니다. 미주신경이 활성화되면 심박수를 늦추고, 염증을 줄이며, 신체적 평온 상태를 촉진할 수 있습니다.<br><br>비침습적 미주신경 자극 — 특히 귓바퀴(귀) 가지에서의 — 연구는 최근 몇 년간 크게 성장했습니다. 연구에 따르면 이 신경 경로의 부드러운 자극이 신체의 자연적인 이완 반응을 지원할 수 있습니다. NeuroCalmer는 이 연구에 영감을 받은 귀 진동 패턴을 사용합니다. 자세한 출처는 <a href='#science'>과학적 원리</a> 및 <a href='#sources'>출처 및 방법론</a> 섹션을 참조하세요.",
+    vagus_text: "미주신경은 인체에서 가장 긴 뇌신경입니다. 뇌간에서 목, 가슴, 복부를 통해 뻗어 있으며, 부교감 신경계의 중심 구성 요소입니다 — 흔히 '휴식과 소화' 시스템이라고 불립니다. 미주신경이 활성화되면 심박수를 늦추고, 염증을 줄이며, 신체적 평온 상태를 촉진할 수 있습니다.<br><br>비침습적 미주신경 자극 — 특히 귓바퀴(귀) 가지에서의 — 연구는 최근 몇 년간 크게 성장했습니다. 연구에 따르면 이 신경 경로의 부드러운 자극이 신체의 자연적인 이완 반응을 지원할 수 있습니다. NeuroCalmer는 이 연구에 영감을 받은 귀 진동 패턴을 사용합니다. 자세한 출처는 <a href='#science'>과학적 원리</a> 섹션을 참조하세요.",
     vagus_comparison_title: "미주신경 앱 vs. 기타 이완 방법",
     vagus_comparison_text: "미주신경 긴장도를 자연적으로 지원하는 여러 접근법이 있습니다. 냉각 노출(찬 샤워, 얼음 목욕)은 포유류 다이빙 반사를 통해 미주신경을 활성화할 수 있습니다. 호흡 기술 — 특히 느린 횡격막 호흡 — 은 미주신경 활동의 지표인 심박 변동성을 증가시키는 것으로 나타났습니다. 신체 운동과 허밍 또는 노래는 성대 진동을 통해 미주신경을 자극합니다.<br><br>NeuroCalmer 같은 미주신경 앱이 차별화되는 점은 편리함입니다: 찬물 불필요, 특별한 호흡 패턴 학습 불필요, 운동 불필요. 귀에 직접 부드러운 진동을 전달함으로써, NeuroCalmer는 필요할 때마다 신체적 신호를 제공합니다 — 몇 초 만에, 준비 없이. 모든 웰니스 접근법과 마찬가지로 개인 결과는 다를 수 있으며 NeuroCalmer는 의학적 치료를 대체하지 않습니다.",
     cta_title: "오늘 밤 생각이 멈추지 않을 때 시도해보세요.",
@@ -1072,16 +908,7 @@ export const translations = {
     faq_q5: "매일 사용해도 안전한가요?",
     faq_a5: "네. 데이터 수집 없이 오프라인으로 작동합니다. 불편함이 있으면 사용을 중단하세요.",
     faq_q6: "다른 이완 앱과의 차이점은?",
-    faq_a6: "다른 앱은 정신적 노력이 필요하지만, NeuroCalmer는 물리적 진동 신호를 사용합니다.",
-
-    authority_title: "신뢰할 수 있는 출처에서 알아보기",
-
-    auth_4_title: "PubMed 데이터베이스",
-    auth_4_desc: "PubMed/MEDLINE에서 동료 검토 연구 검색.",
-    auth_5_title: "미주 신경 – Wikipedia",
-    auth_5_desc: "미주 신경 해부학 및 자극 기술 개요.",
-    auth_6_title: "Google Play의 NeuroCalmer",
-    auth_6_desc: "Google Play Store에서 NeuroCalmer 다운로드."
+    faq_a6: "다른 앱은 정신적 노력이 필요하지만, NeuroCalmer는 물리적 진동 신호를 사용합니다."
   },
   ar: {
     nav_get_app: "احصل على التطبيق",
@@ -1103,10 +930,6 @@ export const translations = {
     use_case_2: "موجات مفاجئة من التوتر",
     use_case_3: "قبل لحظات الضغط العالي",
     use_case_4: "عندما يكون عقلك صاخبًا جدًا للتأمل",
-    benefits_title: "هدئ جهازك",
-    benefit_1: "اشعر بإحساس بالثبات والهدوء.",
-    benefit_2: "قلل \"الضجيج الذهني\" ليوم حافل.",
-    benefit_3: "ساعد جسمك على الانتقال من التوتر إلى السهولة.",
     science_text: "التحفيز الأذني كان موضوعًا للدراسة العلمية لعقود. تشير الأبحاث إلى أن تحفيز مناطق معينة من الأذن قد يساعد في دعم عمليات الاسترخاء الطبيعية للجسم.",
 
     science_title: "الأساس العلمي",
@@ -1115,14 +938,8 @@ export const translations = {
     study_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans: A pilot study",
     study_2: "Influence of Transcutaneous Vagus Nerve Stimulation on Cardiac Vagal Activity: Not Different From Sham Stimulation and No Effect of Stimulation Intensity",
     study_3: "التجارب السريرية المستمرة",
-    sources_title: "المصادر والمنهجية",
-    sources_text: "هذا المحتوى مبني على أبحاث متاحة للعموم وخاضعة لمراجعة الأقران (انظر المصادر أدناه)، تم تجميعها بواسطة فريق NeuroCalmer. لم تتم مراجعته من قبل أخصائي طبي مرخص. إذا كنت تعاني من حالة صحية، استشر طبيبك.",
-    sources_primary_title: "المصادر الأولية",
-    sources_primary_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans – PubMed (PMC12121794)",
-    sources_primary_2: "Influence of taVNS on Cardiac Vagal Activity – PubMed (PMC6788680)",
-    sources_primary_3: "التجارب السريرية المستمرة حول aVNS – ClinicalTrials.gov",
     vagus_title: "ما هو العصب المبهم وكيف يرتبط بالاسترخاء؟",
-    vagus_text: "العصب المبهم هو أطول عصب قحفي في جسم الإنسان. يمتد من جذع الدماغ عبر الرقبة والصدر إلى البطن، وهو مكون مركزي للجهاز العصبي السمبتاوي — الذي يُطلق عليه غالبًا نظام 'الراحة والهضم'. عندما يكون العصب المبهم نشطًا، يمكنه إبطاء معدل ضربات القلب، وتقليل الالتهاب، وتعزيز حالة من الهدوء الجسدي.<br><br>لقد نما البحث حول التحفيز غير الجراحي للعصب المبهم — خاصة في الفرع الأذني (الأذن) — بشكل كبير في السنوات الأخيرة. تشير الدراسات إلى أن التحفيز اللطيف لهذا المسار العصبي قد يدعم استجابة الاسترخاء الطبيعية للجسم. يستخدم NeuroCalmer أنماط اهتزاز في الأذن مستوحاة من هذه الأبحاث. للحصول على مصادر مفصلة، راجع أقسام <a href='#science'>الأساس العلمي</a> و <a href='#sources'>المصادر والمنهجية</a>.",
+    vagus_text: "العصب المبهم هو أطول عصب قحفي في جسم الإنسان. يمتد من جذع الدماغ عبر الرقبة والصدر إلى البطن، وهو مكون مركزي للجهاز العصبي السمبتاوي — الذي يُطلق عليه غالبًا نظام 'الراحة والهضم'. عندما يكون العصب المبهم نشطًا، يمكنه إبطاء معدل ضربات القلب، وتقليل الالتهاب، وتعزيز حالة من الهدوء الجسدي.<br><br>لقد نما البحث حول التحفيز غير الجراحي للعصب المبهم — خاصة في الفرع الأذني (الأذن) — بشكل كبير في السنوات الأخيرة. تشير الدراسات إلى أن التحفيز اللطيف لهذا المسار العصبي قد يدعم استجابة الاسترخاء الطبيعية للجسم. يستخدم NeuroCalmer أنماط اهتزاز في الأذن مستوحاة من هذه الأبحاث. للحصول على مصادر مفصلة، راجع قسم <a href='#science'>الأساس العلمي</a>.",
     vagus_comparison_title: "تطبيق العصب المبهم مقابل طرق الاسترخاء الأخرى",
     vagus_comparison_text: "هناك عدة طرق لدعم توتر العصب المبهم بشكل طبيعي. التعرض للبرد (الاستحمام البارد، حمامات الثلج) يمكن أن ينشط العصب المبهم من خلال منعكس الغوص عند الثدييات. تقنيات التنفس — خاصة التنفس البطيء من الحجاب الحاجز — يمكن أن تزيد من تقلب معدل ضربات القلب، وهو مؤشر على نشاط العصب المبهم. التمارين البدنية والطنين أو الغناء يحفزان أيضًا العصب المبهم من خلال اهتزازات الأحبال الصوتية.<br><br>ما يميز تطبيق العصب المبهم مثل NeuroCalmer هو سهولة الاستخدام: لا حاجة للماء البارد، لا حاجة لتعلم أنماط تنفس خاصة، لا حاجة للصالة الرياضية. من خلال توفير اهتزاز لطيف مباشرة في الأذن، يقدم NeuroCalmer إشارة جسدية عندما تحتاجها — في ثوانٍ، بدون تحضير. كما هو الحال مع جميع مناهج العافية، قد تختلف النتائج الفردية و NeuroCalmer ليس بديلاً عن العلاج الطبي.",
     cta_title: "جربه الليلة عندما لا يتوقف عقلك.",
@@ -1192,16 +1009,7 @@ export const translations = {
     faq_q5: "هل NeuroCalmer آمن للاستخدام اليومي؟",
     faq_a5: "نعم. يعمل دون اتصال بالإنترنت بدون جمع بيانات. توقف عن الاستخدام إذا شعرت بعدم الراحة.",
     faq_q6: "كيف يختلف NeuroCalmer عن تطبيقات الاسترخاء الأخرى؟",
-    faq_a6: "التطبيقات الأخرى تتطلب تركيزًا ذهنيًا. NeuroCalmer يستخدم إشارة اهتزاز فيزيائية — بدون أي جهد ذهني.",
-
-    authority_title: "تعلم المزيد من مصادر موثوقة",
-
-    auth_4_title: "قاعدة بيانات PubMed",
-    auth_4_desc: "أبحاث حول تحفيز العصب المبهم في PubMed/MEDLINE.",
-    auth_5_title: "العصب المبهم – ويكيبيديا",
-    auth_5_desc: "نظرة عامة على تشريح وتقنيات تحفيز العصب المبهم.",
-    auth_6_title: "NeuroCalmer على Google Play",
-    auth_6_desc: "قم بتنزيل NeuroCalmer من Google Play Store."
+    faq_a6: "التطبيقات الأخرى تتطلب تركيزًا ذهنيًا. NeuroCalmer يستخدم إشارة اهتزاز فيزيائية — بدون أي جهد ذهني."
   },
   ru: {
     nav_get_app: "Получить приложение",
@@ -1223,10 +1031,6 @@ export const translations = {
     use_case_2: "Внезапные волны напряжения",
     use_case_3: "Перед напряжёнными моментами",
     use_case_4: "Когда в голове слишком шумно для медитации",
-    benefits_title: "Успокойте свою систему",
-    benefit_1: "Почувствуйте заземление и спокойствие.",
-    benefit_2: "Уменьшите \"умственный шум\" после напряжённого дня.",
-    benefit_3: "Помогите телу перейти от напряжения к расслаблению.",
     science_text: "Ушная стимуляция является предметом научных исследований на протяжении десятилетий. Исследования показывают, что стимуляция определённых областей уха может поддерживать естественные процессы расслабления организма.",
 
     science_title: "Научное обоснование",
@@ -1235,14 +1039,8 @@ export const translations = {
     study_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans: A pilot study",
     study_2: "Influence of Transcutaneous Vagus Nerve Stimulation on Cardiac Vagal Activity: Not Different From Sham Stimulation and No Effect of Stimulation Intensity",
     study_3: "Текущие клинические испытания",
-    sources_title: "Источники и методология",
-    sources_text: "Этот контент основан на общедоступных рецензируемых исследованиях (см. источники ниже), составленных командой NeuroCalmer. Он не был проверен лицензированным медицинским работником. При наличии заболевания проконсультируйтесь с врачом.",
-    sources_primary_title: "Первичные источники",
-    sources_primary_1: "Vibrotactile auricular vagus nerve stimulation alters limbic system connectivity in humans – PubMed (PMC12121794)",
-    sources_primary_2: "Influence of taVNS on Cardiac Vagal Activity – PubMed (PMC6788680)",
-    sources_primary_3: "Текущие клинические испытания aVNS – ClinicalTrials.gov",
     vagus_title: "Что такое блуждающий нерв и как он связан с расслаблением?",
-    vagus_text: "Блуждающий нерв — самый длинный черепно-мозговой нерв в теле человека. Он проходит от ствола мозга через шею, грудную клетку и брюшную полость и является центральным компонентом парасимпатической нервной системы — часто называемой системой 'отдыха и пищеварения'. Когда блуждающий нерв активен, он может замедлять сердечный ритм, уменьшать воспаление и способствовать состоянию физического спокойствия.<br><br>Исследования неинвазивной стимуляции блуждающего нерва — особенно ушной ветви — значительно выросли в последние годы. Исследования показывают, что мягкая стимуляция этого нервного пути может поддерживать естественную реакцию расслабления организма. NeuroCalmer использует вибрационные паттерны у уха, вдохновлённые этими исследованиями. Подробные источники см. в разделах <a href='#science'>Научное обоснование</a> и <a href='#sources'>Источники и методология</a>.",
+    vagus_text: "Блуждающий нерв — самый длинный черепно-мозговой нерв в теле человека. Он проходит от ствола мозга через шею, грудную клетку и брюшную полость и является центральным компонентом парасимпатической нервной системы — часто называемой системой 'отдыха и пищеварения'. Когда блуждающий нерв активен, он может замедлять сердечный ритм, уменьшать воспаление и способствовать состоянию физического спокойствия.<br><br>Исследования неинвазивной стимуляции блуждающего нерва — особенно ушной ветви — значительно выросли в последние годы. Исследования показывают, что мягкая стимуляция этого нервного пути может поддерживать естественную реакцию расслабления организма. NeuroCalmer использует вибрационные паттерны у уха, вдохновлённые этими исследованиями. Подробные источники см. в разделе <a href='#science'>Научное обоснование</a>.",
     vagus_comparison_title: "Приложение для блуждающего нерва vs. Другие методы релаксации",
     vagus_comparison_text: "Существует несколько подходов для естественной поддержки тонуса блуждающего нерва. Воздействие холода (холодный душ, ледяные ванны) может активировать блуждающий нерв через нырятельный рефлекс млекопитающих. Дыхательные техники — особенно медленное диафрагмальное дыхание — могут увеличивать вариабельность сердечного ритма, маркер активности блуждающего нерва. Физические упражнения и напевание или пение также стимулируют блуждающий нерв через вибрацию голосовых связок.<br><br>Что отличает приложение для блуждающего нерва, такое как NeuroCalmer, это удобство: не нужна холодная вода, не нужно учить специальные дыхательные паттерны, не нужен спортзал. Подавая мягкую вибрацию непосредственно к уху, NeuroCalmer обеспечивает физический сигнал, когда он вам нужен — за секунды, без подготовки. Как и в случае со всеми оздоровительными подходами, индивидуальные результаты могут различаться, и NeuroCalmer не заменяет медицинское лечение.",
     cta_title: "Попробуйте сегодня вечером, когда ваш разум не успокаивается.",
@@ -1312,15 +1110,6 @@ export const translations = {
     faq_q5: "Безопасно ли использовать NeuroCalmer ежедневно?",
     faq_a5: "Да. Работает офлайн без сбора данных. При дискомфорте прекратите использование.",
     faq_q6: "Чем NeuroCalmer отличается от других приложений для релаксации?",
-    faq_a6: "Другие приложения требуют умственного усилия. NeuroCalmer использует физический вибрационный сигнал — без каких-либо умственных усилий.",
-
-    authority_title: "Узнайте больше из надежных источников",
-
-    auth_4_title: "PubMed — база данных",
-    auth_4_desc: "Рецензируемые исследования в PubMed/MEDLINE.",
-    auth_5_title: "Блуждающий нерв — Википедия",
-    auth_5_desc: "Обзор анатомии и методов стимуляции блуждающего нерва.",
-    auth_6_title: "NeuroCalmer в Google Play",
-    auth_6_desc: "Скачайте NeuroCalmer в Google Play Store."
+    faq_a6: "Другие приложения требуют умственного усилия. NeuroCalmer использует физический вибрационный сигнал — без каких-либо умственных усилий."
   }
 };
