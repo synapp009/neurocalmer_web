@@ -310,6 +310,195 @@ html[dir="rtl"] .studies li {
 }
 
 /* ═══════════════════════════════════════════════════ */
+/* VIDEO HERO BACKGROUND                              */
+/* ═══════════════════════════════════════════════════ */
+.hero-video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(18, 9, 33, 0.85) 0%,
+    rgba(18, 9, 33, 0.60) 40%,
+    rgba(18, 9, 33, 0.40) 70%,
+    rgba(18, 9, 33, 0.85) 100%
+  );
+  z-index: 1;
+}
+
+.hero-video-bg + .hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* ═══════════════════════════════════════════════════ */
+/* STATS SECTION – creatinghealth.de inspired         */
+/* ═══════════════════════════════════════════════════ */
+.stats-section {
+  padding: 3rem 5% 2rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1.5rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--glass-border);
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(138, 99, 246, 0.3);
+  box-shadow: 0 10px 30px rgba(138, 99, 246, 0.1);
+}
+
+.stat-number {
+  font-family: 'Outfit', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #d3bfff, #8a63f6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.stats-subtitle {
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  opacity: 0.8;
+}
+
+/* ═══════════════════════════════════════════════════ */
+/* COMBINED APPROACH – Vibration + Breathing          */
+/* ═══════════════════════════════════════════════════ */
+.combined-approach-section {
+  padding: var(--section-padding);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.combined-approach-container {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 3rem 2rem;
+}
+
+.combined-approach-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1rem;
+  align-items: center;
+  margin: 2.5rem 0;
+}
+
+.approach-panel {
+  padding: 2rem 1.5rem;
+  border-radius: 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--glass-border);
+  transition: all 0.3s ease;
+}
+
+.approach-panel:hover {
+  transform: translateY(-4px);
+  border-color: rgba(138, 99, 246, 0.3);
+  box-shadow: 0 10px 30px rgba(138, 99, 246, 0.1);
+}
+
+.approach-panel-icon {
+  font-size: 2.8rem;
+  display: block;
+  margin-bottom: 1rem;
+  background: rgba(138, 99, 246, 0.1);
+  padding: 0.75rem;
+  border-radius: 16px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.approach-panel h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.75rem;
+}
+
+.approach-panel p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.approach-panel-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plus-icon {
+  font-family: 'Outfit', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--primary);
+  opacity: 0.6;
+}
+
+.combined-approach-description {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ═══════════════════════════════════════════════════ */
 /* COMPARISON TABLE – Vagus Nerve Apps Compared       */
 /* ═══════════════════════════════════════════════════ */
 .comparison-section {
@@ -612,11 +801,11 @@ html[dir="rtl"] .studies li {
 }
 
 .science-img.ear-anatomy {
-  max-height: 280px;
+  max-height: 420px;
   width: auto;
-  border-radius: 12px;
-  border: none;
-  box-shadow: none;
+  border-radius: 16px;
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
 .blob-small {
@@ -691,8 +880,9 @@ html[dir="rtl"] .studies li {
 }
 
 .vns-alt-img {
-  max-width: 100%;
-  max-height: 400px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
   border-radius: 24px;
   border: 1px solid var(--glass-border);
   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
@@ -918,25 +1108,45 @@ html[dir="rtl"] .studies li {
 .vagus-nlp-section,
 .vagus-compare-section {
   padding: 4rem 5%;
-  max-width: 800px;
+  max-width: var(--max-width);
   margin: 0 auto;
+}
+
+.vagus-nlp-section .section-title {
   text-align: center;
+  margin-bottom: 2.5rem;
 }
 
-.vagus-nlp-section .section-title,
-.vagus-compare-section .section-title {
-  margin-bottom: 1.5rem;
-}
-
-.vagus-nlp-container,
-.vagus-compare-container {
+.vagus-nlp-container {
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 20px;
   padding: 2.5rem 2rem;
 }
 
+.vagus-nlp-grid {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+
+.vagus-nlp-image-wrapper {
+  flex: 0 0 280px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.vagus-nlp-image {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
 .vagus-nlp-body {
+  flex: 1;
   font-size: 0.95rem;
   color: var(--text-muted);
   line-height: 1.8;
@@ -951,6 +1161,17 @@ html[dir="rtl"] .studies li {
 
 .vagus-nlp-body a:hover {
   color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .vagus-nlp-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .vagus-nlp-image-wrapper {
+    flex: 0 0 auto;
+    max-width: 220px;
+  }
 }
 
 /* Divider between the two vagus sections */
@@ -1136,6 +1357,14 @@ html[dir="rtl"] .studies li {
   .hero-subtitle {
     margin: 0 auto 2rem;
   }
+
+  .combined-approach-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .approach-panel-divider {
+    transform: rotate(90deg);
+  }
 }
 
 /* Responsive adjustments for Mobile */
@@ -1271,6 +1500,30 @@ html[dir="rtl"] .studies li {
   .blob, .blob-small {
     width: 200px;
     height: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .stat-number {
+    font-size: 2.5rem;
+  }
+
+  .combined-approach-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .approach-panel-divider {
+    transform: rotate(90deg);
+    padding: 0.5rem 0;
+  }
+
+  .combined-approach-container {
+    padding: 2rem 1rem;
   }
 }
 

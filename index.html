@@ -263,18 +263,20 @@
       </nav>
 
       <!-- Hero Section -->
-      <section class="hero">
+      <section class="hero" id="hero">
+        <div class="hero-video-bg">
+          <video class="hero-video" id="hero-video" autoplay muted playsinline preload="auto">
+            <source src="/video.mp4" type="video/mp4" />
+          </video>
+          <div class="hero-video-overlay"></div>
+        </div>
         <div class="hero-content">
           <div class="pill-badge" data-i18n="hero_badge">physical relaxation signal</div>
           <h1 class="hero-title" data-i18n="hero_title">Stop the mental noise. Start the physical calm.</h1>
-          <p class="hero-subtitle" data-i18n="hero_subtitle">When your mind won't stop, give it a physical signal to settle. NeuroCalmer uses gentle ear vibration inspired by research to help your body find its way back to calm — no meditation or mental effort required.</p>
+          <p class="hero-subtitle" data-i18n="hero_subtitle_combined">NeuroCalmer combines two research-backed approaches — gentle ear vibration (taVNS) and guided breathing rhythms — to help your body activate its natural relaxation response. No meditation required.</p>
           <a href="https://play.google.com/store/apps/details?id=nodomain.synapp.neurocalmer" target="_blank" rel="noopener" class="google-play-badge">
             <img src="/pngwing.com.png" alt="Get it on Google Play" class="play-badge-img" width="1358" height="410" />
           </a>
-        </div>
-        <div class="hero-graphic">
-          <div class="blob"></div>
-          <img src="/hero.png" alt="Person relaxing using NeuroCalmer app" class="hero-img glass-panel" width="752" height="501" />
         </div>
       </section>
 
@@ -302,19 +304,15 @@
             <span class="use-case-icon">🎯</span>
             <p data-i18n="use_case_3">Before high-pressure moments</p>
           </div>
-          <div class="use-case-item glass">
-            <span class="use-case-icon">🧠</span>
-            <p data-i18n="use_case_4">When your brain is too loud for meditation</p>
-          </div>
         </div>
       </section>
 
       <!-- ═══════════════════════════════════════════════════ -->
-      <!-- STEPS – How to Use (real Health-Pattern)          -->
+      <!-- STEPS – How to Use (Vibration + Breathing)        -->
       <!-- ═══════════════════════════════════════════════════ -->
       <section class="steps-section box" id="how-it-works">
-        <h2 class="section-title" data-i18n="how_it_works_title">The Science of Gentle Signals</h2>
-        <p class="section-subtitle" data-i18n="how_it_works_text">Certain areas of the outer ear are connected to the pathways your body uses to regulate stress. NeuroCalmer is inspired by research on auricular stimulation. By delivering precise, gentle vibration patterns to these specific areas, it sends a simple physical signal designed to promote a calming response.</p>
+        <h2 class="section-title" data-i18n="how_it_works_title">Simple to Use</h2>
+        <p class="section-subtitle" data-i18n="how_it_works_text">Just open the app, place it at your ear, and feel the gentle vibration. Simple, intuitive, and effective.</p>
         <div class="steps-grid">
           <div class="step-card">
             <span class="step-number">1</span>
@@ -351,7 +349,7 @@
                 <span class="step-icon">😌</span>
               </div>
               <h3 data-i18n="step_3_title">Feel the Calm</h3>
-              <p data-i18n="step_3_desc">Gentle vibrations send a physical signal to your body. No meditation or mental effort needed.</p>
+              <p data-i18n="step_3_desc">Gentle vibrations send a physical signal to your body while guided breathing rhythms amplify the relaxation response. No meditation or mental effort needed.</p>
             </div>
           </div>
         </div>
@@ -376,7 +374,7 @@
             <tbody>
               <tr>
                 <td data-i18n="comp_method">Relaxation Method</td>
-                <td class="highlight-col" data-i18n="comp_method_nc">Physical Vibration (taVNS)</td>
+                <td class="highlight-col" data-i18n="comp_method_nc">Vibration + Breathing (taVNS)</td>
                 <td data-i18n="comp_method_med">Guided Meditation</td>
                 <td data-i18n="comp_method_br">Breathing Exercises</td>
               </tr>
@@ -441,23 +439,44 @@
         </div>
       </section>
 
-      <!-- VAGUS NERVE CONTENT --> – Localized per language       -->
+      <!-- VAGUS NERVE IMPORTANCE – Improved with anatomical image -->
       <!-- ═══════════════════════════════════════════════════ -->
-      <section class="vagus-nlp-section box" id="vagus-nlp">
+      <section class="vagus-nlp-section box" id="vagus-importance">
         <div class="vagus-nlp-container">
-          <h2 class="section-title" data-i18n="vagus_title">What is the Vagus Nerve and How Does It Relate to Relaxation?</h2>
-          <div class="vagus-nlp-body" data-i18n="vagus_text">
-            The vagus nerve is the longest cranial nerve in the human body...
+          <h2 class="section-title" data-i18n="vagus_importance_title">The Importance of the Vagus Nerve for Relaxation</h2>
+          <div class="vagus-nlp-grid">
+            <div class="vagus-nlp-image-wrapper">
+              <img src="/vagus_nerve_system_small.png" alt="Illustration of the human body showing the vagus nerve pathway from the brainstem through the neck, chest and abdomen – the body's main relaxation nerve" class="vagus-nlp-image" width="896" height="1195" loading="lazy" />
+            </div>
+            <div class="vagus-nlp-body" data-i18n="vagus_importance_text">
+              The vagus nerve, also known as the relaxation nerve...
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="vagus-compare-section box" id="vagus-compare">
-        <div class="vagus-compare-container">
-          <h2 class="section-title" data-i18n="vagus_comparison_title">Vagus Nerve App vs. Other Relaxation Methods</h2>
-          <div class="vagus-nlp-body" data-i18n="vagus_comparison_text">
-            Several approaches exist to support vagal tone naturally...
+      <!-- ═══════════════════════════════════════════════════ -->
+      <!-- COMBINED APPROACH – Vibration + Breathing          -->
+      <!-- ═══════════════════════════════════════════════════ -->
+      <section class="combined-approach-section box" id="combined-approach">
+        <div class="combined-approach-container">
+          <h2 class="section-title" data-i18n="combined_approach_title">Two Pathways, One Goal: Deep Calm</h2>
+          <div class="combined-approach-grid">
+            <div class="approach-panel glass">
+              <span class="approach-panel-icon">📳</span>
+              <h3 data-i18n="vibration_title">Ear Vibration — The Physical Signal</h3>
+              <p data-i18n="vibration_text">The outer ear contains a branch of the vagus nerve that reaches the skin's surface...</p>
+            </div>
+            <div class="approach-panel-divider">
+              <span class="plus-icon">+</span>
+            </div>
+            <div class="approach-panel glass">
+              <span class="approach-panel-icon">🫁</span>
+              <h3 data-i18n="breathing_title">Guided Breathing — The Rhythmic Anchor</h3>
+              <p data-i18n="breathing_text">Slow, rhythmic breathing is one of the most effective natural ways to activate the vagus nerve...</p>
+            </div>
           </div>
+          <p class="combined-approach-description" data-i18n="combined_approach_text">Together, these two signals amplify each other...</p>
         </div>
       </section>
 

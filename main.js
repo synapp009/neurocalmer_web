@@ -19,7 +19,53 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }, observerOptions);
 
-  const animatedElements = document.querySelectorAll('.card, .showcase-content, .showcase-img-wrapper, .science-content, .science-img-wrapper, .testimonial-card, .stat-item, .use-case-item, .benefit-list li, .authority-card, .approach-content, .step-card, .vns-alt-content, .vns-alt-img-wrapper, .faq-item, .sources-container, .vagus-nlp-container, .vagus-compare-container');
+  const animatedElements = document.querySelectorAll('.card, .showcase-content, .showcase-img-wrapper, .science-content, .science-img-wrapper, .testimonial-card, .stat-item, .use-case-item, .benefit-list li, .authority-card, .approach-content, .step-card, .vns-alt-content, .vns-alt-img-wrapper, .faq-item, .sources-container, .vagus-nlp-container, .stat-card, .approach-panel, .coach-container');
+  
+  animatedElements.forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(30px)';
+    el.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+    observer.observe(el);
+  });
+
+  // ═══════════════════════════════════════════════════
+  // VIDEO FORWARD/REVERSE PLAYBACK – endless loop
+  // ═══════════════════════════════════════════════════
+  const heroVideo = document.getElementById('hero-video');
+  if (heroVideo) {
+    let forward = true;
+    const STEP = 1 / 60; // ~1 frame per step
+
+    heroVideo.addEventListener('loadedmetadata', () => {
+      heroVideo.play();
+      requestAnimationFrame(loop);
+    });
+
+    function loop() {
+      if (!heroVideo.duration) {
+        requestAnimationFrame(loop);
+        return;
+      }
+
+      if (forward) {
+        // Play forward naturally via browser
+        if (heroVideo.paused) heroVideo.play();
+        if (heroVideo.currentTime >= heroVideo.duration - 0.1) {
+          forward = false;
+          heroVideo.pause();
+        }
+      } else {
+        // Step backward frame by frame
+        heroVideo.currentTime = Math.max(0, heroVideo.currentTime - STEP);
+        if (heroVideo.currentTime <= 0.05) {
+          forward = true;
+          heroVideo.play();
+        }
+      }
+
+      requestAnimationFrame(loop);
+    }
+  }
   
   animatedElements.forEach(el => {
     el.style.opacity = '0';
@@ -89,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const key = el.getAttribute('data-i18n');
       if (dict[key]) {
         // Special handle for HTML injection in specific fields
-        if (key === 'showcase_title_1' || key.startsWith('seo_') || key === 'vagus_text' || key === 'vagus_comparison_text' || key === 'footer_about_content') {
+        if (key === 'showcase_title_1' || key.startsWith('seo_') || key === 'vagus_text' || key === 'vagus_comparison_text' || key === 'footer_about_content' || key === 'vagus_importance_text' || key === 'combined_approach_text') {
           el.innerHTML = dict[key];
         } else {
           if (!el.classList.contains('data-i18n-child')) {
