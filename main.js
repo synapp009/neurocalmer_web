@@ -101,20 +101,31 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- I18n Logic ---
   const langSwitcher = document.getElementById('lang-switcher');
   
-  // Detect language on load (default to 'en')
+  // Detect language on load (default to 'en'). The sub-pages are German-only
+  // standalone pages without a switcher, so there the language declared on
+  // <html lang> wins over the visitor's browser language.
   let currentLang = 'en';
   const browserLang = navigator.language.slice(0, 2);
   if (translations[browserLang]) {
     currentLang = browserLang;
   }
+  const pageLang = document.documentElement.getAttribute('lang');
+  if (!langSwitcher && translations[pageLang]) {
+    currentLang = pageLang;
+  }
   
-  langSwitcher.value = currentLang;
+  // The sub-pages have no language switcher, so only wire it up when present.
+  if (langSwitcher) {
+    langSwitcher.value = currentLang;
+  }
   applyLanguage(currentLang);
 
-  langSwitcher.addEventListener('change', (e) => {
-    currentLang = e.target.value;
-    applyLanguage(currentLang);
-  });
+  if (langSwitcher) {
+    langSwitcher.addEventListener('change', (e) => {
+      currentLang = e.target.value;
+      applyLanguage(currentLang);
+    });
+  }
 
   function applyLanguage(lang) {
     const dict = translations[lang];
@@ -145,8 +156,10 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
-    // Sync Page Title
-    if (dict.seo_page_title) {
+    // Sync Page Title – only on pages that opted in, so the dedicated
+    // sub-page <title> tags are not overwritten with the landing page title.
+    const titleEl = document.querySelector('title[data-i18n="seo_page_title"]');
+    if (titleEl && dict.seo_page_title) {
       document.title = dict.seo_page_title;
     }
   }
@@ -162,8 +175,15 @@ document.addEventListener('DOMContentLoaded', () => {
   const linkPrivacy = document.getElementById('link-privacy');
   const linkAbout = document.getElementById('link-about');
 
-  // Check for existing consent
-  if (!localStorage.getItem('cookie-consent')) {
+  // Check for existing consent (sub-pages have no cookie banner)
+  let hasConsent = true;
+  try {
+    hasConsent = Boolean(localStorage.getItem('cookie-consent'));
+  } catch (e) {
+    hasConsent = false;
+  }
+
+  if (cookieBanner && !hasConsent) {
     setTimeout(() => {
       cookieBanner.classList.add('show');
     }, 1000);
@@ -199,8 +219,12 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.style.overflow = '';
   }
 
-  linkImpressum.addEventListener('click', () => openLegalModal('impressum'));
-  linkPrivacy.addEventListener('click', () => openLegalModal('privacy'));
+  if (linkImpressum) {
+    linkImpressum.addEventListener('click', () => openLegalModal('impressum'));
+  }
+  if (linkPrivacy) {
+    linkPrivacy.addEventListener('click', () => openLegalModal('privacy'));
+  }
   if (linkAbout) {
     linkAbout.addEventListener('click', () => {
       const dict = translations[currentLang];
@@ -210,9 +234,13 @@ document.addEventListener('DOMContentLoaded', () => {
       document.body.style.overflow = 'hidden';
     });
   }
-  modalClose.addEventListener('click', closeLegalModal);
+  if (modalClose) {
+    modalClose.addEventListener('click', closeLegalModal);
+  }
 
-  modalOverlay.addEventListener('click', (e) => {
-    if (e.target === modalOverlay) closeLegalModal();
-  });
+  if (modalOverlay) {
+    modalOverlay.addEventListener('click', (e) => {
+      if (e.target === modalOverlay) closeLegalModal();
+    });
+  }
 });
